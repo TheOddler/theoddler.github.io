@@ -8,7 +8,19 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <script type="text/javascript" src="planetoids_v2_0/JS/Box2dWeb-2.1.a.3.min.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/planetoids.all.min.js"></script>
+<!--<script type="text/javascript" src="planetoids_v2_0/JS/planetoids.all.min.js"></script>-->
+
+<script type="text/javascript" src="planetoids_v2_0/JS/01-RequestAnimFrame.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/02-Planetoids_Init.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/03-Planetoids_Game.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/04-Helpers.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/05-SpaceShip.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/06-Lasers.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/07-Rocks.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/08-Powerups.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/09-Stars.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/10-SlicePoint.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/JS/11-Input.js"></script>
 
 <script type="text/javascript">
 	var SLIDE_CLOSED_HEIGHT = 65;
@@ -103,7 +115,7 @@
 					</tr>
 					<tr>
 						<td>Contact</td>
-						<td colspan="2">pablo@pabloproductions.be</td>
+						<td colspan="2">pablo.bollansee@gmail.com</td>
 					</tr>
 
 					<tr>
@@ -243,7 +255,7 @@
 			<div class="slide_content">
 				<noscript><iframe src="//player.vimeo.com/video/27440854?title=0&amp;byline=0&amp;portrait=0" width="600" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="removeIfScriptEnabled"></iframe></noscript>
 
-				<canvas id="canvas_planetoids" style="border: none;" width="600" height="450" onselectstart="return false;" oncontextmenu="return false;"></canvas>
+				<canvas id="canvas_planetoids" style="border: none; position: relative;" width="600" height="450" onselectstart="return false;" oncontextmenu="return false;"></canvas>
 
 				<div class="slide_content_text">
 					<div class="slide_content_title">An awesome space shooting game</div>

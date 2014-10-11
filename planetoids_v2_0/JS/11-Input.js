@@ -46,8 +46,8 @@ function InitMouse() {
 	}, true);
 	
 	canvas.addEventListener("mousemove", function(e) {
-		mouseX = (e.layerX - canvasPosition.x);
-		mouseY = (e.layerY - canvasPosition.y);
+		mouseX = e.layerX;
+		mouseY = e.layerY;
 
 		e.preventDefault();
 	}, true);
