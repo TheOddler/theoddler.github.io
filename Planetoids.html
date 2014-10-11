@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Planetoids Beta - By Pablo Bollansee</title>
+
+	<script type="text/javascript" src="planetoids_v2_0/JS/Box2dWeb-2.1.a.3.min.js"></script>
+	<script type="text/javascript" src="planetoids_v2_0/JS/planetoids.all.min.js"></script>
+
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body onload="InitPlanetoids(document.getElementById('Canvas_Planetoids'), 10);">
+	<div class="more_page_wrapper">
+		<div class="page_top_title clickable" onclick="window.location = 'index.html';">Pablo Bollans&eacute;e &lt;&lt;</div>
+		<div class="slide_content">
+			<div onselectstart="return false;">
+				<canvas id="Canvas_Planetoids" style="border: none;" width="800" height="600" oncontextmenu="return false;"></canvas>
+			</div>
+
+			<p class="slide_title">Planetoids</p>
+			<div class="slide_content_text">
+				<p>For my exams of my first year of DAE I had to remake a classic game. It was for my maths & physics class so graphics weren't that important. I chose to remake Asteroids, but give it my own spin. I added my own controlls and upgraded the spaceship's laser.</p>
+	            <p>Then years later I decided to remake Planetoids. I first used WebGL for it's graphics, though later decided to use the HTML5 canvas instead. Now Planetoids is fully playable in any browser.</p>
+	            <p class="slide_content_title">Physics</p>
+	            <p>In the original I wrote all physics myself, they were very basic, glitchy and really rough. Rocks couldn't turn, and their collision wasn't very good, but still for a first year programmer not bad at all. Now for the remake I decided to use an external library: <a href="https://code.google.com/p/box2dweb/">Box2D Web</a>. A javascript version of the Box2D physics engine. This gives much nicer physics and reduced the code I had to write myself.</p>
+	            <p class="slide_content_title">Graphics</p>
+	            <p>For graphics, in the original, I used the engine of my teacher, Kevin Hoefman, it was very basic but more than enough when only using vector graphics. For the remake I use the HTML5 canvis, without any additional libraries.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

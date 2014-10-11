@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Planetoids Beta - By Pablo Bollansee</title>
+
+	<script type="text/javascript" src="JS/Box2dWeb-2.1.a.3.min.js"></script>
+	<!--<script type="text/javascript" src="JS/planetoids.all.min.js"></script>-->
+	
+	<script type="text/javascript" src="JS/01-RequestAnimFrame.js"></script>
+	<script type="text/javascript" src="JS/02-Planetoids_Init.js"></script>
+	<script type="text/javascript" src="JS/03-Planetoids_Game.js"></script>
+	<script type="text/javascript" src="JS/04-Helpers.js"></script>
+	<script type="text/javascript" src="JS/05-SpaceShip.js"></script>
+	<script type="text/javascript" src="JS/06-Lasers.js"></script>
+	<script type="text/javascript" src="JS/07-Rocks.js"></script>
+	<script type="text/javascript" src="JS/08-Powerups.js"></script>
+	<script type="text/javascript" src="JS/09-Stars.js"></script>
+	<script type="text/javascript" src="JS/10-SlicePoint.js"></script>
+	<script type="text/javascript" src="JS/11-Input.js"></script>
+</head>
+	
+<body onload="InitPlanetoids(document.getElementById('Canvas_Planetoids'), 10);">
+	<div>Planetoids V2 - Beta</div>
+	<div onselectstart="return false;">
+		<p>Also, play it <a href="http://www.pabloproductions.be/Planetoids.html">here</a> on it's official page! You can also read a bit more about the game there.</p>
+		<canvas id="Canvas_Planetoids" style="border: none;" width="800" height="600" oncontextmenu="return false;"></canvas>
+		<table width="800">
+	</div>
+	<div>
+		<p>Created by Pablo Bollansée - <a href="http://www.PabloProductions.be">www.PabloProductions.be</a></p>
+	</div>
+</body>
+
+</html>
