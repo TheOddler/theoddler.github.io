@@ -1,70 +1,50 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Pablo's Portfolio</title>
-<link rel="shortcut icon" type="image/png" href="Professor Pablo Icon 48x48.png"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Pablo's Portfolio</title>
+	<link rel="shortcut icon" type="image/png" href="Professor Pablo Icon 48x48.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<script src="jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="slides.js"></script>
 
-
-<script src="jquery-1.11.0.min.js"></script>
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-<script type="text/javascript" src="planetoids_v2_0/JS/Box2dWeb-2.1.a.3.min.js"></script>
-<!--<script type="text/javascript" src="planetoids_v2_0/JS/planetoids.all.min.js"></script>-->
-
-<script type="text/javascript" src="planetoids_v2_0/JS/01-RequestAnimFrame.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/02-Planetoids_Init.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/03-Planetoids_Game.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/04-Helpers.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/05-SpaceShip.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/06-Lasers.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/07-Rocks.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/08-Powerups.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/09-Stars.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/10-SlicePoint.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/11-Input.js"></script>
-
-
-<script type="text/javascript" src="slides.js"></script>
-
-<script type="text/javascript">
-
-	$(document).ready(function() {
-	//$(window).load(function() {
-		createSlides(["Slide_About","Slide_MasterWars","Slide_Planetoids","Slide_ReConnect","Slide_3D"],
-			function() {
-				initializeSlides();
-				InitPlanetoids(document.getElementById("canvas_planetoids"), 5);
-			});
-	});
-</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		//$(window).load(function() {
+			createSlides(["Slide_About", "Slide_MasterWars", "Slide_Planetoids", "Slide_ReConnect", "Slide_3D"],
+				function() {
+					initializeSlides();
+				});
+		});
+	</script>
 
 </head>
 
 <body>
 
-<div class="page_wrapper">
+	<div class="page_wrapper">
 
-	<div class="page_top_title">Pablo Bollans&eacute;e</div>
+		<div class="page_top_title">Pablo Bollans&eacute;e</div>
 
-	<noscript class="noscript_notification">Enable Javascript for all content.</noscript>
+		<noscript class="noscript_notification">Enable Javascript for all content.</noscript>
 
-	<div class="slides_wrapper">
-		<div class="slide" id="Slide_About"></div>
-		<div class="slide" id="Slide_MasterWars"></div>
-		<div class="slide" id="Slide_Planetoids"></div>
-		<div class="slide" id="Slide_ReConnect"></div>
-        <div class="slide" id="Slide_3D"></div>
+		<div class="slides_wrapper">
+			<div class="slide" id="Slide_About"></div>
+			<div class="slide" id="Slide_MasterWars"></div>
+			<div class="slide" id="Slide_Planetoids"></div>
+			<div class="slide" id="Slide_ReConnect"></div>
+			<div class="slide" id="Slide_3D"></div>
+		</div>
+
+		<p class="footer">Copyright Pablo Bollans&eacute;e</p>
+
 	</div>
-
-	<p class="footer">Copyright Pablo Bollans&eacute;e</p>
-
-</div>
 
 </body>
 
 <script type="text/javascript">
-	//only if javascript is enabled:
 	//close slides before they are loaded to prevent ugly resizing
 	closeAllSlides();
 </script>
