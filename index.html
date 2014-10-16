@@ -11,12 +11,20 @@
 	<script type="text/javascript" src="slides.js"></script>
 
 	<script type="text/javascript">
+		//Slides.height = 85; //default is 85
+
 		$(document).ready(function() {
 		//$(window).load(function() {
-			createSlides(["Slide_About", "Slide_MasterWars", "Slide_Planetoids", "Slide_ReConnect", "Slide_3D"],
-				function() {
-					initializeSlides();
-				});
+			Slides.loadSlides(
+				[
+					"Slide_About",
+					"Slide_MasterWars",
+					"Slide_Planetoids",
+					"Slide_ReConnect",
+					"Slide_3D"
+				],
+				function() { Slides.initializeSlides(); }
+			);
 		});
 	</script>
 
@@ -46,7 +54,7 @@
 
 <script type="text/javascript">
 	//close slides before they are loaded to prevent ugly resizing
-	closeAllSlides();
+	Slides.closeAllSlides();
 </script>
 
 </html>
