@@ -22,15 +22,15 @@ var Slides = new function() {
 	// Initialize slides so they can be opened/closed.
 	// Everything with the class "slide" will get this functionality.
 	this.initializeSlides = function() {
-		var slideHeight = this.height;
+		var thisObject = this;
 		$('.slides_wrapper .slide .slide_heading').click(function() {
 			var fullSlide = $(this).parent();
 			if(fullSlide.hasClass('current')) {
-				fullSlide.animate({"height": slideHeight}, {duration: "slow", queue: false, progress: animateTitle});
+				fullSlide.animate({"height": thisObject.height}, {duration: "slow", queue: false, progress: animateTitle});
 				fullSlide.removeClass('current');
 			} else {
 				otherCurrent = $('.slides_wrapper .current');
-				otherCurrent.animate({"height": slideHeight}, {duration: "slow", queue: false, progress: animateTitle});
+				otherCurrent.animate({"height": thisObject.height}, {duration: "slow", queue: false, progress: animateTitle});
 				otherCurrent.children(".slide_title_relative_pos").animate({"opacity": 0}, {queue: false});
 				otherCurrent.removeClass('current');
 
