@@ -26,13 +26,13 @@ SpaceShip.prototype = {
 		bodyDef.type = b2Body.b2_dynamicBody;
 		bodyDef.position.x = canvas.width / 2 / SCALE;
 		bodyDef.position.y = canvas.height / 2 /SCALE;
-		
+
 		var fixDef = new b2FixtureDef;
 		fixDef.density = 1.0;
 		fixDef.restitution = 0.0;
 		fixDef.shape = new b2CircleShape;
 		fixDef.shape.m_radius = this.size / SCALE;
-		
+
 		this.body = world.CreateBody(bodyDef);
 		this.body.CreateFixture(fixDef);
 		this.body.SetLinearDamping(1.0);
@@ -40,11 +40,11 @@ SpaceShip.prototype = {
 
 		this.body.SetSleepingAllowed(false);
 	},
-	
+
 	Tick : function(dTime) {
 		this.laserLife -= dTime;
 		this.powerTime -= dTime;
-		
+
 		// Mouse Controls
 		if(rightMouseDown) {
 			var dir = new b2Vec2(mouseX / SCALE - this.body.GetPosition().x, mouseY / SCALE - this.body.GetPosition().y);
@@ -63,35 +63,19 @@ SpaceShip.prototype = {
 		}
 
 		// Touch Controls
-		if(/*touchStart*/ touching) {
+		if(touching) {
 			var touchPos = new b2Vec2(touchX / SCALE, touchY / SCALE);
-			var distance = Distance(touchPos.x, touchPos.y, this.body.GetPosition().x, this.body.GetPosition().y) * SCALE;
-			if (distance > this.size * 3) {
-				var dir = new b2Vec2(touchX - this.body.GetPosition().x * SCALE, touchY - this.body.GetPosition().y * SCALE);
-				dir.Normalize();
-				
-				this.CurrentWeaponMethod(dir);
-			}
-			else {
-				this.dragging = true;
-			}
+			var dir = new b2Vec2(touchX - this.body.GetPosition().x * SCALE, touchY - this.body.GetPosition().y * SCALE);
+			dir.Normalize();
+			dir.Multiply(this.speed);
+			this.body.ApplyForce(dir, this.body.GetPosition());
 		}
+		if(touchStart) {
+			var touchPos = new b2Vec2(touchX / SCALE, touchY / SCALE);
+			var dir = new b2Vec2(touchX - this.body.GetPosition().x * SCALE, touchY - this.body.GetPosition().y * SCALE);
+			dir.Normalize();
 
-		if (this.dragging) {
-			var touchPos = new b2Vec2(touchX, touchY);
-				touchPos.x = Math.max(touchPos.x, this.size);
-				touchPos.y = Math.max(touchPos.y, this.size);
-				touchPos.x = Math.min(touchPos.x, canvas.width - this.size);
-				touchPos.y = Math.min(touchPos.y, canvas.height - this.size);
-				touchPos.x /= SCALE;
-				touchPos.y /= SCALE;
-			this.body.SetLinearVelocity(new b2Vec2(touchMoveAlphaX, touchMoveAlphaY));
-			this.body.SetPosition(touchPos);
-		}
-
-		if (touchEnd && this.dragging) {
-			this.dragging = false;
-			this.body.SetLinearVelocity(new b2Vec2(touchMoveAlphaX, touchMoveAlphaY));
+			this.CurrentWeaponMethod(dir);
 		}
 
 		// Powerup
@@ -145,17 +129,17 @@ SpaceShip.prototype = {
 
 		// Flames
 		//ToDo
-		
+
 		ResetTransform();
 	},
-	
+
 	Reset : function() {
 		this.body.SetPosition(new b2Vec2(canvas.width / 2 / SCALE, canvas.height / 2 /SCALE));
 		this.body.SetLinearVelocity(new b2Vec2(0,0));
 		this.health = MAX_HEALTH;
 		this.powerTime = 0.0;
 	},
-	
+
 	GetBody : function() {
 		return this.body;
 	},

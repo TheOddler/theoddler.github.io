@@ -77,8 +77,8 @@ var canvas;
 var alwaysDraw = false;
 //var timeElement;
 //var bestTimeElement;
-function InitPlanetoids(planetoidsCanvas, rockCount, fullscreen) {
-	if (fullscreen == true) {
+function InitPlanetoids(planetoidsCanvas, rockCount, shouldAlwaysDraw) {
+	if (shouldAlwaysDraw == true) {
 		alwaysDraw = true;
 	}
 	// Initialize 2D
