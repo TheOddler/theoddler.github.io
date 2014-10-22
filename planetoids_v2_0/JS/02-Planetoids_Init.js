@@ -12,7 +12,7 @@ function Init2D(canvas) {
 var b2Vec2 = Box2D.Common.Math.b2Vec2;
 var b2Vec3 = Box2D.Common.Math.b2Vec3;
 var b2BodyDef = Box2D.Dynamics.b2BodyDef;
-var b2Body = Box2D.Dynamics.b2Body; 
+var b2Body = Box2D.Dynamics.b2Body;
 var b2FixtureDef = Box2D.Dynamics.b2FixtureDef;
 var b2Fixture = Box2D.Dynamics.b2Fixture;
 var b2World = Box2D.Dynamics.b2World;
@@ -36,7 +36,7 @@ function InitBox2D() {
 		debugDraw.SetLineThickness(1.0);
 		debugDraw.SetFlags(b2DebugDraw.e_shapeBit | b2DebugDraw.e_jointBit);
 		world.SetDebugDraw(debugDraw);*/
-	
+
 		world.SetContactListener(contactListener);
 }
 
@@ -45,7 +45,7 @@ function Loop() {
 	// Loop
 	requestAnimFrame(Loop);
 
-	if (mouseIsOverCanvas) {
+	if (mouseIsOverCanvas || alwaysDraw) {
 		//Calc delta time
 		var curTime = new Date().getTime();
 		var elapsed = 0;
@@ -56,15 +56,15 @@ function Loop() {
 		if (elapsed>0.1) {
 			elapsed = 0.0;
 		}
-		
+
 		//Tick all objects
 		tick(elapsed);
-		
+
 		//Simulate world
 		world.Step(elapsed, 8,3);
 		//world.DrawDebugData();
 		world.ClearForces();
-		
+
 		//Draw
 		draw();
 	}
@@ -74,9 +74,13 @@ function Loop() {
 }
 
 var canvas;
+var alwaysDraw = false;
 //var timeElement;
 //var bestTimeElement;
-function InitPlanetoids(planetoidsCanvas, rockCount) {
+function InitPlanetoids(planetoidsCanvas, rockCount, fullscreen) {
+	if (fullscreen == true) {
+		alwaysDraw = true;
+	}
 	// Initialize 2D
 	canvas = planetoidsCanvas;
 	//fullscreen = fs;
@@ -86,13 +90,13 @@ function InitPlanetoids(planetoidsCanvas, rockCount) {
 	//	canvas.height = document.height;
 	//}
 	Init2D(canvas);
-	
+
 	// Initialize Box2D
 	InitBox2D();
-	
+
 	// Init input
 	InitInput();
-	
+
 	// Init time field
 	//timeElement = document.getElementById('planetoidsTime');
 	//bestTimeElement = document.getElementById('planetoidsBestTime');
@@ -105,5 +109,3 @@ function InitPlanetoids(planetoidsCanvas, rockCount) {
 	}
 	Loop();
 }
-
-

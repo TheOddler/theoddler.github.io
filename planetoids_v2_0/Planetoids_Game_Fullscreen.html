@@ -28,7 +28,7 @@
 			planetoidsCanvas.width = $(window).width();
 			planetoidsCanvas.height = $(window).height();
 			//Initialize Planetoids
-			InitPlanetoids(planetoidsCanvas, 10);
+			InitPlanetoids(planetoidsCanvas, 10, true);
 		});
 
 		$(window).resize(function () {
@@ -40,7 +40,7 @@
 		});
 	</script>
 </head>
-	
+
 <body>
 	<canvas id="canvas_planetoids" class="game" oncontextmenu="return false;"  width="auto" height="auto"></canvas>
 </body>
