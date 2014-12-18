@@ -1,60 +1,47 @@
-<!DOCTYPE HTML>
+---
+---
+
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Pablo's Portfolio</title>
-	<link rel="shortcut icon" type="image/png" href="Professor Pablo Icon 48x48.png"/>
-	
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	
-	<script src="jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="slides.js"></script>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Pablo's Portfolio</title>
+		<link rel="shortcut icon" type="image/png" href="images/professor_pablo_icon_48x48.png"/>
 
-	<script type="text/javascript">
-		//Slides.height = 85; //default is 85
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-		$(document).ready(function() {
-		//$(window).load(function() {
-			Slides.loadSlides(
-				[
-					"Slide_About",
-					"Slide_MasterWars",
-					"Slide_Planetoids",
-					"Slide_ReConnect",
-					"Slide_3D"
-				],
-				function() { Slides.initializeSlides(); }
-			);
-		});
-	</script>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/slides.js"></script>
 
-</head>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				Slides.initializeSlides();
+			});
+		</script>
 
-<body>
+	</head>
 
-	<div class="page_wrapper">
+	<body>
 
-		<div class="page_top_title">Pablo Bollans&eacute;e</div>
+		<div class="page_wrapper">
 
-		<noscript class="page_wrapper noscript_notification">Sorry, my website uses javascript to load its content.<br>Please enable it to see my work.<br>Thanks!</noscript>
+			<div class="title">Pablo Bollans&eacute;e</div>
 
-		<div class="slides_wrapper">
-			<div class="slide" id="Slide_About"></div>
-			<div class="slide" id="Slide_MasterWars"></div>
-			<div class="slide" id="Slide_Planetoids"></div>
-			<div class="slide" id="Slide_ReConnect"></div>
-			<div class="slide" id="Slide_3D"></div>
+			{% include_relative _slides/about.html %}
+			{% include_relative _slides/masterwars.html %}
+			{% include_relative _slides/planetoids.html %}
+			{% include_relative _slides/reconnect.html %}
+
+			{% capture captured %}{% include_relative _slides/3d.md %}{% endcapture %} {{ captured | markdownify }}
+
+			<div class="footer">Copyright Pablo Bollans&eacute;e</div>
+
 		</div>
 
-		<p class="footer">Copyright Pablo Bollans&eacute;e</p>
+	</body>
 
-	</div>
-
-</body>
-
-<script type="text/javascript">
-	//close slides before they are loaded to prevent ugly resizing
-	Slides.closeAllSlides();
-</script>
+	<script type="text/javascript">
+		//close slides before they are loaded to prevent ugly resizing
+		Slides.closeAllSlides();
+	</script>
 
 </html>

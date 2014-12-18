@@ -1,6 +1,6 @@
 html {overflow-y: scroll;}
 
-.page_top_title {
+.title {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 78.5px;
 	color: #DCDCDC;
@@ -12,41 +12,20 @@ html {overflow-y: scroll;}
 	font-weight: bold;
 }
 
-.page_loading_cover {
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	top:0;
-	left: 0;
-	background: #000;
-	z-index:9999;
-
-    font-size: 60px;
-    text-align: center;
-    padding-top: 200px;
-    color: #fff;
-}
-
 .page_wrapper {
 	width: 600px;
 	margin: 0 auto;
 }
 
-.slides_wrapper {
-	
-}
+
 
 .slide {
 	padding: 0;
 	overflow: hidden;
-	margin-bottom: 10px;
+	margin: 0 0 10px 0;
 }
 
-.slide_heading {
-	
-}
-
-.slide_title {
+h1 {
 	font-size: 79px;
 	color: #FFF;
 	font-weight: bold;
@@ -54,63 +33,61 @@ html {overflow-y: scroll;}
 	margin: 0;
 }
 
-.slide_title_relative_pos {
-	margin-top: -155px;
-	margin-bottom: -90px;
-	margin-left: 4px;
-	
+.slide > h1:first-of-type {
 	pointer-events:none;
 
 	position: relative;
-	top: 3;
+	top: -72px;
+	left: 4px;
+
+	margin-bottom: -90px;
 }
 
 .slide_content {
 	background: #DCDCDC;
-	padding: 0;
+
+	margin: 10px 0 0 0;
+	padding: 0 0 5px 0;
 }
 
-.slide_content_title {
+h2, h3, h4, h5, h6 {
 	font-size: medium;
 	font-weight: bold;
 	font-family: Verdana, Geneva, sans-serif;
-	padding-top: 5px;
+	margin: 5px 5px 0 5px;
 }
 
-.slide_content_text {
+p {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12px;
-	padding-right: 5px;
-	padding-left: 5px;
+	margin: 5px 5px 0px 5px;
+	text-align: justify;
+}
+table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	width: 100%;
+	padding: 0 5px 0 5px;
 	text-align: justify;
 }
 
-.slide_content_more_link {
-	font-size: 45px;
-	color: #FFF;
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: -10px;
-	cursor: pointer;
-	position: relative;
-	top: 5px;
-	text-decoration: none;
+td {
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+td:first-child {
+	width: 128px;
 }
 
-.slide_content_table {
-	margin-bottom: 10px;
+.slide img {
+	width: 100%;
 }
 
-.slide_content_table td {
-	padding-bottom: 5px;
+a {
+	color: #2da2f1;
 }
 
-.slide_content_table_heading {
-	font-size: 16px;
-	padding-top: 10px;
-	text-align: left;
-	font-weight: 900;
-}
+
 
 .footer {
 	font-family: Arial, Helvetica, sans-serif;
@@ -119,6 +96,7 @@ html {overflow-y: scroll;}
 	text-align: right;
 	overflow: visible;
 	vertical-align: text-bottom;
+	margin: 10px 0 0 0;
 }
 
 .noscript_notification {

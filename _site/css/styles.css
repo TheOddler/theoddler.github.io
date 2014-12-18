@@ -1,0 +1,119 @@
+html {overflow-y: scroll;}
+
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 78.5px;
+	color: #DCDCDC;
+	text-align: left;
+	margin-left: -4px;
+	margin-right: -8px;
+	overflow: visible;
+	margin-bottom: -11px;
+	font-weight: bold;
+}
+
+.page_wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+
+.slide {
+	padding: 0;
+	overflow: hidden;
+	margin: 0 0 10px 0;
+}
+
+h1 {
+	font-size: 79px;
+	color: #FFF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.slide > h1:first-of-type {
+	pointer-events:none;
+
+	position: relative;
+	top: -72px;
+	left: 4px;
+
+	margin-bottom: -90px;
+}
+
+.slide_content {
+	background: #DCDCDC;
+
+	margin: 10px 0 0 0;
+	padding: 0 0 5px 0;
+}
+
+h2, h3, h4, h5, h6 {
+	font-size: medium;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 5px 5px 0 5px;
+}
+
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	margin: 5px 5px 0px 5px;
+	text-align: justify;
+}
+table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	width: 100%;
+	padding: 0 5px 0 5px;
+	text-align: justify;
+}
+
+td {
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+td:first-child {
+	width: 128px;
+}
+
+.slide img {
+	width: 100%;
+}
+
+a {
+	color: #2da2f1;
+}
+
+
+
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCC;
+	text-align: right;
+	overflow: visible;
+	vertical-align: text-bottom;
+	margin: 10px 0 0 0;
+}
+
+.noscript_notification {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #CC0000;
+    text-align: center;
+	display: table-cell;
+}
+
+
+.more_page_wrapper {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.clickable {
+	cursor: pointer;
+}

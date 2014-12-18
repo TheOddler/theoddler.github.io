@@ -23,15 +23,16 @@ var Slides = new function() {
 	// Everything with the class "slide" will get this functionality.
 	this.initializeSlides = function() {
 		var thisObject = this;
-		$('.slides_wrapper .slide .slide_heading').click(function() {
+		$('.slide .slide_heading').click(function() {
 			var fullSlide = $(this).parent();
 			if(fullSlide.hasClass('current')) {
 				fullSlide.animate({"height": thisObject.height}, {duration: "slow", queue: false, progress: animateTitle});
 				fullSlide.removeClass('current');
-			} else {
-				otherCurrent = $('.slides_wrapper .current');
+			}
+			else {
+				otherCurrent = $('.current');
 				otherCurrent.animate({"height": thisObject.height}, {duration: "slow", queue: false, progress: animateTitle});
-				otherCurrent.children(".slide_title_relative_pos").animate({"opacity": 0}, {queue: false});
+				otherCurrent.children("h1:first-of-type").animate({"opacity": 0}, {queue: false});
 				otherCurrent.removeClass('current');
 
 				var cur_height = fullSlide.height();
@@ -42,17 +43,17 @@ var Slides = new function() {
 		});
 
 		//reposition titles
-		$('.slides_wrapper .slide').each(function () {
+		$('.slide').each(function () {
 			repositionTitle($(this));
 		});
 
 		//show titles on mouse over
-		$('.slides_wrapper .slide .slide_heading').mouseenter(function () {
-			$(this).siblings(".slide_title_relative_pos").animate({"opacity": 1}, {queue: false});
+		$('.slide .slide_heading').mouseenter(function () {
+			$(this).siblings("h1:first-of-type").animate({"opacity": 1}, {queue: false});
 		});
-		$('.slides_wrapper .slide .slide_heading').mouseleave(function () {
+		$('.slide .slide_heading').mouseleave(function () {
 			if (!$(this).parent().hasClass('current')) {
-				$(this).siblings(".slide_title_relative_pos").animate({"opacity": 0}, {queue: false});
+				$(this).siblings("h1:first-of-type").animate({"opacity": 0}, {queue: false});
 			}
 		});
 
@@ -62,20 +63,20 @@ var Slides = new function() {
 
 	// Instantly hide all titles
 	this.hideAllTitles = function() {
-		$(".slides_wrapper .slide .slide_title_relative_pos").css("opacity", 0);
+		$(".slide > h1:first-of-type").css("opacity", 0);
 	}
 
 
 	// Instantly close all slides
 	this.closeAllSlides = function() {
-		$(".slides_wrapper .slide").css("height", this.height);
+		$(".slide").css("height", this.height);
 	}
 
 	// Private functions, used to animate title
 	var repositionTitle = function(slide) {
 		var header = slide.children(".slide_heading");
-		var title = slide.children(".slide_title_relative_pos");
-		title.css("top", Math.min(-header.height() + slide.height(), 0));
+		var title = slide.children("h1:first-of-type");
+		title.css("top", Math.min(-header.height() + slide.height(), 0) -72); //TODO get rid of hardcoded -72
 	}
 	var animateTitle = function(animation, progress, remainingMs) {
 		repositionTitle($(animation.elem));
