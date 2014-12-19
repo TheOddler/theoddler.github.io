@@ -27,8 +27,11 @@
 			<div class="title">Pablo Bollans&eacute;e</div>
 
 			{% include_relative _slides/about.html %}
-			{% include_relative _slides/masterwars.html %}
+
+			{% capture captured %}{% include_relative _slides/masterwars.md %}{% endcapture %} {{ captured | markdownify }}
+
 			{% include_relative _slides/planetoids.html %}
+			
 			{% include_relative _slides/reconnect.html %}
 
 			{% capture captured %}{% include_relative _slides/3d.md %}{% endcapture %} {{ captured | markdownify }}

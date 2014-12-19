@@ -1,20 +1,17 @@
-<div class="slide">
-	<img src="images/planetoids.jpg" alt="Planetoids" width="600" height="300" class="slide_heading clickable"/>
-	<h1>Planetoids</h1>
+{% include slide_start.html title="Planetoids" image="images/planetoids.jpg" %}
 
-	<div class="slide_content">
 
-		<canvas id="canvas_planetoids" style="border: none; position: relative;" width="600" height="450" onselectstart="return false;" oncontextmenu="return false;"></canvas>
+<canvas id="canvas_planetoids" style="border: none; position: relative;" width="600" height="450" onselectstart="return false;" oncontextmenu="return false;"></canvas>
 
-		<h2>An awesome space shooting game</h2>
+<h2>An awesome space shooting game</h2>
 
-		<p>Planetoids is a little game I made in my first year of DAE. It's a lot like astroids yet with unique movement controls and lasers. When your little spacecraft shoots a laser it slices the astroids in half.</p>
-		<p>I later remade this little game using the html5 canvas, so everyone can play it in their browsers without any plugin. That's what you're seeing above. It uses Box2dweb for physics.</p>
+<p>Planetoids is a little game I made in my first year of DAE. It's a lot like astroids yet with unique movement controls and lasers. When your little spacecraft shoots a laser it slices the astroids in half.</p>
+<p>I later remade this little game using the html5 canvas, so everyone can play it in their browsers without any plugin. That's what you're seeing above. It uses Box2dweb for physics.</p>
 
-		<p>Read more about the game <a href="planetoids/">here</a> or play it in fullscreen <a href="planetoids_v2_0/">here</a>.</p>
+<p>Read more about the game <a href="planetoids/">here</a> or play it in fullscreen <a href="planetoids_v2_0/">here</a>.</p>
 
-	</div>
-</div>
+
+{% include slide_end.html %}
 
 
 <script type="text/javascript" src="planetoids_v2_0/JS/Box2dWeb-2.1.a.3.min.js"></script>
