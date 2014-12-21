@@ -1,7 +1,6 @@
 {% include slide_start.html title="Master Wars" image="images/masterwars.jpg" %}
 
-
-<iframe src="http://player.vimeo.com/video/86780900?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="scale_16_9"><iframe src="http://player.vimeo.com/video/86780900?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ## A brilliant turn-based strategy game
 
