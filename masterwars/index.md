@@ -66,7 +66,7 @@ title: Master Wars
 	</div>
 </div>
 
-## Master Wars MD
+## Master Wars
 
 Master Wars is a litte project I started years ago. I first made a very simple 2D clone of Advance Wars with a friend as a school project. Later I decided to make my own turn-based strategy in 3D using Unity, still based on Advance Wars but no longer a clone. It used hexagons as tiles but it was still a flat playing field. Then I got an internship at Vanguard Games and I decided to rewrite the whole game since I learned a lot there. I then changed to world from a flat playing field, to the planets I have now.
 
