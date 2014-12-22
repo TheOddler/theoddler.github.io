@@ -7,6 +7,8 @@
 		<title>Pablo's Portfolio</title>
 		<link rel="shortcut icon" type="image/png" href="images/professor_pablo_icon_48x48.png"/>
 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 		<script src="js/jquery-2.1.1.min.js"></script>
@@ -31,7 +33,7 @@
 			{% capture captured %}{% include_relative _slides/masterwars.md %}{% endcapture %} {{ captured | markdownify }}
 
 			{% include_relative _slides/planetoids.html %}
-			
+
 			{% include_relative _slides/reconnect.html %}
 
 			{% capture captured %}{% include_relative _slides/3d.md %}{% endcapture %} {{ captured | markdownify }}
