@@ -1,3 +1,8 @@
+---
+---
+
+{% include detectmobilebrowser.js %}
+
 // OO
 // http://stackoverflow.com/questions/881515/how-do-i-declare-a-namespace-in-javascript
 // Extra: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
@@ -37,15 +42,19 @@ var Slides = new function() {
 			repositionTitle($(this));
 		});
 
-		//show titles on mouse over
-		$('.slide .slide_heading').mouseenter(function () {
-			$(this).siblings(".slide_title:first-of-type").animate({"opacity": 1}, {queue: false});
-		});
-		$('.slide .slide_heading').mouseleave(function () {
-			if (!$(this).parent().hasClass('open')) {
-				$(this).siblings(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
-			}
-		});
+		//show titles on mouse over, but not when on mobile browser
+		if (jQuery.browser.mobile) {
+		}
+		else {
+			$('.slide .slide_heading').mouseenter(function () {
+				$(this).siblings(".slide_title:first-of-type").animate({"opacity": 1}, {queue: false});
+			});
+			$('.slide .slide_heading').mouseleave(function () {
+				if (!$(this).parent().hasClass('open')) {
+					$(this).siblings(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
+				}
+			});
+		}
 
 		this.hideAllTitles();
 		this.closeAllSlides();
