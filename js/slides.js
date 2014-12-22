@@ -7,7 +7,7 @@
 // http://stackoverflow.com/questions/881515/how-do-i-declare-a-namespace-in-javascript
 // Extra: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
 var Slides = new function() {
-	this.height = 85;
+	this.height = "5.313em";
 
 	// Initialize slides so they can be opened/closed.
 	// Everything with the class "slide" will get this functionality.
