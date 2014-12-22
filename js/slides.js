@@ -43,9 +43,7 @@ var Slides = new function() {
 		});
 
 		//show titles on mouse over, but not when on mobile browser
-		if (jQuery.browser.mobile) {
-		}
-		else {
+		if (!jQuery.browser.mobile) {
 			$('.slide .slide_heading').mouseenter(function () {
 				$(this).siblings(".slide_title:first-of-type").animate({"opacity": 1}, {queue: false});
 			});
@@ -54,9 +52,10 @@ var Slides = new function() {
 					$(this).siblings(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
 				}
 			});
+
+			this.hideAllTitles();
 		}
 
-		this.hideAllTitles();
 		this.closeAllSlides();
 	}
 
