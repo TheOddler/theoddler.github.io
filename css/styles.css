@@ -41,6 +41,9 @@ body {
 
 .slide .slide_heading {
 	box-shadow: 0px 3px 3px #999999;
+	background-color: #575757;
+	min-height: 200px;
+	width: 100%;
 }
 
 .slide .slide_title {

@@ -1,6 +1,8 @@
 <div class="slide">
     <div class="slide_title">{{ include.title }}</div>
 
-    <img src="{{ include.image }}" alt="3D" width="100%" class="slide_heading clickable"/>
+    <div class="slide_heading clickable">
+        <img src="{{ include.image }}" width="100%" alt="{{ include.title }}"/>
+    </div>
 
     <div class="slide_content" markdown="1">
