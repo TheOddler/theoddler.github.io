@@ -8,23 +8,27 @@ var Slides = new function() {
 	// Initialize slides so they can be opened/closed.
 	// Everything with the class "slide" will get this functionality.
 	this.initializeSlides = function() {
-		var thisObject = this;
+		//add click function to all slide headings
 		$('.slide .slide_heading').click(function() {
 			var fullSlide = $(this).parent();
-			if(fullSlide.hasClass('current')) {
-				fullSlide.animate({"height": thisObject.height}, {duration: "slow", queue: false, progress: animateTitle});
-				fullSlide.removeClass('current');
+
+			//if the slide is or open then close it
+			if(fullSlide.hasClass('open')) {
+				fullSlide.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
+				fullSlide.removeClass('open');
 			}
 			else {
-				otherCurrent = $('.current');
-				otherCurrent.animate({"height": thisObject.height}, {duration: "slow", queue: false, progress: animateTitle});
-				otherCurrent.children(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
-				otherCurrent.removeClass('current');
+				//close all open open slides
+				/*others = $('.open');
+				others.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
+				others.children(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
+				others.removeClass('open');*/
 
+				//open the clicked slide
 				var cur_height = fullSlide.height();
 				var open_height = fullSlide.css("height", "auto").height();
 				fullSlide.height(cur_height).animate({"height": open_height}, {duration: "slow", queue: false, progress: animateTitle});
-				fullSlide.toggleClass('current');
+				fullSlide.toggleClass('open');
 			}
 		});
 
@@ -38,7 +42,7 @@ var Slides = new function() {
 			$(this).siblings(".slide_title:first-of-type").animate({"opacity": 1}, {queue: false});
 		});
 		$('.slide .slide_heading').mouseleave(function () {
-			if (!$(this).parent().hasClass('current')) {
+			if (!$(this).parent().hasClass('open')) {
 				$(this).siblings(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
 			}
 		});
