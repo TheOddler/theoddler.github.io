@@ -8,7 +8,6 @@
 // Extra: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
 var Slides = new function() {
 	this.height = 85;
-	this.titleOffset = 19;
 
 	// Initialize slides so they can be opened/closed.
 	// Everything with the class "slide" will get this functionality.
@@ -74,7 +73,7 @@ var Slides = new function() {
 	var repositionTitle = function(slide) {
 		var header = slide.children(".slide_heading");
 		var title = slide.children(".slide_title:first-of-type");
-		title.css( "top", Math.min(header.height(), slide.height()) - title.height() + Slides.titleOffset ); //TODO get rid of hardcoded -72
+		title.css( "top", Math.min(header.height(), slide.height()) - title.height() ); //TODO get rid of hardcoded -72
 	}
 	var animateTitle = function(animation, progress, remainingMs) {
 		repositionTitle($(animation.elem));
