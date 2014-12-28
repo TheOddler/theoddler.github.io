@@ -73,7 +73,7 @@ var Slides = new function() {
 	var repositionTitle = function(slide) {
 		var header = slide.children(".slide_heading");
 		var title = slide.children(".slide_title:first-of-type");
-		title.css( "top", Math.min(header.height(), slide.height()) - title.height() ); //TODO get rid of hardcoded -72
+		title.css( "top", Math.min(header.height(), slide.height()) - title.height() );
 	}
 	var animateTitle = function(animation, progress, remainingMs) {
 		repositionTitle($(animation.elem));

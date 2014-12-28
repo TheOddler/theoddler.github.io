@@ -54,20 +54,24 @@ body {
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
+	left: 0;
+	white-space: nowrap;
+	text-shadow: 0 0 0.05em #999999;
 
 	pointer-events:none;
 
+	line-height: 1.333;
+	height: 1em;
+
 	position: absolute;
-	left: 0.000em;
-	top: 14.188em;
+	top: 14.188em; /*default, set in js*/
 }
 
 .slide .slide_title span {
-	position: absolute;
-	bottom: -0.24em;
-	
-	white-space: nowrap;
+	position: relative;
+	bottom: 0;
 
+	white-space: nowrap;
 	text-shadow: 0 0 0.05em #999999;
 }
 
