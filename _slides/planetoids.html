@@ -28,5 +28,7 @@
 <script type="text/javascript" src="planetoids_v2_0/JS/10-SlicePoint.js"></script>
 <script type="text/javascript" src="planetoids_v2_0/JS/11-Input.js"></script>
 <script type="text/javascript">
-	InitPlanetoids(document.getElementById("canvas_planetoids"), 5);
+	if (!jQuery.browser.mobile) {
+		InitPlanetoids(document.getElementById("canvas_planetoids"), 5);
+	}
 </script>
