@@ -13,27 +13,30 @@ var Slides = new function() {
 	// Everything with the class "slide" will get this functionality.
 	this.initializeSlides = function() {
 		//add click function to all slide headings
-		$('.slide .slide_heading').click(function() {
-			var fullSlide = $(this).parent();
+		$('.slide').each(function() {
+			var fullSlide = $(this);
 
-			//if the slide is or open then close it
-			if(fullSlide.hasClass('open')) {
-				fullSlide.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
-				fullSlide.removeClass('open');
-			}
-			else {
-				//close all open open slides
-				/*others = $('.open');
-				others.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
-				others.children(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
-				others.removeClass('open');*/
+			fullSlide.find(".slide_header").click(function() {
+				//if the slide is or open then close it
+				if(fullSlide.hasClass('open')) {
+					fullSlide.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
+					fullSlide.removeClass('open');
+				}
+				else {
+					//close all open open slides
+					/*others = $('.open');
+					others.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
+					others.children(".slide_title").animate({"opacity": 0}, {queue: false});
+					others.removeClass('open');*/
 
-				//open the clicked slide
-				var cur_height = fullSlide.height();
-				var open_height = fullSlide.css("height", "auto").height();
-				fullSlide.height(cur_height).animate({"height": open_height}, {duration: "slow", queue: false, progress: animateTitle});
-				fullSlide.toggleClass('open');
-			}
+					//open the clicked slide
+					var cur_height = fullSlide.height();
+					var open_height = fullSlide.css("height", "auto").height();
+					fullSlide.height(cur_height).animate({"height": open_height}, {duration: "slow", queue: false, progress: animateTitle});
+					$(this).children("span").animate({"opacity": 1}, {queue: false});
+					fullSlide.toggleClass('open');
+				}
+			});
 		});
 
 		//reposition titles
@@ -43,13 +46,17 @@ var Slides = new function() {
 
 		//show titles on mouse over, but not when on mobile browser
 		if (!jQuery.browser.mobile) {
-			$('.slide .slide_heading').mouseenter(function () {
-				$(this).siblings(".slide_title:first-of-type").animate({"opacity": 1}, {queue: false});
+			$('.slide .slide_header').mouseenter(function () {
+				$(this).children("span").animate({"opacity": 1}, {queue: false});
 			});
-			$('.slide .slide_heading').mouseleave(function () {
-				if (!$(this).parent().hasClass('open')) {
-					$(this).siblings(".slide_title:first-of-type").animate({"opacity": 0}, {queue: false});
-				}
+
+			$('.slide').each(function() {
+				var fullSlide = $(this);
+				fullSlide.find(".slide_header").mouseleave(function () {
+					if (!fullSlide.hasClass('open')) {
+						$(this).children("span").animate({"opacity": 0}, {queue: false});
+					}
+				});
 			});
 
 			this.hideAllTitles();
@@ -60,9 +67,8 @@ var Slides = new function() {
 
 	// Instantly hide all titles
 	this.hideAllTitles = function() {
-		$(".slide > .slide_title:first-of-type").css("opacity", 0);
+		$(".slide .slide_header span").css("opacity", 0);
 	}
-
 
 	// Instantly close all slides
 	this.closeAllSlides = function() {
@@ -71,9 +77,10 @@ var Slides = new function() {
 
 	// Private functions, used to animate title
 	var repositionTitle = function(slide) {
-		var header = slide.children(".slide_heading");
-		var title = slide.children(".slide_title:first-of-type");
-		title.css( "top", Math.min(header.height(), slide.height()) - title.height() );
+		var vis = slide.find(".slide_header img");
+		var title = slide.find(".slide_header span");
+
+		title.css( "top", Math.min( 0, slide.height() - vis.height() ) );
 	}
 	var animateTitle = function(animation, progress, remainingMs) {
 		repositionTitle($(animation.elem));

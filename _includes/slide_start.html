@@ -1,11 +1,6 @@
 <div class="slide">
-    <div class="slide_title">
-        {{ include.title }}
-        <!--<span>{{ include.title }}</span>-->
-    </div>
-
-    <div class="slide_heading clickable">
-        <img src="{{ include.image }}" width="100%" alt="{{ include.title }}"/>
+    <div class="slide_header">
+        <span>{{ include.title }}</span><img class="clickable" src="{{ include.image }}" alt="{{ include.title }}"/>
     </div>
 
     <div class="slide_content" markdown="1">

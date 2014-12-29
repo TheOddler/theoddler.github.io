@@ -41,38 +41,38 @@ body {
 	margin: 0.625em 0.313em 0.313em 0.313em;
 }
 
-.slide .slide_heading {
-	box-shadow: 0.000em 0.188em 0.188em #999999;
-	background-color: #575757;
-	min-height: 12.500em;
-	width: 100%;
+.slide .slide_header {
+	white-space: nowrap;
 }
 
-.slide .slide_title {
+.slide .slide_header img {
+	width: 100%;
+	background-color: #575757;
+	box-shadow: 0.000em 0.188em 0.188em #999999;
+
+	position: relative;
+	left: 0;
+}
+
+.slide .slide_header span {
 	font-size: 4.938em;
 	color: #f8f8f8;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	left: 0;
 	white-space: nowrap;
 	text-shadow: 0 0 0.05em #999999;
 
-	pointer-events:none;
+	pointer-events: none;
 
-	line-height: 1.333;
-	height: 1em;
-
-	position: absolute;
-	top: 14.188em; /*default, set in js*/
-}
-
-.slide .slide_title span {
+	/*place it over heading image*/
+	vertical-align: baseline;
 	position: relative;
-	bottom: 0;
-
-	white-space: nowrap;
-	text-shadow: 0 0 0.05em #999999;
+	top: 0; /*default, set in js*/
+	width: 0;
+	display: inline-block;
+	overflow: visible;
+	z-index: 100;
 }
 
 
