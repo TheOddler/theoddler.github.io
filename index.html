@@ -13,11 +13,15 @@
 		<script type="text/javascript" src="js/slides.js"></script>
 
 		<script type="text/javascript">
-			//$(document).ready(function() {
-			$(window).load(function() {
+			$(document).ready(function() {
 				Slides.initializeSlides();
 			});
 
+			$(window).load(function() {
+				$('.slide').each(function() {
+					Slides.repositionTitle($(this));
+				});
+			});
 		</script>
 
 	</head>
@@ -46,7 +50,7 @@
 
 	<script type="text/javascript">
 		//close slides before they are loaded to prevent ugly resizing
-		Slides.closeAllSlides();
+		$(".slide").css("height", Slides.height);
 	</script>
 
 </html>

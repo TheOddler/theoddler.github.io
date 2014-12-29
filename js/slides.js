@@ -7,7 +7,7 @@
 // http://stackoverflow.com/questions/881515/how-do-i-declare-a-namespace-in-javascript
 // Extra: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
 var Slides = new function() {
-	this.height = "5.313em";
+	this.height = 85;
 
 	// Initialize slides so they can be opened/closed.
 	// Everything with the class "slide" will get this functionality.
@@ -16,6 +16,7 @@ var Slides = new function() {
 		$('.slide').each(function() {
 			var fullSlide = $(this);
 
+			// toggle open
 			fullSlide.find(".slide_header").click(function() {
 				//if the slide is or open then close it
 				if(fullSlide.hasClass('open')) {
@@ -37,52 +38,38 @@ var Slides = new function() {
 					fullSlide.toggleClass('open');
 				}
 			});
+
+			//close slide
+			fullSlide.css("height", Slides.height);
+
+			//reposition title
+			Slides.repositionTitle(fullSlide);
+
+			//show titles on mouse over, but not when on mobile browser
+			if (!jQuery.browser.mobile) {
+				fullSlide.find(".slide_header")
+					.mouseleave(function () {
+						if (!fullSlide.hasClass('open')) {
+							$(this).children("span").animate({"opacity": 0}, {queue: false});
+						}
+					})
+					.mouseenter(function () {
+						$(this).children("span").animate({"opacity": 1}, {queue: false});
+					})
+					.children("span").css("opacity", 0);
+			}
 		});
-
-		//reposition titles
-		$('.slide').each(function () {
-			repositionTitle($(this));
-		});
-
-		//show titles on mouse over, but not when on mobile browser
-		if (!jQuery.browser.mobile) {
-			$('.slide .slide_header').mouseenter(function () {
-				$(this).children("span").animate({"opacity": 1}, {queue: false});
-			});
-
-			$('.slide').each(function() {
-				var fullSlide = $(this);
-				fullSlide.find(".slide_header").mouseleave(function () {
-					if (!fullSlide.hasClass('open')) {
-						$(this).children("span").animate({"opacity": 0}, {queue: false});
-					}
-				});
-			});
-
-			this.hideAllTitles();
-		}
-
-		this.closeAllSlides();
-	}
-
-	// Instantly hide all titles
-	this.hideAllTitles = function() {
-		$(".slide .slide_header span").css("opacity", 0);
-	}
-
-	// Instantly close all slides
-	this.closeAllSlides = function() {
-		$(".slide").css("height", this.height);
 	}
 
 	// Private functions, used to animate title
-	var repositionTitle = function(slide) {
-		var vis = slide.find(".slide_header img");
+	//callback for progress of open animation
+	var animateTitle = function(animation, progress, remainingMs) {
+		Slides.repositionTitle($(animation.elem));
+	}
+	this.repositionTitle = function(slide) {
+		var image = slide.find(".slide_header img");
 		var title = slide.find(".slide_header span");
 
-		title.css( "top", Math.min( 0, slide.height() - vis.height() ) );
-	}
-	var animateTitle = function(animation, progress, remainingMs) {
-		repositionTitle($(animation.elem));
+		title.css( "top", Math.min( 0, slide.height() - image.height() ) );
 	}
 }

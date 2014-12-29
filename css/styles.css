@@ -42,7 +42,9 @@ body {
 }
 
 .slide .slide_header {
+	cursor: pointer;
 	white-space: nowrap;
+	margin-bottom: -0.8em;
 }
 
 .slide .slide_header img {
