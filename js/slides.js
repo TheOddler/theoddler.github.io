@@ -14,42 +14,42 @@ var Slides = new function() {
 	this.initializeSlides = function() {
 		//add click function to all slide headings
 		$('.slide').each(function() {
-			var fullSlide = $(this);
+			var slide = $(this);
 
 			// toggle open
-			fullSlide.find(".slide_header").click(function() {
+			slide.find(".header").click(function() {
 				//if the slide is or open then close it
-				if(fullSlide.hasClass('open')) {
-					fullSlide.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
-					fullSlide.removeClass('open');
+				if(slide.hasClass('open')) {
+					slide.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
+					slide.removeClass('open');
 				}
 				else {
 					//close all open open slides
 					/*others = $('.open');
 					others.animate({"height": Slides.height}, {duration: "slow", queue: false, progress: animateTitle});
-					others.children(".slide_title").animate({"opacity": 0}, {queue: false});
+					others.children(".title").animate({"opacity": 0}, {queue: false});
 					others.removeClass('open');*/
 
 					//open the clicked slide
-					var cur_height = fullSlide.height();
-					var open_height = fullSlide.css("height", "auto").height();
-					fullSlide.height(cur_height).animate({"height": open_height}, {duration: "slow", queue: false, progress: animateTitle});
+					var cur_height = slide.height();
+					var open_height = slide.css("height", "auto").height();
+					slide.height(cur_height).animate({"height": open_height}, {duration: "slow", queue: false, progress: animateTitle});
 					$(this).children("span").animate({"opacity": 1}, {queue: false});
-					fullSlide.toggleClass('open');
+					slide.toggleClass('open');
 				}
 			});
 
 			//close slide
-			fullSlide.css("height", Slides.height);
+			slide.css("height", Slides.height);
 
 			//reposition title
-			Slides.repositionTitle(fullSlide);
+			Slides.repositionTitle(slide);
 
 			//show titles on mouse over, but not when on mobile browser
 			if (!jQuery.browser.mobile) {
-				fullSlide.find(".slide_header")
+				slide.find(".header")
 					.mouseleave(function () {
-						if (!fullSlide.hasClass('open')) {
+						if (!slide.hasClass('open')) {
 							$(this).children("span").animate({"opacity": 0}, {queue: false});
 						}
 					})
@@ -67,8 +67,8 @@ var Slides = new function() {
 		Slides.repositionTitle($(animation.elem));
 	}
 	this.repositionTitle = function(slide) {
-		var image = slide.find(".slide_header img");
-		var title = slide.find(".slide_header span");
+		var image = slide.find(".header img");
+		var title = slide.find(".header span");
 
 		title.css( "top", Math.min( 0, slide.height() - image.height() ) );
 	}
