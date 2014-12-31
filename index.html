@@ -14,13 +14,7 @@
 
 		<script type="text/javascript">
 			$(document).ready(function() {
-				Slides.initializeSlides();
-			});
-
-			$(window).load(function() {
-				$('.slide').each(function() {
-					Slides.repositionTitle($(this));
-				});
+				$('.slide').makeSlide({autoCloseOthers: true});
 			});
 		</script>
 
@@ -47,10 +41,5 @@
 		</div>
 
 	</body>
-
-	<script type="text/javascript">
-		//close slides before they are loaded to prevent ugly resizing
-		$(".slide").css("height", Slides.height);
-	</script>
 
 </html>
