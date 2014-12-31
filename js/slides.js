@@ -32,7 +32,7 @@
 						others = $('.open');
 						others.animate({"height": options.height}, options.heightAnimOptions);
 						if (!jQuery.browser.mobile || options.fadeTitleOnMobile) {
-							others.find(".header").children("span").animate({"opacity": 0}, {queue: false});
+							others.find(".header").children("span").animate({"opacity": 0}, options.oppAnimOptions);
 						}
 						others.removeClass('open');
 					}
