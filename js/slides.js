@@ -31,7 +31,9 @@
 					if (options.autoCloseOthers) {
 						others = $('.open');
 						others.animate({"height": options.height}, options.heightAnimOptions);
-						others.find(".header").children("span").animate({"opacity": 0}, {queue: false});
+						if (!jQuery.browser.mobile || options.fadeTitleOnMobile) {
+							others.find(".header").children("span").animate({"opacity": 0}, {queue: false});
+						}
 						others.removeClass('open');
 					}
 
