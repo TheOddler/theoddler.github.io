@@ -44,7 +44,7 @@ function InitMouse() {
 
 		e.preventDefault();
 	}, true);
-	
+
 	canvas.addEventListener("mousemove", function(e) {
 		mouseX = e.layerX;
 		mouseY = e.layerY;
@@ -54,13 +54,11 @@ function InitMouse() {
 
 	canvas.addEventListener("mouseover", function(e) {
 		mouseIsOverCanvas = true;
-		console.log("in");
 
 		e.preventDefault();
 	}, true);
 	canvas.addEventListener("mouseout", function(e) {
 		mouseIsOverCanvas = false;
-		console.log("out");
 
 		e.preventDefault();
 	}, true);
@@ -111,7 +109,7 @@ function InitTouch() {
 
 		e.preventDefault();
 	}, true);
-	
+
 	canvas.addEventListener("touchend", TouchStop, true);
 	canvas.addEventListener("touchcancel", TouchStop, true);
 

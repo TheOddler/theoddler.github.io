@@ -1,7 +1,7 @@
 {% include slide_start.html title="Planetoids" image="images/planetoids.jpg" %}
 
 
-<canvas id="canvas_planetoids" style="border: none; position: relative;" width="590" height="350" onselectstart="return false;" oncontextmenu="return false;"></canvas>
+<div id="planetoids_game" width="100%"><canvas style="border: none; position: relative;" width="100%" onselectstart="return false;" oncontextmenu="return false;"></canvas></div>
 
 <h2>An awesome space shooting game</h2>
 
@@ -14,21 +14,18 @@
 {% include slide_end.html %}
 
 
-<script type="text/javascript" src="planetoids_v2_0/JS/Box2dWeb-2.1.a.3.min.js"></script>
-
-<script type="text/javascript" src="planetoids_v2_0/JS/01-RequestAnimFrame.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/02-Planetoids_Init.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/03-Planetoids_Game.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/04-Helpers.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/05-SpaceShip.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/06-Lasers.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/07-Rocks.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/08-Powerups.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/09-Stars.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/10-SlicePoint.js"></script>
-<script type="text/javascript" src="planetoids_v2_0/JS/11-Input.js"></script>
+<script type="text/javascript" src="planetoids_v2_0/js/planetoids.js"></script>
 <script type="text/javascript">
 	if (!jQuery.browser.mobile) {
-		InitPlanetoids(document.getElementById("canvas_planetoids"), 5);
+		var planetoids = $("#planetoids_game");
+		var planetoidsCanvas = planetoids.children("canvas")[0];
+
+		planetoidsCanvas.width = planetoids.width();
+		planetoidsCanvas.height = planetoids.width() * 0.75;
+		InitPlanetoids(planetoidsCanvas, 5);
+	}
+	else {
+		$("#planetoids_game").hide();
+		//TODO Place video instead.
 	}
 </script>

@@ -2,7 +2,6 @@
 //Also starts the game Loop
 
 var SCALE = 30.0;
-//var fullscreen;
 
 var context;
 function Init2D(canvas) {

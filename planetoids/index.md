@@ -3,7 +3,7 @@ layout: more_page
 title: Planetoids
 ---
 
-<div onselectstart="return false;"><canvas id="Canvas_Planetoids" style="border: none; position: relative;" width="800" height="600" oncontextmenu="return false;"></canvas></div>
+<canvas id="planetoids_game" style="border: none; position: relative;" width="800" height="600" onselectstart="return false;" oncontextmenu="return false;"></canvas>
 
 ## Planetoids
 
@@ -21,22 +21,11 @@ For graphics, in the original, I used the engine of my teacher, Kevin Hoefman, i
 
 
 
-<script src="../js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/Box2dWeb-2.1.a.3.min.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/01-RequestAnimFrame.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/02-Planetoids_Init.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/03-Planetoids_Game.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/04-Helpers.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/05-SpaceShip.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/06-Lasers.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/07-Rocks.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/08-Powerups.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/09-Stars.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/10-SlicePoint.js"></script>
-<script type="text/javascript" src="../planetoids_v2_0/JS/11-Input.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../planetoids_v2_0/js/planetoids.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		InitPlanetoids(document.getElementById('Canvas_Planetoids'), 10);
+		InitPlanetoids($("#planetoids_game")[0], 10);
 	});
 </script>
