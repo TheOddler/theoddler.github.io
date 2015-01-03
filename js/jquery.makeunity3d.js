@@ -26,7 +26,9 @@
         });
     }
 
-    function initUnity(unityPlayer, options) {
+    function initUnity(unityPlayer, globalOptions) {
+        var options = $.extend(globalOptions, unityPlayer.data("options"));
+
         var unityConfig = {
             width: options.width,
             height: options.height,
@@ -72,17 +74,16 @@
             }
         });
 
-        var playerWebPath = unityPlayer.data("player-location");
-
-        u.initPlugin(unityPlayer.get(0), playerWebPath);
+        u.initPlugin(unityPlayer.get(0), options.url);
     };
 
     $.fn.makeUnity3D = function(options) {
         var defaults = {
-            addMissingHtml: true,
-            activationEvent: null,
+            url: "",
+            event: null,
             width: 800,
-            height: 450
+            height: 450,
+            addMissingHtml: true
         };
         options = $.extend(defaults, options);
 
@@ -101,4 +102,4 @@
         return this;
     }
 
-} (jQuery) ); //jquery wrapper
+} (jQuery) ); //end jquery wrapper

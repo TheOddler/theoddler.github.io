@@ -10,7 +10,7 @@ title: Master Wars
 	});
 </script>
 
-<div class="unityPlayer" data-player-location="//dl.dropboxusercontent.com/u/10448192/Master%20Wars%20Ball/Master%20Wars%20Ball.unity3d"></div>
+<div class="unityPlayer" data-options='{"url": "//dl.dropboxusercontent.com/u/10448192/Master%20Wars%20Ball/Master%20Wars%20Ball.unity3d"}'></div>
 
 ## How To Play
 
