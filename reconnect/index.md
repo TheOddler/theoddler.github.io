@@ -17,4 +17,4 @@ It was made in XNA, since this is a competition of Microsoft, for both Windows a
 
 We managed to get in the semi-finals for both Games for Windows and Games for Windows Phone 7.
 
-You can [download the installer here](http://dl.dropbox.com/u/10448192/Pablo%27s%20Site/Game%20Downloads/ReConnect/ReConnect-%20Installer.rar) and play the game yourself.
+You can [download the installer here]({{site.reconnect_dl_latest}}) and play the game yourself.

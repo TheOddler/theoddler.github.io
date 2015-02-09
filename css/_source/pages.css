@@ -8,12 +8,20 @@
 
     overflow: visible;
 
+    margin: 0 0 0 -0.05em;
+}
 
-    margin: 0 0 -0.2em -0.05em;
+a.title {
+    text-decoration:none
 }
 
 .page_wrapper {
     width: 37.500em;
+    margin: 0 auto;
+}
+
+.more_page_wrapper {
+    width: 50.000em;
     margin: 0 auto;
 }
 
@@ -58,10 +66,4 @@ a {
     overflow: visible;
     vertical-align: text-bottom;
     margin: 0.625em 0 0 0;
-}
-
-.more_page_wrapper {
-    width: 50.000em;
-    margin: 0 auto;
-    text-align: left;
 }

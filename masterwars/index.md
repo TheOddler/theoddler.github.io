@@ -3,14 +3,9 @@ layout: more_page
 title: Master Wars
 ---
 
-<script type="text/javascript" src="../js/jquery.makeunity3d.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".unityPlayer").makeUnity3D();
-	});
-</script>
+{% include makeunity3d.html %}
 
-<div class="unityPlayer" data-options='{"url": "//dl.dropboxusercontent.com/u/10448192/Master%20Wars%20Ball/Master%20Wars%20Ball.unity3d"}'></div>
+<div class="unityPlayer" data-options='{"url": "{{site.masterwars_unity}}"}'></div>
 
 ## How To Play
 
