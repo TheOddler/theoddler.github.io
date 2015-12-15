@@ -53,6 +53,9 @@ td {
 td:first-child {
     width: 8.000em;
 }
+td:nth-child(3) {
+    width: 12.000em;
+}
 
 a {
     color: #2da2f1;
