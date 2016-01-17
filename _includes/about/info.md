@@ -13,6 +13,6 @@
 	</tr>
 	<tr>
 		<td>Contact</td>
-		<td>[pablo.bollansee@gmail.com](mailto:pablo.bollansee@gmail.com)</td>
+		<td><a href="mailto:pablo.bollansee@gmail.com">pablo.bollansee@gmail.com</a></td>
 	</tr>
 </table>
