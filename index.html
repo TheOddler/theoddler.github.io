@@ -18,16 +18,13 @@
 				$('.slide').makeSlide();
 			});
 		</script>
-
 	</head>
 
 	<body>
-
 		<div class="page_wrapper">
-
 			<div class="title">Pablo Bollansée</div>
 
-			{% include_relative _slides/about.html %}
+			{% capture captured %}{% include_relative _slides/about.md %}{% endcapture %} {{ captured | markdownify }}
 
 			{% capture captured %}{% include_relative _slides/masterwars.md %}{% endcapture %} {{ captured | markdownify }}
 
@@ -38,9 +35,6 @@
 			{% capture captured %}{% include_relative _slides/3d.md %}{% endcapture %} {{ captured | markdownify }}
 
 			<div class="footer">Copyright Pablo Bollansée</div>
-
 		</div>
-
 	</body>
-
 </html>

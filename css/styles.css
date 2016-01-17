@@ -7,10 +7,10 @@ body {
 	background-color: #eaeaea;
 }
 
-{% include_relative _source/pages.css %}
+{% include css/pages.css %}
 
-{% include_relative _source/slides.css %}
+{% include css/slides.css %}
 
-{% include_relative _source/scale.css %}
+{% include css/scale.css %}
 
-{% include_relative _source/unityPlayer.css %}
+{% include css/unityPlayer.css %}
