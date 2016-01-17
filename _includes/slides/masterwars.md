@@ -8,5 +8,6 @@ Master Wars is a little project I'm working on. At the moment it's just me worki
 
 Play an alpha version [here](masterwars/).
 
+I've recently restarted the project, focussing on a full undo/redo system and sync/async multiplayer. Development is much more active than it has been in the past years. So stay tuned!
 
 {% include slide_end.html %}
