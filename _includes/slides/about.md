@@ -23,5 +23,6 @@
 ### Spoken languages
 {% include about/spokenlanguages.md %}
 
+Check out the [printable version of my cv](/cv).
 
 {% include slide_end.html %}

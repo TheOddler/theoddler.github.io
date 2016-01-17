@@ -2,3 +2,21 @@
 ---
 
 {% include css/pages.css %}
+
+.cv_wrapper {
+    width: 45em;
+    margin: 0 auto;
+}
+
+td:first-child {
+    width: 10em;
+}
+
+h2, h3, h4, h5, h6 {
+	padding: .2em;
+    border-style: solid;
+    border-width: .3em;
+	border-style: outset;
+	border-color: #C0C0C0;
+	background-color: #F0F0F0;
+}

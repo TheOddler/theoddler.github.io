@@ -51,8 +51,7 @@ table {
 }
 
 td {
-    margin-bottom: 0.313em;
-    margin-top: 0;
+    padding-bottom: .3em;
     vertical-align: text-top;
 }
 td:first-child {

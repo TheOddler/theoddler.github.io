@@ -24,15 +24,15 @@
 		<div class="page_wrapper">
 			<div class="title">Pablo Bollansée</div>
 
-			{% capture captured %}{% include_relative _slides/about.md %}{% endcapture %} {{ captured | markdownify }}
+			{% capture captured %}{% include slides/about.md %}{% endcapture %} {{ captured | markdownify }}
 
-			{% capture captured %}{% include_relative _slides/masterwars.md %}{% endcapture %} {{ captured | markdownify }}
+			{% capture captured %}{% include slides/masterwars.md %}{% endcapture %} {{ captured | markdownify }}
 
-			{% include_relative _slides/planetoids.html %}
+			{% include slides/planetoids.html %}
 
-			{% capture captured %}{% include_relative _slides/reconnect.md %}{% endcapture %} {{ captured | markdownify }}
+			{% capture captured %}{% include slides/reconnect.md %}{% endcapture %} {{ captured | markdownify }}
 
-			{% capture captured %}{% include_relative _slides/3d.md %}{% endcapture %} {{ captured | markdownify }}
+			{% capture captured %}{% include slides/3d.md %}{% endcapture %} {{ captured | markdownify }}
 
 			<div class="footer">Copyright Pablo Bollansée</div>
 		</div>
