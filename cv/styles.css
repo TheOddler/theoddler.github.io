@@ -20,3 +20,12 @@ h2, h3, h4, h5, h6 {
 	border-color: #C0C0C0;
 	background-color: #F0F0F0;
 }
+
+ul.links {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

@@ -2,7 +2,12 @@
 
 Computer scientist, game developer
 
-[theoddler.github.io](http://theoddler.github.io) &nbsp; &nbsp; &nbsp; [pablo.bollansee@gmail.com](mailto:pablo.bollansee@gmail.com)
+<ul class="links">
+	<li><a href="mailto:{{site.public_email}}">{{site.public_email}}</a></li>
+	<li><a href="{{site.website}}">{{site.website_hr}}</a></li>
+	<li><a href="{{site.github_link}}">{{site.github_link_hr}}</a></li>
+	<li><a href="{{site.bitbucket_link}}">{{site.bitbucket_link_hr}}</a></li>
+</ul>
 
 ### Experiences
 {% include about/experiences.md %}

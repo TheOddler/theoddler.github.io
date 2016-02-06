@@ -13,6 +13,14 @@
 	</tr>
 	<tr>
 		<td>Contact</td>
-		<td><a href="mailto:pablo.bollansee@gmail.com">pablo.bollansee@gmail.com</a></td>
+		<td><a href="mailto:{{site.public_email}}">{{site.public_email}}</a></td>
+	</tr>
+	<tr>
+		<td>GitHub</td>
+		<td><a href="{{site.github_link}}">{{site.github_link_hr}}</a></td>
+	</tr>
+	<tr>
+		<td>BitBucket</td>
+		<td><a href="{{site.bitbucket_link}}">{{site.bitbucket_link_hr}}</a></td>
 	</tr>
 </table>
