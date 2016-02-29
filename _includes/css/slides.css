@@ -14,7 +14,7 @@
     width: 100%;
     cursor: pointer;
     white-space: nowrap;
-    overflow: hidden;
+    /*overflow: hidden;*/
     box-shadow: 0.000em 0.188em 0.188em #999999;
 }
 
