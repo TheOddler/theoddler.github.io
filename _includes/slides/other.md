@@ -12,4 +12,8 @@ I also made a little [companion app](http://theoddler.github.io/RiskOfThrones/co
 
 Liquid is a water simulation in Unity. It runs entirely on the CPU, but is fully multithreaded so it runs very smooth. Check out my [Reddit post](https://www.reddit.com/r/Unity3D/comments/2a5h3q/realtime_water_simulation_v2/) for some more information, or play it [here](https://dl.dropboxusercontent.com/u/10448192/Liquid/Webplayer%20Publish%20V2%20-%20Multithreaded/Webplayer.html) if you still have the Unity webplayer installed.
 
+### Pokédex
+
+A simple Pokédex made in [Elm](http://elm-lang.org/), using [Pokéapi](http://pokeapi.co/) for all the data. It shows basic type information for use during a battle. I found other sites to show way too much information, while most of the time I only want to know which moves are super effective. Check it out [here](http://theoddler.github.io/pokedex/).
+
 {% include slide_end.html %}

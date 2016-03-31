@@ -15,4 +15,8 @@
 		<td>Risk of Thrones</td>
 		<td>A huge, 1.2m by 1.6m, Risk board based on the Game of Thrones world.</td>
 	</tr>
+	<tr>
+		<td>Pokédex</td>
+		<td>A simple Pokédex made in Elm, using Pokéapi for all the data.</td>
+	</tr>
 </table>
