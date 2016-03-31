@@ -1,11 +1,7 @@
 <table>
 	<tr>
-		<td>2015-2016</td>
+		<td>2014-2016</td>
 		<td>Master of Applied Informatics (Major Artificial Intelligence), KU Leuven</td>
-	</tr>
-	<tr>
-		<td>2014-2015</td>
-		<td>Bridge Program: Master of Applied Informatics, KU Leuven</td>
 	</tr>
 	<tr>
 		<td>2013-2014</td>
@@ -14,6 +10,6 @@
 	</tr>
 	<tr>
 		<td>2009-2012</td>
-		<td>DAE: Digital Arts and Entertainment (Major Game Development), Howest</td>
+		<td>DAE: Digital Arts and Entertainment (Major Game Development), Graduated Cum Laude, Howest</td>
 	</tr>
 </table>
