@@ -11,4 +11,8 @@
 		<td>Liquid</td>
 		<td>A water and erosion simulation in Unity.</td>
 	</tr>
+	<tr>
+		<td>Risk of Thrones</td>
+		<td>A huge, 1.2m by 1.6m, Risk board based on the Game of Thrones world.</td>
+	</tr>
 </table>
