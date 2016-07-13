@@ -46,6 +46,6 @@
 
 	<tr>
 		<td>Other</td>
-		<td>Haskell, Rust, Elm, Prolog, C, Javascript, HTML, CSS</td>
+		<td>Python, Haskell, Elm, Rust, Prolog, C, Javascript, HTML, CSS, ...</td>
 	</tr>
 </table>
