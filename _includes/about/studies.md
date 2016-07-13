@@ -1,7 +1,7 @@
 <table>
 	<tr>
 		<td>2014-2016</td>
-		<td>Master of Applied Informatics (Major Artificial Intelligence), KU Leuven</td>
+		<td>Master of Applied Informatics (Major Artificial Intelligence), KU Leuven, Graduated Cum Laude with 80% for my thesis</td>
 	</tr>
 	<tr>
 		<td>2013-2014</td>
@@ -10,6 +10,6 @@
 	</tr>
 	<tr>
 		<td>2009-2012</td>
-		<td>DAE: Digital Arts and Entertainment (Major Game Development), Graduated Cum Laude, Howest</td>
+		<td>DAE: Digital Arts and Entertainment (Major Game Development), Howest, Graduated Cum Laude</td>
 	</tr>
 </table>
