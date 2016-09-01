@@ -10,7 +10,11 @@ I also made a little [companion app](http://theoddler.github.io/RiskOfThrones/co
 
 ### Liquid
 
-Liquid is a water simulation in Unity. It runs entirely on the CPU, but is fully multithreaded so it runs very smooth. Check out my [Reddit post](https://www.reddit.com/r/Unity3D/comments/2a5h3q/realtime_water_simulation_v2/) for some more information, or [play it here](https://dl.dropboxusercontent.com/u/10448192/Liquid/Webplayer%20Publish%20V2%20-%20Multithreaded/Webplayer.html) if you still have the Unity webplayer installed.
+*Liquid* is a water and erosion simulation in Unity. 
+The latest version runs entirely on the GPU for a very fast simulation.
+[Check it out here](liquid/WebGL/).
+
+An older version ran on the CPU, but was fully multithreaded so it ran very smooth. Check out my [Reddit post](https://www.reddit.com/r/Unity3D/comments/2a5h3q/realtime_water_simulation_v2/) for some more information.
 
 ### Pokédex
 
