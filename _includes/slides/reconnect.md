@@ -9,7 +9,7 @@ ReConnect is a game about connecting and combining islands to rebuild the world.
 
 ReConnect was developed in about four months, from nothing to concept to fully playable game and this while still having a lot of other school-work to do. Since ReConnect was our entry for the Imagine Cup 2011 it was made with XNA for Microsof Windows.
 
-Read a bit more about the project [here](reconnect/) or download the current build [here]({{site.reconnect_dl_latest}}).
+Read a bit more about the project [here]({{site.url}}/reconnect/) or download the current build [here]({{site.reconnect_dl_latest}}).
 
 
 {% include slide_end.html %}
