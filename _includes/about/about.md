@@ -65,23 +65,23 @@
 
 <table>
 	<tr>
-		<td>War Systems</td>
+		<td><a href="warsystems/">War Systems</a></td>
 		<td>A turn-based-strategy game based on Advance Wars.</td>
 	</tr>
 	<tr>
-		<td>Planetoids</td>
+		<td><a href="planetoids/">Planetoids</a></td>
 		<td>An asteroids inspired game in which rocks are sliced exactly where hit with a laser.</td>
 	</tr>
 	<tr>
-		<td>Liquid</td>
+		<td><a href="http://www.pabloproductions.be/liquid/WebGL/">Liquid</a></td>
 		<td>A water and erosion simulation in Unity.</td>
 	</tr>
 	<tr>
-		<td>Risk of Thrones</td>
+		<td><a href="http://theoddler.github.io/RiskOfThrones/">Risk of Thrones</a></td>
 		<td>A huge, 1.2m by 1.6m, Risk board based on the Game of Thrones world.</td>
 	</tr>
 	<tr>
-		<td>Pokédex</td>
+		<td><a href="http://theoddler.github.io/pokedex/">Pokédex</a></td>
 		<td>A simple Pokédex made in Elm, using Pokéapi for all the data.</td>
 	</tr>
 </table>
