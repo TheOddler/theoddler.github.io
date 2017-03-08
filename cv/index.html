@@ -13,7 +13,11 @@
 	<body>
 		<div class="cv_wrapper">
 
-			{% capture captured %}{% include_relative cv.md %}{% endcapture %} {{ captured | markdownify }}
+			<h1>Pablo Bollansée</h1>
+
+			Computer scientist, game developer
+
+			{% capture captured %}{% include about/about.md %}{% endcapture %} {{ captured | markdownify }}
 
 		</div>
 	</body>

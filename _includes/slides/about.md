@@ -2,26 +2,7 @@
 
 ## Een eenvoudige boerenjongen
 
-### Me
-{% include about/info.md %}
-
-### Experiences
-{% include about/experiences.md %}
-
-### Education
-{% include about/studies.md %}
-
-### Main skills
-{% include about/mainskills.md %}
-
-### Programming Languages
-{% include about/programminglanguages.md %}
-
-### Minor skills
-{% include about/minorskills.md %}
-
-### Spoken languages
-{% include about/spokenlanguages.md %}
+{% include about/about.md %}
 
 Check out the [printable version of my cv](/cv).
 
