@@ -31,16 +31,17 @@
 	<tr>
 		<td>2014-2016</td>
 		<td>Master of Science, Applied Informatics (Major Artificial Intelligence), KU Leuven.
-        Graduated Cum Laude with 80% for my thesis.</td>
+		Graduated Cum Laude with 80% for my thesis.</td>
 	</tr>
 	<tr>
 		<td>2013-2014</td>
 		<td>Physics, KU Leuven, first year only.
-		Passed all my classes but decided not to continue in favor of applied informatics.</td>
+		Passed all my classes but decided not to continue in favor of the applied informatics master course.</td>
 	</tr>
 	<tr>
 		<td>2009-2012</td>
-		<td>DAE: Digital Arts and Entertainment (Major Game Development), Howest, Graduated Cum Laude.</td>
+		<td>DAE: Digital Arts and Entertainment (Major Game Development), Howest Kortrijk.
+		Graduated Cum Laude.</td>
 	</tr>
 </table>
 
@@ -57,7 +58,7 @@
 	</tr>
 	<tr>
 		<td>ReConnect</td>
-		<td>Imagine Cup 2011, Game for Windows and Games for Windows Phone 7. finished in half finals.</td>
+		<td>Imagine Cup 2011, Game for Windows and Games for Windows Phone 7. Finished in half finals.</td>
 	</tr>
 </table>
 
@@ -114,8 +115,8 @@
 <table>
 	<tr>
 		<td>C#</td>
+		<td><strong>6+ years of experience</strong></td>
 		<td>Preferred language</td>
-		<td></td>
 	</tr>
 	<tr>
 		<td></td>
@@ -129,7 +130,8 @@
 	</tr>
 	<tr>
 		<td>Java</td>
-		<td colspan="2">Main language during master studies</td>
+		<td><strong>3+ years of experience</strong></td>
+		<td>Main language during master studies</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -142,17 +144,13 @@
 	</tr>
 	<tr>
 		<td>C++</td>
-		<td colspan="2">Main language during DAE studies, though haven't used it much since then</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>Extensive knowledge</td>
-		<td>STL</td>
+		<td><strong>3+ years of experience</strong></td>
+		<td>Main language during DAE studies</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Game programming</td>
-		<td></td>
+		<td>STL</td>
 	</tr>
 	<tr>
 		<td>Other</td>
@@ -193,11 +191,11 @@
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skinning (basic knowledge)</td>
+		<td>Skinning</td>
 	</tr>
 	<tr>
 		<td>Mudbox</td>
-		<td>Hight-poly sculpting (basic)</td>
+		<td>Hight-poly sculpting</td>
 		<td>Normalmap baking</td>
 	</tr>
 	<tr>
