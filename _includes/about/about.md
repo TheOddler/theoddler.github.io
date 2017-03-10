@@ -121,7 +121,7 @@
 	<tr>
 		<td></td>
 		<td>Game programming</td>
-		<td>Unity</td>
+		<td>Mainly in Unity (C# 3/4)</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -149,8 +149,7 @@
 	</tr>
 	<tr>
 		<td></td>
-		<td>Game programming</td>
-		<td>STL</td>
+		<td colspan="2">Hasn't seen much use since finishing my bachelor degree</td>
 	</tr>
 	<tr>
 		<td>Other</td>
