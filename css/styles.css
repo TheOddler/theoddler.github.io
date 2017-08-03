@@ -7,10 +7,6 @@ body {
 	background-color: #eaeaea;
 }
 
-{% include css/pages.css %}
-
-{% include css/slides.css %}
-
-{% include css/scale.css %}
-
-{% include css/unityPlayer.css %}
+{% for file in site.css %}
+{{ file }}
+{% endfor %}

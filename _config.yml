@@ -19,3 +19,9 @@ masterwars_unity: //dl.dropboxusercontent.com/u/10448192/Master%20Wars%20Ball/Ma
 
 # Download links
 reconnect_dl_latest: https://www.dropbox.com/s/4s96v6oxjf6glhx/ReConnect-Installer.rar?dl=0
+
+collections:
+  slides:
+    output: false
+  css:
+    output: false

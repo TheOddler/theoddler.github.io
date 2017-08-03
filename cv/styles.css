@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include css/pages.css %}
+{{ site.css | where:"title", "Pages" | first }}
 
 .cv_wrapper {
     width: 45em;

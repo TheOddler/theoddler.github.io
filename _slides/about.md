@@ -1,9 +1,11 @@
-{% include slide_start.html title="About" image="images/about.jpg" %}
+---
+title: About
+image: images/about.jpg
+order: 1
+---
 
 ## Een eenvoudige boerenjongen
 
 {% include about/about.md %}
 
 Check out the [printable version of my cv]({{site.url}}/cv).
-
-{% include slide_end.html %}

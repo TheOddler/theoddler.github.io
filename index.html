@@ -22,19 +22,12 @@
 	<body>
 		<div class="page_wrapper">
 			<div class="title">Pablo Bollansée</div>
-
-			{% capture captured %}{% include slides/about.md %}{% endcapture %} {{ captured | markdownify }}
-
-			{% capture captured %}{% include slides/warsystems.md %}{% endcapture %} {{ captured | markdownify }}
-
-			{% include slides/planetoids.html %}
-
-			{% capture captured %}{% include slides/reconnect.md %}{% endcapture %} {{ captured | markdownify }}
-
-			{% capture captured %}{% include slides/other.md %}{% endcapture %} {{ captured | markdownify }}
-
-			{% capture captured %}{% include slides/3d.md %}{% endcapture %} {{ captured | markdownify }}
-
+			{% assign ordered = site.slides | sort: 'order' %}
+			{% for slide in ordered %}
+				{% include slide_start.html title=slide.title image=slide.image %}
+				{{ slide }}
+				{% include slide_end.html %}
+			{% endfor %}
 			<div class="footer">Copyright Pablo Bollansée</div>
 		</div>
 	</body>

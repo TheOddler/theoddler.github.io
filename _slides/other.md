@@ -1,4 +1,8 @@
-{% include slide_start.html title="Other Projects" image="images/other.jpg" %}
+---
+title: Other Projects
+image: images/other.jpg
+order: 5
+---
 
 ### Risk of Thrones
 
@@ -19,6 +23,3 @@ An older version ran on the CPU, but was fully multithreaded so it ran very smoo
 ### Pokédex
 
 A simple Pokédex made in [Elm](http://elm-lang.org/), using [Pokéapi](http://pokeapi.co/) for all the data. It shows basic type information for use during a battle. I found other sites to show way too much information, while most of the time I only want to know which moves are super effective. You can [try it out here](http://theoddler.github.io/pokedex/) or view the source code [here](https://github.com/theoddler/pokedex).
-
-
-{% include slide_end.html %}
