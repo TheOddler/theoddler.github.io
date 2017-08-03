@@ -112,10 +112,12 @@
 
 ### Programming Languages
 
+{% assign experience_explanation = "Combined from university and most of my spare time" %}
+
 <table>
 	<tr>
 		<td>C#</td>
-		<td><strong>6+ years of experience</strong></td>
+		<td title="{{ experience_explanation }}"><strong>6+ years of experience*</strong></td>
 		<td>Preferred language</td>
 	</tr>
 	<tr>
@@ -130,7 +132,7 @@
 	</tr>
 	<tr>
 		<td>Java</td>
-		<td><strong>3+ years of experience</strong></td>
+		<td title="{{ experience_explanation }}"><strong>3+ years of experience*</strong></td>
 		<td>Main language during master studies</td>
 	</tr>
 	<tr>
@@ -144,7 +146,7 @@
 	</tr>
 	<tr>
 		<td>C++</td>
-		<td><strong>3+ years of experience</strong></td>
+		<td title="{{ experience_explanation }}"><strong>3+ years of experience*</strong></td>
 		<td>Main language during DAE studies</td>
 	</tr>
 	<tr>
@@ -156,6 +158,9 @@
 		<td colspan="2">Python, Haskell, Elm, Rust, Prolog, C, Javascript, HTML, CSS, ...</td>
 	</tr>
 </table>
+
+{:.footnote}
+\* {{ experience_explanation }}
 
 ### Minor skills
 
