@@ -25,3 +25,8 @@ h2, h3, h4, h5, h6 {
 	border-color: #C0C0C0;
 	background-color: #F0F0F0;
 }
+
+table {
+    page-break-before: avoid;
+    page-break-inside: avoid;
+}

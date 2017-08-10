@@ -163,10 +163,13 @@
 		<td>Other</td>
 		<td colspan="2">Python, Haskell, Elm, Rust, Prolog, C, Javascript, HTML, CSS, ...</td>
 	</tr>
+	<tr>
+		<td class="footnote" colspan="3">* {{ experience_explanation }}</td>
+	</tr>
 </table>
 
-{:.footnote}
-\* {{ experience_explanation }}
+
+
 
 ### Minor skills
 
