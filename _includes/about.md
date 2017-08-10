@@ -29,6 +29,12 @@
 
 <table>
 	<tr>
+		<td>2016-2017</td>
+		<td>Started a doctorate in Self-Adapting Computer Systems at KU Leuven and Linnaeus University. This included a selection procedure that spanned the last few months of 2016.
+		I however quite quickly felt it wasn't for me. I didn't enjoy the too theoretical work with a focus on papers rather than code.
+		So I moved on and I'm now looking for a different challenge.</td>
+	</tr>
+	<tr>
 		<td>2014-2016</td>
 		<td>Master of Science, Applied Informatics (Major Artificial Intelligence), KU Leuven.
 		Graduated Cum Laude with 80% for my thesis.</td>
