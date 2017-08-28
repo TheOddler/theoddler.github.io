@@ -12,4 +12,4 @@ War Systems is a project I'm working on in my spare time. For the moment it's ma
 
 It's a Turn-Based Strategy game, based on Advance Wars, but it takes place on actual planets. I'm making it in Unity for PC/Mac and playing around with touch-input and WebGL. The most recently restart of the project is focussing on a full undo/redo system, as well as both sync and async networked multiplayer.
 
-Read some more about the project [here]({{site.url}}/warsystems/).
+Read some more about the project [here]({{site.baseurl}}/warsystems/).
