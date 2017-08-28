@@ -14,7 +14,7 @@ I remade it several times as I was learning new web technologies. First recreati
 
 Later I also made an Android version using Unity, which you can [download on the Google Play store](https://play.google.com/store/apps/details?id=com.TheOddler.PlanetoidsUnity) for free.
 
-Read more about the game [here]({{site.url}}/planetoids/) or [play it in fullscreen]({{site.url}}/planetoids_v2_0/).
+Read more about the game [here]({{site.baseurl}}/planetoids/) or [play it in fullscreen]({{site.baseurl}}/planetoids_v2_0/).
 
 <script type="text/javascript" src="planetoids_v2_0/js/planetoids.js"></script>
 <script type="text/javascript">

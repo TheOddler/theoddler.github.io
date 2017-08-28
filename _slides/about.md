@@ -8,4 +8,4 @@ order: 1
 
 {% include about.md %}
 
-Check out the [printable version of my cv]({{site.url}}/cv).
+Check out the [printable version of my cv]({{site.baseurl}}/cv).

@@ -16,7 +16,7 @@ I also made a little [companion app](http://theoddler.github.io/RiskOfThrones/co
 
 *Liquid* is a water and erosion simulation in Unity. 
 The latest version runs entirely on the GPU for a very fast simulation.
-[Check it out here]({{site.url}}/liquid/WebGL/).
+[Check it out here]({{site.baseurl}}/liquid/WebGL/).
 
 An older version ran on the CPU, but was fully multithreaded so it ran very smooth. Check out my [Reddit post](https://www.reddit.com/r/Unity3D/comments/2a5h3q/realtime_water_simulation_v2/) for some more information.
 
