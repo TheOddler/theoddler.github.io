@@ -101,7 +101,7 @@
 	</tr>
 	<tr>
 		<td><a href="http://theoddler.github.io/pokedex/">Pokédex</a></td>
-		<td>A simple Pokédex made in Elm, using Pokéapi for all the data.</td>
+		<td>A simple web Pokédex made in Elm, using Pokéapi for all the data.</td>
 	</tr>
 </table>
 
