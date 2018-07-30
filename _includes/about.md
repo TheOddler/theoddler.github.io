@@ -143,7 +143,7 @@
 	<tr>
 		<td></td>
 		<td>Game programming</td>
-		<td>Mainly in Unity (C# 3/4)</td>
+		<td>Mainly in Unity</td>
 	</tr>
 	<tr>
 		<td></td>
