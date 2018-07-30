@@ -30,7 +30,11 @@
 
 <table>
 	<tr>
-		<td>2017-Present</td>
+		<td>2018-Present</td>
+		<td>.NET consultant at Kapture NV.</td>
+	</tr>
+	<tr>
+		<td>2017-2018</td>
 		<td>Working at Delen Private Bank as backend programmer using Cobol, .NET and SQL among other Microsoft technologies.</td>
 	</tr>
 	<tr>
@@ -132,7 +136,7 @@
 
 ### Programming Languages
 
-{% assign experience_explanation = "Combined from university and most of my spare time" %}
+{% assign experience_explanation = "Combined from consultancy at Kapture, university and most of my spare time" %}
 
 <table>
 	<tr>
