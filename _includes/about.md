@@ -20,8 +20,8 @@
 	</tr>
 	<tr>
 		<td>Source</td>
-		<td><a href="{{site.github_link}}">{{site.github_link_hr}}</a></td>
-		<td><a href="{{site.bitbucket_link}}">{{site.bitbucket_link_hr}}</a></td>
+		<td><a href="{{site.github}}">{{site.github_hr}}</a></td>
+		<td><a href="{{site.gitlab}}">{{site.gitlab_hr}}</a></td>
 	</tr>
 </table>
 

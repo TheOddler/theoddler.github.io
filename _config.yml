@@ -6,17 +6,16 @@ public_email: Pablo.Bollansee@gmail.com
 website_hr: PabloProductions.be
 website: https://www.pabloproductions.be/
 
-github_name: TheOddler
-github_link_hr: Github.com/TheOddler
-github_link: https://github.com/TheOddler/
+github_hr: GitHub.com/TheOddler
+github: https://github.com/TheOddler/
 
-bitbucket_name: TheOddler
-bitbucket_link_hr: Bitbucket.org/TheOddler
-bitbucket_link: https://bitbucket.org/TheOddler/
+gitlab_hr: GitLab.com/TheOddler
+gitlab: https://gitlab.com/TheOddler/
 
 # Download links
 reconnect_dl_latest: https://www.dropbox.com/s/4s96v6oxjf6glhx/ReConnect-Installer.rar?dl=0
 
+# Collections
 collections:
   slides:
     output: false
