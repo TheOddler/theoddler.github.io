@@ -68,11 +68,11 @@
 	{% if include.fpextended %}
 	<tr>
 		<td>Haskell</td>
-		<td colspan="2">Some experience during master</td>
+		<td colspan="2">Some experience during master studies</td>
 	</tr>
 	<tr>
 		<td>Elm</td>
-		<td colspan="2">Some experience during master and preferred over js in hobby projects</td>
+		<td colspan="2">Some experience during master studies and preferred over js in hobby projects</td>
 	</tr>
 	{% endif %}
 	<tr>
