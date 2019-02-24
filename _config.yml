@@ -21,3 +21,6 @@ collections:
     output: false
   css:
     output: false
+
+# Defaults
+permalink: pretty
