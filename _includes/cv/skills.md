@@ -65,9 +65,19 @@
 		<td></td>
 		<td colspan="2">Hasn't seen much use since finishing my bachelor degree</td>
 	</tr>
+	{% if include.fpextended %}
+	<tr>
+		<td>Haskell</td>
+		<td colspan="2">Some experience during master</td>
+	</tr>
+	<tr>
+		<td>Elm</td>
+		<td colspan="2">Some experience during master and preferred over js in hobby projects</td>
+	</tr>
+	{% endif %}
 	<tr>
 		<td>Other</td>
-		<td colspan="2">Python, Haskell, Elm, Rust, Prolog, C, Javascript, HTML, CSS, ...</td>
+		<td colspan="2">Python, {% unless include.fpextended %}Haskell, Elm, {% endunless %}Rust, Prolog, C, Javascript, HTML, CSS, ...</td>
 	</tr>
 	<tr>
 		<td class="footnote" colspan="3">* {{ experience_explanation }}</td>
