@@ -72,7 +72,7 @@
 	</tr>
 	<tr>
 		<td>Elm</td>
-		<td colspan="2">Some experience during master studies and preferred over js in hobby projects</td>
+		<td colspan="2">Some experience during master studies and preferred over js in personal projects</td>
 	</tr>
 	{% endif %}
 	<tr>
