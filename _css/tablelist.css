@@ -1,0 +1,33 @@
+---
+---
+
+.table_list {
+    margin: 0;
+    padding: 0;
+}
+
+.table_list > li {
+    display: grid;
+    grid-template-columns: 8em auto;
+}
+
+.table_list > li > ul,
+.table_list > li > ol {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.table_list > li > ul > li,
+.table_list > li > ol > li {
+    display: inline-block;
+    flex: 1;
+    min-width: 18em;
+}
+
+.table_list p {
+    margin: 0;
+    padding: 0;
+}

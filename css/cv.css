@@ -3,18 +3,11 @@
 
 {{ site.css | where:"title", "Pages" | first }}
 
+{{ site.css | where:"title", "Tablelist" | first }}
+
 .cv_wrapper {
-    max-width: 45em;
+    max-width: 50em;
     margin: 0 auto;
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-td:first-child {
-    width: 10em;
 }
 
 h2, h3, h4, h5, h6 {
@@ -29,7 +22,7 @@ h2, h3, h4, h5, h6 {
     page-break-inside: avoid;
 }
 
-table {
-    page-break-before: avoid;
-    page-break-inside: avoid;
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
