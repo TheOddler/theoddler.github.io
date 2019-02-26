@@ -4,13 +4,13 @@
 {{ site.css | where:"title", "Pages" | first }}
 
 .cv_wrapper {
-    width: 45em;
+    max-width: 45em;
     margin: 0 auto;
 }
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 td:first-child {
