@@ -4,6 +4,9 @@
 .table_list {
     margin: 0;
     padding: 0 0.3em;
+
+    page-break-before: avoid;
+    page-break-inside: avoid;
 }
 
 .table_list > li {
