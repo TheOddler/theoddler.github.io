@@ -3,10 +3,6 @@
 
 html {overflow-y: scroll;}
 
-body {
-	background-color: #eaeaea;
-}
-
 {% for file in site.css %}
 {{ file }}
 {% endfor %}
