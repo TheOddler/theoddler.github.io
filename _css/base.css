@@ -7,29 +7,22 @@ body {
 }
 
 .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.92em;
+    font-size: 5.7em;
     color: #cecece;
-    text-align: middle;
     white-space: nowrap;
     font-weight: bold;
 
     overflow: visible;
 
-    margin: 0 0 0 -0.05em;
+    margin: 0 0 0 -0.1em;
 }
 
 a.title {
     text-decoration:none
 }
 
-.page_wrapper {
-    width: 37.500em;
-    margin: 0 auto;
-}
-
-.more_page_wrapper {
-    width: 50.000em;
+.wrapper {
+    max-width: 50em;
     margin: 0 auto;
 }
 

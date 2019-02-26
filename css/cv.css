@@ -1,14 +1,9 @@
 ---
 ---
 
-{{ site.css | where:"title", "Pages" | first }}
+{{ site.css | where:"title", "Base" | first }}
 
 {{ site.css | where:"title", "Tablelist" | first }}
-
-.cv_wrapper {
-    max-width: 50em;
-    margin: 0 auto;
-}
 
 h2, h3, h4, h5, h6 {
 	padding: .2em;
