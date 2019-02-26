@@ -87,22 +87,20 @@ order: 1
 
 ### Programming Languages
 
-{% assign experience_explanation = "Combined from consultancy at Kapture, university and most of my spare time" %}
-
 * C#
-  * 6+ years of experience*
+  * 6+ years of experience* 
   * LINQ, polymorphism, interfaces, ...
   * Game programming
   * Mainly in Unity
   * Application development
   * 
 * SQL
-  * 2+ years of experience*
+  * 2+ years of experience* 
 * Java
-  * 2 years of experience*
+  * 2 years of experience* 
   * Main language during master studies
 * C++
-  * 3 years of experience*
+  * 3 years of experience* 
   * Main language during DAE studies
   * Hasn't seen much use since finishing my bachelor degree
 	{% if include.fpextended %}
@@ -115,7 +113,7 @@ order: 1
   * Python, {% unless include.fpextended %}Haskell, Elm, {% endunless %}Rust, Prolog, C, Javascript, HTML, CSS, XML, ...
 {: .table_list}
 
-\* {{ experience_explanation }}
+\* Combined from work, university and most of my spare time
 {: .footnote}
 
 ### Minor skills

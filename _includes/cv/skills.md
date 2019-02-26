@@ -15,7 +15,6 @@
 
 ## Programming Languages
 
-{% assign experience_explanation = "Combined from work, university and most of my spare time" %}
 * C#
   * 6+ years of experience*
   * LINQ, polymorphism, interfaces, ...
@@ -35,7 +34,7 @@
   * Python, {% unless include.fpextended %}Haskell, Elm, {% endunless %}Rust, Prolog, C, Javascript, HTML, CSS, XML, ...
 {: .table_list}
 
-\* {{ experience_explanation }}
+\* Combined from work, university and most of my spare time
 {: .footnote}
 
 ## Minor skills
