@@ -1,7 +1,7 @@
 ## Info
 
 * Name
-  * Pablo Bollans&eacute;e
+  * Pablo Bollansée
 * Nationality
   * Belgian
 * Birthday

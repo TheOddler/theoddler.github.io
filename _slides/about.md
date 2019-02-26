@@ -11,7 +11,7 @@ order: 1
 <table>
 	<tr>
 		<td>Name</td>
-		<td>Pablo Bollans&eacute;e</td>
+		<td>Pablo Bollansée</td>
 	</tr>
 	<tr>
 		<td>Nationality</td>
