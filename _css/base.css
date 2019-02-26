@@ -40,20 +40,6 @@ h1 {
 p {
     margin: 0.313em 0;
 }
-table {
-    font-size: 0.750em;
-    width: 100%;
-    padding: 0;
-    table-layout:fixed; 
-}
-
-td {
-    padding-bottom: .3em;
-    vertical-align: text-top;
-}
-td:first-child {
-    width: 8.000em;
-}
 
 a {
     color: #2da2f1;
@@ -61,6 +47,7 @@ a {
 
 .footnote {
     padding-left: 1em;
+    font-size: 0.750em;
 }
 
 .footer {
