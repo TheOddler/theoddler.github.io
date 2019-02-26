@@ -20,7 +20,7 @@
   * 6+ years of experience*
   * LINQ, polymorphism, interfaces, ...
 * SQL
-  * 1+ years of experience*
+  * 2+ years of experience*
 * Java
   * Main language during master studies
 * C++
