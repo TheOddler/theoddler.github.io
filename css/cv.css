@@ -23,7 +23,10 @@ h2, h3, h4, h5, h6 {
     border-width: .3em;
 	border-style: outset;
 	border-color: #C0C0C0;
-	background-color: #F0F0F0;
+    background-color: #F0F0F0;
+    
+    page-break-after: avoid;
+    page-break-inside: avoid;
 }
 
 table {
