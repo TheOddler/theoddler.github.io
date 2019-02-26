@@ -2,33 +2,36 @@
 ---
 
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Pablo's Portfolio</title>
-		<link rel="shortcut icon" type="image/png" href="images/professor_pablo_icon_48x48.png"/>
 
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pablo's Portfolio</title>
+	<link rel="shortcut icon" type="image/png" href="images/professor_pablo_icon_48x48.png" />
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-		<script src="js/slides.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('.slide').makeSlide();
-			});
-		</script>
-	</head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+	<script src="js/slides.js" type="text/javascript"></script>
 
-	<body>
-		<div class="page_wrapper">
-			<div class="title">Pablo Bollansée</div>
-			{% assign ordered = site.slides | sort: 'order' %}
-			{% for slide in ordered %}
-				{% include slide_start.html title=slide.title image=slide.image %}
-				{{ slide }}
-				{% include slide_end.html %}
-			{% endfor %}
-			<div class="footer">Copyright Pablo Bollansée</div>
-		</div>
-	</body>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.slide').makeSlide();
+		});
+	</script>
+</head>
+
+<body>
+	<div class="page_wrapper">
+		<div class="title">Pablo Bollansée</div>
+		{% assign ordered = site.slides | sort: 'order' %}
+		{% for slide in ordered %}
+		{% include slide_start.html title=slide.title image=slide.image %}
+		{{ slide }}
+		{% include slide_end.html %}
+		{% endfor %}
+		<div class="footer">Copyright Pablo Bollansée</div>
+	</div>
+</body>
+
 </html>
