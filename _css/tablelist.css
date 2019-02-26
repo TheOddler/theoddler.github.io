@@ -9,7 +9,7 @@
 .table_list > li {
     display: grid;
     grid-template-columns: 8em auto;
-    padding-bottom: .3em;
+    padding-bottom: .1em;
 }
 
 .table_list > li > ul,
@@ -25,7 +25,8 @@
 .table_list > li > ol > li {
     display: inline-block;
     flex: 1;
-    min-width: 18em;
+    min-width: 15em;
+    padding-bottom: .2em;
 }
 
 .table_list p {
