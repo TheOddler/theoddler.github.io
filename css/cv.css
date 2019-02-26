@@ -6,12 +6,7 @@
 {{ site.css | where:"title", "Tablelist" | first }}
 
 h2, h3, h4, h5, h6 {
-	padding: .2em;
-    border-style: solid;
-    border-width: .3em;
-	border-style: outset;
-	border-color: #C0C0C0;
-    background-color: #F0F0F0;
+    font-size: 1.2em;
     
     page-break-after: avoid;
     page-break-inside: avoid;
