@@ -26,12 +26,14 @@
 <body>
 	<div class="wrapper">
 		<div class="title">Pablo Bollansée</div>
+
 		{% assign ordered = site.slides | sort: 'order' %}
 		{% for slide in ordered %}
 		{% include slide_start.html title=slide.title image=slide.image %}
 		{{ slide }}
 		{% include slide_end.html %}
 		{% endfor %}
+
 		<div class="footer">Copyright Pablo Bollansée</div>
 	</div>
 </body>
