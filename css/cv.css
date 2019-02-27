@@ -5,6 +5,15 @@
 
 {{ site.css | where:"title", "Tablelist" | first }}
 
+
+.wrapper {
+    max-width: 18cm; /*21-1.5*2*/
+}
+
+.title {
+    font-size: 4.845em;
+}
+
 h2, h3, h4, h5, h6 {
     font-size: 1.2em;
     
