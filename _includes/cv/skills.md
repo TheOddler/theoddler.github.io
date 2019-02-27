@@ -37,9 +37,9 @@
 ## Minor skills
 
 * Photoshop
-  * General photo and image editing
-  * Texturing (diff, spec, gloss, normals)
+  * General photo/image editing
+  * Texturing
 * Blender
-  * Optimized low-poly 3D modeling
+  * Optimized low-poly modeling
   * Unwrapping
 {: .table_list}
