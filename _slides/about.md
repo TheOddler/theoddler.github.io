@@ -52,6 +52,8 @@ order: 1
 
 ### Other Experiences
 
+* ABVV
+  * Short internship implementing their first microservice
 * MyMachine
   * Worked with the <a href="https://mymachine-global.org/">MyMachine initiative</a> to create a game for hard-to-handle kids. Along with other students I worked in group to create a game based on inventions made by the children.
 * ReConnect
@@ -69,7 +71,7 @@ order: 1
 * <a href="https://www.pabloproductions.be/RiskOfThrones/">Risk of Thrones</a>
   * A huge, 1.2m by 1.6m, Risk board based on the Game of Thrones world.
 * <a href="http://pokedex.pabloproductions.be">Pokédex</a>
-  * A simple web Pokédex made in Elm, using Pokéapi for all the data.
+  * A simple web Pokédex showing type-advantages made in Elm.
 {: .table_list}
 
 ### Main skills
@@ -103,14 +105,12 @@ order: 1
   * 3 years of experience* 
   * Main language during DAE studies
   * Hasn't seen much use since finishing my bachelor degree
-	{% if include.fpextended %}
 * Haskell
   * Some experience during master studies
 * Elm
   * Some experience during master studies and preferred over js in personal projects
-	{% endif %}
 * Other
-  * Python, {% unless include.fpextended %}Haskell, Elm, {% endunless %}Rust, Prolog, C, Javascript, HTML, CSS, XML, ...
+  * Python, Git, Rust, Javascript, HTML, CSS, C, XML, Azure, AWS, Prolog, Android, Lua, MySQL, SQL Server, ...
 {: .table_list}
 
 \* Combined from work, university and most of my spare time
