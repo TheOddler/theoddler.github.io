@@ -6,18 +6,15 @@
 %}  * Functional programming
 {% else 
 %}  * Algorithms, game logic{% endif %}
-* Design
-  * OO design patterns, proper class design
 * Unity 3D
-  * Fast prototyping
   * C# game logic programming
+  * Design
 {: .table_list}
 
-## Programming Languages
+## Programming
 
 * C#
   * 6+ years of experience*
-  * LINQ, polymorphism, interfaces, ...
 * SQL
   * 2+ years of experience*
 * Java
@@ -31,7 +28,7 @@
   * Some experience during master studies, preferred over js
 {% endif %}
 * Other
-  * Python, {% unless include.fpextended %}Haskell, Elm, {% endunless %}Rust, Prolog, C, Javascript, HTML, CSS, XML, ...
+  * Python, Git, {% unless include.fpextended %}Haskell, Elm, {% endunless %}Rust, Javascript, HTML, CSS, C, XML, Azure, AWS, Prolog, Android, Lua, MySQL, SQL Server, ...
 {: .table_list}
 
 \* Combined from work, university and most of my spare time
