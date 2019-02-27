@@ -1,15 +1,21 @@
 ## Work Experience
 
 * 2019-Present
-  * Head of R&D at DCA
+  * Head of R&D
+  * DCA
 * 2018-2019
-  * .NET consultant at Kapture NV
+  * .NET consultant
+  * Kapture NV
 * 2017-2018
-  * Backend developer at Delen Private Bank
+  * Backend developer
+  * Delen Private Bank
 * 2016-2017
-  * Doctorate in AI (Self-Adapting Computer Systems) at KU Leuven and Linnaeus University (unfinished)
+  * Doctoral student
+  * KU Leuven, Linnaeus University
+  * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
 * 2012-2012
-  * Game development intern at Vanguard Games (Amsterdam, Netherlands)
+  * Game programmer intern
+  * Vanguard Games
 {: .table_list}
 
 ## Education
@@ -21,6 +27,8 @@
 
 * 2013-2014
   * Physics, KU Leuven, first year only
+* 2012-2012
+  * Erasmus exchange internship, Vanguard Games
 * 2009-2012
   * DAE: Digital Arts and Entertainment (Major Game Development), Howest&nbsp;Kortrijk
 
@@ -29,6 +37,8 @@
 
 ## Other Experiences
 
+* ABVV
+  * Short internship implementing their first microservice on AWS
 * MyMachine
   * Game programmer and designer for the <a href="https://mymachine-global.org/">MyMachine initiative</a>
 * ReConnect
@@ -42,9 +52,9 @@
 * <a href="{{site.baseurl}}/planetoids/">Planetoids</a>
   * An Asteroids inspired game, rocks are sliced along the laser
 * <a href="https://www.pabloproductions.be/liquid/WebGL/">Liquid</a>
-  * A water and erosion simulation running on the GPU made with Unity
+  * A GPU-based water and erosion simulation made with Unity
 * <a href="https://www.pabloproductions.be/RiskOfThrones/">Risk of Thrones</a>
   * A huge, 1.2m by 1.6m, Risk board based on the Game of Thrones world
 * <a href="http://pokedex.pabloproductions.be">Pokédex</a>
-  * A simple web Pokédex made in Elm, using Pokéapi for all the data
+  * A simple web Pokédex showing type-advantages made in Elm
 {: .table_list}
