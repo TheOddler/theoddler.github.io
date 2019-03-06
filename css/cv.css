@@ -32,5 +32,10 @@ h2, h3, h4, h5, h6 {
 
 a {
     color: inherit;
-    text-decoration: inherit;
+}
+
+@media print {
+    a {
+        text-decoration: inherit;
+    }
 }
