@@ -57,7 +57,7 @@
 * [Liquid](https://www.pabloproductions.be/liquid/WebGL/)
   * A GPU-based water and erosion simulation made with Unity
 * [Risk of Thrones](https://www.pabloproductions.be/RiskOfThrones/)
-  * A huge, 1.2m by 1.6m, Risk board based on the Game of Thrones world
+  * A huge Risk board (2m²) based on the Game of Thrones world
 * [Pokédex](http://pokedex.pabloproductions.be)
   * A simple web Pokédex showing type-advantages made in Elm
 {: .table_list}
