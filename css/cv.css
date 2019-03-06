@@ -14,24 +14,24 @@
     font-size: 4.845em;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
-    
-    page-break-after: avoid;
-    page-break-inside: avoid;
 }
 
 .flavour {
     margin-top: -.5em;
     font-size: 1.1em;
     color: #999999;
-    
-    page-break-after: avoid;
-    page-break-inside: avoid;
 }
 
 a {
     color: inherit;
+}
+
+.nobreak {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    break-inside: avoid-page;
 }
 
 @media print {

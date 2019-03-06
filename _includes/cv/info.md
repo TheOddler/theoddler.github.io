@@ -1,3 +1,5 @@
+<div class="nobreak" markdown="1">
+
 ## Info
 
 * Name
@@ -13,3 +15,5 @@
   * [{{site.github_hr}}]({{site.github}})
   * [{{site.gitlab_hr}}]({{site.gitlab}})
 {: .table_list}
+
+</div>

@@ -1,3 +1,5 @@
+<div class="nobreak" markdown="1">
+
 ## Work Experience
 
 * 2019-Present
@@ -21,6 +23,10 @@
   * [Vanguard Games](http://www.vanguardgames.net/)
 {: .table_list}
 
+</div>
+
+<div class="nobreak" markdown="1">
+
 ## Education
 
 * 2014-2016
@@ -38,6 +44,10 @@
   	**Cum&nbsp;Laude**
 {: .table_list}
 
+</div>
+
+<div class="nobreak" markdown="1">
+
 ## Other Experiences
 
 * ABVV
@@ -47,6 +57,10 @@
 * ReConnect
   * Half-Finalist of [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Game for Windows and Games for Windows Phone 7.
 {: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
 
 ## Personal Projects
 
@@ -61,3 +75,5 @@
 * [Pokédex](http://pokedex.pabloproductions.be)
   * A simple web Pokédex showing type-advantages made in Elm
 {: .table_list}
+
+</div>

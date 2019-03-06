@@ -1,3 +1,5 @@
+<div class="nobreak" markdown="1">
+
 ## Main skills
 
 * Programming
@@ -10,6 +12,10 @@
   * C# game logic programming
   * Design
 {: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
 
 ## Programming
 
@@ -34,6 +40,10 @@
 \* Combined from work, university and most of my spare time
 {: .footnote}
 
+</div>
+
+<div class="nobreak" markdown="1">
+
 ## Minor skills
 
 * Photoshop
@@ -43,3 +53,5 @@
   * Optimized low-poly modeling
   * Unwrapping
 {: .table_list}
+
+</div>
