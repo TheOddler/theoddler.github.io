@@ -7,9 +7,9 @@
 * Birthday
   * July 18th, 1991
 * Contact
-  * <a href="mailto:{{site.public_email}}">{{site.public_email}}</a>
-  * <a href="{{site.website}}">{{site.website_hr}}</a>
+  * [{{site.public_email}}](mailto:{{site.public_email}})
+  * [{{site.website_hr}}]({{site.website}})
 * Source
-  * <a href="{{site.github}}">{{site.github_hr}}</a>
-  * <a href="{{site.gitlab}}">{{site.gitlab_hr}}</a>
+  * [{{site.github_hr}}]({{site.github}})
+  * [{{site.gitlab_hr}}]({{site.gitlab}})
 {: .table_list}
