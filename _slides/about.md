@@ -28,6 +28,8 @@ order: 1
   * Head of R&D at DCA.
 * 2018-2019
   * .NET consultant at Kapture NV.
+* 2018-2019
+  * Backend .NET developer at [Amonis](http://www.amonis.be/)
 * 2017-2018
   * Backend developer at Delen Private Bank using Cobol, .NET and SQL among other Microsoft technologies.
 * 2016-2017

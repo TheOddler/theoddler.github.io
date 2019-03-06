@@ -6,6 +6,9 @@
 * 2018-2019
   * .NET consultant
   * Kapture NV
+* 2018-2019
+  * Backend .NET developer
+  * [Amonis](http://www.amonis.be/)
 * 2017-2018
   * Backend developer
   * Delen Private Bank
