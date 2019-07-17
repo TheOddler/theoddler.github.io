@@ -1,7 +1,7 @@
 ---
-	---
+---
 
-	{% include detectmobilebrowser.js %}
+{% include detectmobilebrowser.js %}
 
 (function ($) { //jquery wrapper
 
