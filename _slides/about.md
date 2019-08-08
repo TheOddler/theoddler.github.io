@@ -20,6 +20,7 @@ order: 1
 * Source
   * [{{site.github_hr}}]({{site.github}})
   * [{{site.gitlab_hr}}]({{site.gitlab}})
+  * [{{site.itch_hr}}]({{site.itch}})
 {: .table_list}
 
 ### Work Experience
