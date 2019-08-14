@@ -1,6 +1,6 @@
 <div class="nobreak" markdown="1">
 
-## Work Experience
+### Work Experience
 
 * 2019-Present
   * Head of R&D
@@ -18,8 +18,12 @@
   * Doctoral student
   * [KU Leuven](https://www.kuleuven.be/), [Linnaeus University](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
+{% if include.extended %}
+* &nbsp;
+  * I&nbsp; quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code.
+{% endif %}
 * 2012-2012
-  * Game programmer intern
+  * Game programming intern
   * [Vanguard Games](http://www.vanguardgames.net/)
 {: .table_list}
 
@@ -27,7 +31,7 @@
 
 <div class="nobreak" markdown="1">
 
-## Education
+### Education
 
 * 2014-2016
   * Master of Science, Applied Informatics (Major Artificial Intelligence), KU&nbsp;Leuven
@@ -36,10 +40,8 @@
 
 * 2013-2014
   * Physics, KU Leuven, first year only
-* 2012-2012
-  * Erasmus exchange internship, Vanguard Games
 * 2009-2012
-  * DAE: Digital Arts and Entertainment (Major Game Development), Howest&nbsp;Kortrijk
+  * Digital Arts and Entertainment (Major Game Development), Howest&nbsp;Kortrijk
 
   	**Cum&nbsp;Laude**
 {: .table_list}
@@ -48,21 +50,23 @@
 
 <div class="nobreak" markdown="1">
 
-## Other Experiences
+### Other Experiences
 
 * ABVV
   * Short internship implementing their first microservice on AWS
+* [Vanguard Games](http://www.vanguardgames.net/)
+  * Programmer during the development of Halo: Spartan Assault and Game Gurus, mainly C# and C++
 * MyMachine
   * Game programmer and designer for the [MyMachine initiative](https://mymachine-global.org/)
 * ReConnect
-  * Half-Finalist of [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Game for Windows and Games for Windows Phone 7.
+  * Semifinalist of [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Game for Windows and Games for Windows Phone 7.
 {: .table_list}
 
 </div>
 
 <div class="nobreak" markdown="1">
 
-## Personal Projects
+### Personal Projects
 
 * [War Systems]({{site.baseurl}}/warsystems/)
   * A turn-based-strategy game inspired by Advance Wars

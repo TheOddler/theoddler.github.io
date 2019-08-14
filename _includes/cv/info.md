@@ -1,6 +1,6 @@
 <div class="nobreak" markdown="1">
 
-## Info
+### Info
 
 * Name
   * Pablo Bollansée
@@ -14,6 +14,7 @@
 * Source
   * [{{site.github_hr}}]({{site.github}})
   * [{{site.gitlab_hr}}]({{site.gitlab}})
+  * [{{site.itch_hr}}]({{site.itch}})
 {: .table_list}
 
 </div>
