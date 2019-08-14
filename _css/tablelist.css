@@ -15,7 +15,6 @@
 .table_list > li {
     display: grid;
     grid-template-columns: 9.5em auto;
-    padding-bottom: .3em;
 }
 
 .table_list > li > ul,
@@ -28,4 +27,5 @@
 .table_list > li > ol li{
     flex-basis: content;
     min-width: 50%;
+    padding-bottom: .3em;
 }
