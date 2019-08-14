@@ -8,7 +8,7 @@
 
 .table_list > li {
     display: grid;
-    grid-template-columns: 8em auto;
+    grid-template-columns: 10em auto;
     padding-bottom: .1em;
 }
 
