@@ -18,7 +18,7 @@
   * Doctoral student
   * [KU Leuven](https://www.kuleuven.be/), [Linnaeus University](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
-{% if include.extended %}  * I&nbsp; quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code.{% endif %}
+{% if include.extended %}  * I&nbsp; quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code{% endif %}
 * 2012-2012
   * Game programming intern
   * [Vanguard Games](http://www.vanguardgames.net/)
@@ -51,14 +51,14 @@
 
 ### Other Experiences
 
-* ABVV
+* [ABVV](http://www.abvv.be/)
   * Short internship implementing their first microservice on AWS
 * [Vanguard Games](http://www.vanguardgames.net/)
   * Programmer during the development of Halo: Spartan Assault and Game Gurus, mainly C# and C++
-* MyMachine
+* [MyMachine](https://mymachine-global.org/)
   * Game programmer and designer for the [MyMachine initiative](https://mymachine-global.org/)
 * ReConnect
-  * Semifinalist of [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Game for Windows and Games for Windows Phone 7.
+  * Semifinalist of [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Game for Windows and Games for Windows Phone 7
 {: .table_list}
 
 </div>
