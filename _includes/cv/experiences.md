@@ -2,7 +2,7 @@
 
 ### Work Experience
 
-* 2019-Present
+* 2019-2019
   * Head of R&D
   * [DCA](https://dca.lu/)
 * 2018-2019
