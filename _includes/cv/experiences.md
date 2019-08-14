@@ -18,10 +18,7 @@
   * Doctoral student
   * [KU Leuven](https://www.kuleuven.be/), [Linnaeus University](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
-{% if include.extended %}
-* &nbsp;
-  * I&nbsp; quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code.
-{% endif %}
+{% if include.extended %}  * I&nbsp; quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code.{% endif %}
 * 2012-2012
   * Game programming intern
   * [Vanguard Games](http://www.vanguardgames.net/)
@@ -34,16 +31,18 @@
 ### Education
 
 * 2014-2016
-  * Master of Science, Applied Informatics (Major Artificial Intelligence), KU&nbsp;Leuven
-
-  	**Cum&nbsp;Laude**
-
+  * Master of Science
+  * [KU Leuven](https://www.kuleuven.be)
+  * Applied Informatics (Major AI)
+  * **Cum Laude**
 * 2013-2014
-  * Physics, KU Leuven, first year only
+  * Physics (first year only)
+  * [KU Leuven](https://www.kuleuven.be)
 * 2009-2012
-  * Digital Arts and Entertainment (Major Game Development), Howest&nbsp;Kortrijk
-
-  	**Cum&nbsp;Laude**
+  * [Digital Arts and Entertainment](http://www.digitalartsandentertainment.be/)
+  * [Howest Kortrijk](https://www.howest.be)
+  * Major Game Development
+  * **Cum Laude** 
 {: .table_list}
 
 </div>

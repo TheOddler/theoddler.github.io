@@ -5,7 +5,7 @@
 * Programming
   * Object Oriented programming
   * Functional programming
-  * Algorithms, game logic, OO design patterns, proper class design
+  * Algorithms, OO design patterns, proper class design
 * Unity 3D
   * C# game logic programming
   * Design
@@ -23,11 +23,9 @@
   * 2+ years of experience*
 * Java
   * 2 years of experience*
-* &nbsp;
   * Main language during master studies
 * C++
   * 3 years of experience*
-* &nbsp;
   * Main language during bachelor studies
 * Haskell, Rust, Elm
   * Some experience during master studies
@@ -44,7 +42,9 @@
 
 ### Minor skills
 
-* Game and UX design
+* Design
+  * For games
+  * UX
 * Photoshop
   * General photo/image editing
   * Texturing

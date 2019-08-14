@@ -6,30 +6,26 @@
     padding: 0 0.3em;
 }
 
+.table_list ul, .table_list ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .table_list > li {
     display: grid;
-    grid-template-columns: 10em auto;
-    padding-bottom: .1em;
+    grid-template-columns: 9.5em auto;
+    padding-bottom: .3em;
 }
 
 .table_list > li > ul,
 .table_list > li > ol {
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
-.table_list > li > ul > li,
-.table_list > li > ol > li {
-    display: inline-block;
-    flex: 1;
-    min-width: 15em;
-    padding-bottom: .2em;
-}
-
-.table_list p {
-    margin: 0;
-    padding: 0;
+.table_list > li > ul li,
+.table_list > li > ol li{
+    flex-basis: content;
+    min-width: 50%;
 }
