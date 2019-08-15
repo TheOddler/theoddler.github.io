@@ -14,7 +14,7 @@
 
 .table_list > li {
     display: grid;
-    grid-template-columns: 9.5em auto;
+    grid-template-columns: 10em auto;
 }
 
 .table_list > li > ul,

@@ -21,12 +21,10 @@
   * 7+ years of experience*
 * SQL
   * 2+ years of experience*
-* Java
-  * 2 years of experience*
-  * Main language during master studies
 * C++
   * 3 years of experience*
-  * Main language during bachelor studies
+* Java
+  * 2 years of experience*
 * Haskell, Rust, Elm
   * Some experience during master studies
 * Other
