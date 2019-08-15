@@ -18,7 +18,7 @@
   * Doctoral student
   * [KU Leuven](https://www.kuleuven.be/), [Linnaeus University](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
-{% if include.extended %}  * I&nbsp; quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code{% endif %}
+{% if include.extended %}  * I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code{% endif %}
 * 2012-2012
   * Game programming intern
   * [Vanguard Games](http://www.vanguardgames.net/)
