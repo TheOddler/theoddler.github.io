@@ -15,7 +15,6 @@
 .table_list > li {
     display: grid;
     grid-template-columns: 10em auto;
-    --border-bottom: 1px dotted;
     padding-left: 0.3em;
 }
 
