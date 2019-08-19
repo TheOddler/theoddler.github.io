@@ -1,19 +1,44 @@
 <div class="nobreak" markdown="1">
 
+### Info
+
+* Name
+  * Pablo Bollansée
+* Nationality
+  * Belgian
+* Birthday
+  * July 18th, 1991
+* Web
+  * [{{site.website_hr}}]({{site.website}})
+  * [{{site.itch_hr}}]({{site.itch}})
+  * [{{site.github_hr}}]({{site.github}})
+  * [{{site.gitlab_hr}}]({{site.gitlab}})
+* Contact
+  * [{{site.public_email}}](mailto:{{site.public_email}})
+{: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
+
 ### Work Experience
 
 * 2019-2019
   * Head of R&D
   * [DCA](https://dca.lu/)
+{% if include.extended %}  * C#, SQL, Unity 3D, VR, Backend, Fullstack, Design{% endif %}
 * 2018-2019
   * .NET consultant
   * [Kapture NV](https://www.kapture.be/)
+{% if include.extended %}  * C#, SQL, Backend, Fullstack{% endif %}
 * 2018-2018
-  * Backend .NET developer
+  * .NET consultant
   * [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/)
+{% if include.extended %}  * C#, SQL, Backend, Fullstack{% endif %}
 * 2017-2018
   * Backend developer
   * [Delen Private Bank](https://www.delen.be/)
+{% if include.extended %}  * C#, SQL, Cobol, Backend, Fullstack{% endif %}
 * 2016-2017
   * Doctoral student
   * [KU Leuven](https://www.kuleuven.be/), [Linnaeus University](https://lnu.se/en/)
@@ -22,6 +47,7 @@
 * 2012-2012
   * Game programming intern
   * [Vanguard Games](http://www.vanguardgames.net/)
+{% if include.extended %}  * C#, C++, Game Development{% else %}{: .table_list}{% endif %}
 {: .table_list}
 
 </div>
@@ -77,6 +103,97 @@
   * A huge Risk board (2m²) based on the Game of Thrones world
 * [Pokédex](http://pokedex.pabloproductions.be)
   * A simple web Pokédex showing type-advantages made in Elm
+{: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
+
+### Main skills
+
+* Programming
+  * Object Oriented programming
+  * Functional programming
+  * Algorithms, OO design patterns, proper class design
+* Unity 3D
+  * C# game logic programming
+  * Design
+{: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
+
+### Programming
+
+* C#
+  * 7+ years of experience*
+  * Current main language
+* SQL
+  * 2+ years of experience*
+* C++
+  * 3 years of experience*
+  * Bachelor's main language
+* Java
+  * 2 years of experience*
+  * Master's main language
+* Haskell, Rust, Elm
+  * Some experience during master studies
+* Other
+  * Python, Git, Javascript, HTML, CSS, C, XML, Azure, AWS, Prolog, Android, Lua, MySQL, SQL Server, ...
+{: .table_list}
+
+\* Combined from work, university and most of my spare time
+{: .footnote}
+
+</div>
+
+<div class="nobreak" markdown="1">
+
+### Minor skills
+
+* Design
+  * For games
+  * UX
+* Photoshop
+  * General photo/image editing
+  * Texturing
+* 3D (Blender)
+  * Optimized low-poly modeling
+  * Unwrapping
+{: .table_list}
+
+</div>
+
+{% if include.extended %}
+<div class="nobreak" markdown="1">
+
+### Once upon a time
+
+* 3ds Max
+  * Optimized low-poly meshes
+  * Unwrapping
+  * Sub-D modeling
+  * Normalmap baking
+  * Skinning
+* Mudbox
+  * Hight-poly sculpting
+  * Normalmap baking
+* Direct X
+  * Basic 3D pipeline coding
+* PhysX
+  * Implementing physics, including fluids and forcefields
+{: .table_list}
+
+</div>
+{% endif %}
+
+<div class="nobreak" markdown="1">
+
+### Spoken languages
+
+* Dutch (Native)
+  * English
 {: .table_list}
 
 </div>
