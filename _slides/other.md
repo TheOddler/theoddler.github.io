@@ -13,15 +13,12 @@ The board is based on the map of the Game of Thrones world, and includes some sp
 
 I also made a little [companion app](http://theoddler.github.io/RiskOfThrones/companion/) that automatically divides the world up for the start of the game.
 
-
-### [Liquid]({{site.baseurl}}/liquid/WebGL/)
-
-*Liquid* is a water and erosion simulation in Unity. 
-The latest version runs entirely on the GPU for a very fast simulation, though still requires a proper graphics card.
-[Check it out here]({{site.baseurl}}/liquid/WebGL/).
-
-An older version ran on the CPU, but was fully multithreaded so it ran very smooth. Check out my [Reddit post](https://www.reddit.com/r/Unity3D/comments/2a5h3q/realtime_water_simulation_v2/) for some more information.
-
 ### [Pokédex](http://pokedex.pabloproductions.be/)
 
 A simple Pokédex made in [Elm](http://elm-lang.org/). It shows basic type information for use during a battle. I found other sites to show way too much information, while most of the time I only want to know which moves are super effective. You can [try it out here](http://pokedex.pabloproductions.be/) or view the source code [here](https://gitlab.com/TheOddler/pokedex).
+
+### [ReConnect]({{site.baseurl}}/reconnect/)
+
+ReConnect is a game about connecting and combining islands to rebuild the world.
+It was made by [Steven De Meyer](http://www.3dstevendemeyer.com/), [Thijs Morlion](http://www.thijsmorlion.com/), [Elie Verbrugge](http://zornxiv.blogspot.com/) and myself as entry for the Imagine Cup 2011.
+We finished in the semi-finales.

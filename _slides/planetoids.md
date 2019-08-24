@@ -1,7 +1,7 @@
 ---
 title: Planetoids
 image: images/planetoids.jpg
-order: 3
+order: 2
 ---
 
 <div id="planetoids_game" width="100%"><canvas style="border: none; position: relative;" width="100%" onselectstart="return false;" oncontextmenu="return false;"></canvas></div>

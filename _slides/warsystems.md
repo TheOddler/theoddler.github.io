@@ -1,7 +1,7 @@
 ---
 title: War Systems
 image: images/warsystems.jpg
-order: 2
+order: 4
 ---
 
 <div class="scale_16_9"><iframe src="//player.vimeo.com/video/86780900?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
