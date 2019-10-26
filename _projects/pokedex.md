@@ -1,7 +1,7 @@
 ---
 title: Pokédex
-custom_url: http://pokedex.pabloproductions.be/
 date: 2019/10/21
+custom_url: http://pokedex.pabloproductions.be/
 description: A simple web Pokédex showing type-advantages made in Elm
 long_description: |
     A simple Pokédex made in [Elm](http://elm-lang.org/).

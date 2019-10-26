@@ -1,7 +1,7 @@
 ---
 title: Risk of Thrones
-custom_url: http://theoddler.github.io/RiskOfThrones/
 date: 2017/10/21
+custom_url: http://theoddler.github.io/RiskOfThrones/
 description: A huge Risk board (2m²) based on the Game of Thrones world
 long_description: |
     Risk of Thrones (shown above) is a huge, 1.2m by 1.6m, Risk board I made as a birthday present for my sister.
