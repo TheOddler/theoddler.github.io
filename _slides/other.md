@@ -17,6 +17,12 @@ I also made a little [companion app](http://theoddler.github.io/RiskOfThrones/co
 
 A simple Pokédex made in [Elm](http://elm-lang.org/). It shows basic type information for use during a battle. I found other sites to show way too much information, while most of the time I only want to know which moves are super effective. You can [try it out here](http://pokedex.pabloproductions.be/) or view the source code [here](https://gitlab.com/TheOddler/pokedex).
 
+### [Magic Tools](http://mtg.pabloproductions.be)
+
+A web-app that provides coins, dice and counters to be used while playing the card-game MTG.
+I, in part, made it as a way to test and research Angular, React and Vue.
+I tried all three, and in the end decided to use Vue for this project, as it seemed to combine the pros of the other two.
+
 ### [ReConnect]({{site.baseurl}}/reconnect/)
 
 ReConnect is a game about connecting and combining islands to rebuild the world.
