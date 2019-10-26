@@ -1,6 +1,6 @@
 ---
 title: War Systems
-order: 5
+order: 3
 custom_url: /warsystems/
 image: images/warsystems.jpg
 description: A turn-based-strategy game inspired by Advance Wars

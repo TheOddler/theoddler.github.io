@@ -1,6 +1,6 @@
 ---
 title: Magic Tools
-order: 2
+order: 0
 custom_url: http://mtg.pabloproductions.be
 description: A web-app build in Vue to be used while playing MTG
 long_description: |
