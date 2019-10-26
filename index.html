@@ -20,7 +20,7 @@
     <div class="wrapper">
         <div class="title">Pablo Bollansée</div>
 
-        {%- assign ordered = site.slides | concat: site.projects | sort: 'order' -%}
+        {%- assign ordered = site.slides | concat: site.projects | sort: 'date','last' | reverse -%}
         {%- for slide in ordered -%}
         {%- assign content = slide.content | strip -%}
         {%- unless content == "" -%}

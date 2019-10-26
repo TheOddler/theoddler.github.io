@@ -93,7 +93,7 @@
 
 ### Personal Projects
 
-{% assign orderedProjects = site.projects | sort: 'order' %}
+{% assign orderedProjects = site.projects | sort: 'date' | reverse %}
 {% for project in orderedProjects %}
 * [{{ project.title }}]({{ project.custom_url }})
   * {{ project.description }}{% endfor %}

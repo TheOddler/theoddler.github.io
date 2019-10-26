@@ -1,7 +1,7 @@
 ---
 title: Planetoids
 image: images/planetoids.jpg
-order: 4
+date: 2015/05/13
 custom_url: /planetoids/
 description: An Asteroids inspired game, rocks are sliced along the laser
 long_description: |

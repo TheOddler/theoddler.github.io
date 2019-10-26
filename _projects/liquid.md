@@ -1,6 +1,6 @@
 ---
 title: Liquid
-order: 1
+date: 2019/08/23
 custom_url: https://www.pabloproductions.be/liquid/WebGL/
 description: A GPU-based water and erosion simulation made with Unity
 image: images/liquid.png

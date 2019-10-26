@@ -1,6 +1,6 @@
 ---
 title: ReConnect
-order: 6
+date: 2011/01/01
 custom_url: /reconnect/
 description: A game about connecting islands to rebuild the world
 long_description: |

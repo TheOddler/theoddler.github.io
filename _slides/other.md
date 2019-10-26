@@ -1,7 +1,7 @@
 ---
 title: Other Projects
 image: images/other.jpg
-order: 1000
+date: 0000/02
 ---
 
 {%- assign ordered = site.projects | sort: 'order' -%}

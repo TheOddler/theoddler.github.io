@@ -1,7 +1,6 @@
 ---
 title: About
 image: images/about.jpg
-order: -100
 ---
 
 ## Een eenvoudige boerenjongen
