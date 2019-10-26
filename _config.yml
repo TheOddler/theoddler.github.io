@@ -24,6 +24,8 @@ collections:
     output: false
   css:
     output: false
+  projects:
+    output: false
 
 # Defaults
 permalink: pretty

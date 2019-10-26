@@ -93,18 +93,10 @@
 
 ### Personal Projects
 
-* [Liquid](https://www.pabloproductions.be/liquid/WebGL/)
-  * A GPU-based water and erosion simulation made with Unity
-* [War Systems]({{site.baseurl}}/warsystems/)
-  * A turn-based-strategy game inspired by Advance Wars
-* [Magic Tools](http://mtg.pabloproductions.be)
-  * A web-app build in Vue to be used while playing MTG
-* [Planetoids]({{site.baseurl}}/planetoids/)
-  * An Asteroids inspired game, rocks are sliced along the laser
-* [Risk of Thrones](https://www.pabloproductions.be/RiskOfThrones/)
-  * A huge Risk board (2m²) based on the Game of Thrones world
-* [Pokédex](http://pokedex.pabloproductions.be)
-  * A simple web Pokédex showing type-advantages made in Elm
+{% assign orderedProjects = site.projects | sort: 'order' %}
+{% for project in orderedProjects %}
+* [{{ project.title }}]({{ project.custom_url }})
+  * {{ project.description }}{% endfor %}
 {: .table_list}
 
 </div>
