@@ -108,7 +108,7 @@
 * Programming
   * Object Oriented programming
   * Functional programming
-  * Algorithms, OO design patterns, proper class design
+  * Algorithms, OO design patterns, SOLID
 * Unity 3D
   * C# game logic programming
   * Design
@@ -134,7 +134,7 @@
 * Haskell, Rust, Elm
   * Some experience during master studies
 * Other
-  * Python, Git, Javascript, HTML, CSS, Vue, Angular, React, C, XML, Azure, AWS, Prolog, Android, Lua, MySQL, SQL Server, ...
+  * Python, Git, LINQ, Javascript, HTML, CSS, Vue, Angular, React, C, XML, Azure, AWS, Prolog, Android, Lua, MySQL, SQL Server, ...
 {: .table_list}
 
 \* Combined from work, university and most of my spare time
