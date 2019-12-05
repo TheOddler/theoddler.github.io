@@ -58,3 +58,11 @@
 .slide img {
     width: 100%;
 }
+
+
+
+@media (max-width: 672px) { 
+    .slide .header span {
+        font-size: 3em;
+    }
+}
