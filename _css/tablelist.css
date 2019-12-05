@@ -38,3 +38,18 @@
     min-width: 50%;
     padding-bottom: .3em;
 }
+
+@media (max-width: 672px) { 
+    .table_list {
+        text-align: left;
+    }
+
+    .table_list > li {
+        grid-template-columns: 7em auto;
+    }
+
+    .table_list > li > ul,
+    .table_list > li > ol {
+        display: initial;
+    }
+}
