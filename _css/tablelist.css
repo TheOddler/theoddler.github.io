@@ -40,12 +40,24 @@
 }
 
 @media (max-width: 672px) { 
+    h3 {
+        padding-top: 1em;
+    }
+
     .table_list {
         text-align: left;
     }
 
     .table_list > li {
-        grid-template-columns: 7em auto;
+        grid-template-columns: auto;
+    }
+
+    .table_list > li {
+        font-weight: bold;
+    }
+
+    .table_list > li *:last-child {
+        font-weight: initial;
     }
 
     .table_list > li > ul,
