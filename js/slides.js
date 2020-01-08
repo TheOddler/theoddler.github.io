@@ -90,4 +90,9 @@
 		title.css("top", Math.min(0, slide.height() - image.height()));
 	}
 
+	$.fn.forceReposSlideTitle = function () {
+		var slide = $(this);
+		reposSlideTitle(slide);
+	}
+
 }(jQuery)); //jquery wrapper

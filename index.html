@@ -38,6 +38,10 @@
             $(".slide").makeSlide();
             $(".title").fitText(.888);
         });
+
+        $(window).on('resize', function () {
+            $(".slide").forceReposSlideTitle();
+        });
     </script>
 </body>
 

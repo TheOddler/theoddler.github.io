@@ -4,7 +4,7 @@ image: images/other.jpg
 date: 0000/02
 ---
 
-{%- assign ordered = site.projects | sort: 'order' -%}
+{%- assign ordered = site.projects | sort: 'date' | reverse -%}
 {%- for project in ordered -%}
 {%- if project.long_description -%}
 
