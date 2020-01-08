@@ -2,7 +2,7 @@
 title: Cooking
 date: 2020/01/07
 custom_url: https://theoddler.gitlab.io/cooking/recipes/
-description: A mobile-first responsive website to collect my recipes
+description: A mobile-first responsive website to collect recipes
 long_description: |
     A simple, no nonsense website to collect all my recipes.
     Features include a no-sleep button to keep the screen awake during cooking, and tick-marks with each recipe-step, as well as proper printing support.

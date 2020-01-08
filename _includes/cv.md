@@ -23,25 +23,22 @@
 
 ### Work Experience
 
-* 2020-01
+* Jan 2020
   * Looking for my next adventure!
-* 2019-01
+* Jan 2019
   * Head of R&D
   * at [DCA](https://dca.lu/)
-{% if include.extended %}  * C#, SQL, Unity 3D, VR, Backend, Fullstack, Design{% endif %}
-* 2017-10
+{% if include.extended %}  * Leading a small team of one other programmer and an artist to test and develop a VR app in [Unity](https://unity.com/){% endif %}
+{% if include.extended %}  * C#, SQL, Unity, VR, Fullstack, Design{% endif %}
+* Oct 2017
   * .NET consultant, developer
   * at [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/)
-{% if include.extended %}  * C#, SQL, Cobol, Backend, Fullstack{% endif %}
-* 2016-10
+{% if include.extended %}  * C#, SQL, Azure, Cobol, Backend, Fullstack, ...{% endif %}
+* Oct 2016
   * Doctoral student
   * at [KU Leuven](https://www.kuleuven.be/), [Linnaeus Uni.](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
-{% if include.extended %}  * I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code{% endif %}
-* 2012-02 (5 mo.)
-  * Game programming intern
-  * at [Vanguard Games](http://www.vanguardgames.net/)
-{% if include.extended %}  * C#, C++, Game Development{% else %}{: .table_list}{% endif %}
+{% if include.extended %}  * I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code{% else %}{: .table_list}{% endif %}
 {: .table_list}
 
 </div>
@@ -71,14 +68,26 @@
 
 ### Other Experiences
 
-* [ABVV](http://www.abvv.be/)
-  * Short internship implementing their first microservice on AWS
-* [Vanguard Games](http://www.vanguardgames.net/)
-  * Programmer during the development of Halo: Spartan Assault and Game Gurus, mainly C# and C++
-* [MyMachine](https://mymachine-global.org/)
-  * Game programmer and designer for the [MyMachine initiative](https://mymachine-global.org/)
-* ReConnect
-  * Semifinalist of [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Game for Windows and Games for Windows Phone 7
+* Oct 2017 (2 wks.)
+  * Fullstack Azure developer
+  * at [ABVV](http://www.abvv.be/)
+{% if include.extended %}  * A short project implementing their first microservice{% endif %}
+{% if include.extended %}  * C#, [Azure](https://azure.microsoft.com){% endif %}
+* Feb 2012 (5 mo.)
+  * C# development intern
+  * at [Vanguard Games](http://www.vanguardgames.net/)
+{% if include.extended %}  * During the development of Halo: Spartan Assault{% endif %}
+{% if include.extended %}  * C++, C#, [Unity](https://unity.com/){% endif %}
+* Sep 2011 (5 mo.)
+  * Unity programmer/designer
+  * for [MyMachine](https://mymachine-global.org/)
+{% if include.extended %}  * A game bringing the imaginary machines of children to life{% endif %}
+{% if include.extended %}  * C#, [Unity](https://unity.com/){% endif %}
+* Feb 2011 (5 mo.)
+  * C# programmer/designer
+  * for [Imagine Cup](https://imaginecup.microsoft.com/) 2011
+{% if include.extended %}  * Semifinalist of *Game for Windows* and *Games for Windows Phone 7*{% else %}{: .table_list}{% endif %}
+{% if include.extended %}  * C#, XNA{% endif %}
 {: .table_list}
 
 </div>
