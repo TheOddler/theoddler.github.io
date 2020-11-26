@@ -26,7 +26,7 @@
 * March 2020 -
   * Backend PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
-{% if include.extended %}  * Working project based in an multidisciplinary team using an agile approach, I taught myself the basics of php in a few days and continue to learn every day{% endif %}
+{% if include.extended %}  * Working project-based in a multidisciplinary team using an agile approach, I taught myself the basics of php in a few days and continue to learn every day{% endif %}
 {% if include.extended %}  * PHP, C#, SQL, Azure, Backend, ...{% endif %}
 * Jan 2019 -
   * Head of R&D
