@@ -23,18 +23,21 @@
 
 ### Work Experience
 
-* Jan 2020
-  * Looking for my next adventure!
-* Jan 2019
+* March 2020 -
+  * Backend PHP & C# Developer
+  * at [Bagaar](https://www.bagaar.be/)
+{% if include.extended %}  * Working project based in an multidisciplinary team using an agile approach, I taught myself the basics of php in a few days and continue to learn every day{% endif %}
+{% if include.extended %}  * PHP, C#, SQL, Azure, Backend, ...{% endif %}
+* Jan 2019 -
   * Head of R&D
   * at [DCA](https://dca.lu/)
 {% if include.extended %}  * Leading a small team of one other programmer and an artist to test and develop a VR app in [Unity](https://unity.com/){% endif %}
 {% if include.extended %}  * C#, SQL, Unity, VR, Fullstack, Design{% endif %}
-* Oct 2017
+* Oct 2017 -
   * .NET consultant, developer
   * at [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/)
 {% if include.extended %}  * C#, SQL, Azure, Cobol, Backend, Fullstack, ...{% endif %}
-* Oct 2016
+* Oct 2016 -
   * Doctoral student
   * at [KU Leuven](https://www.kuleuven.be/), [Linnaeus Uni.](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
@@ -124,15 +127,17 @@
 
 * C#
   * 7+ years of experience{% if include.extended %}*{% endif %}
-  * Current main language
 * SQL
-  * 2+ years of experience{% if include.extended %}*{% endif %}
+  * 3+ years of experience{% if include.extended %}*{% endif %}
 * C++
   * 3 years of experience{% if include.extended %}*{% endif %}
   * Bachelor's main language
 * Java
   * 2 years of experience{% if include.extended %}*{% endif %}
   * Master's main language
+* PHP
+  * 1 year of experience
+  * Current main language
 * Other
   * AWS, Android, Angular, Azure, C, CSS, Elm, Entity Framework, Git, Haskell, HTML, Javascript, LINQ, Lua, MySQL, Prolog, Python, React, Rust, SQL Server, Vue, XML, ...
 {: .table_list}
