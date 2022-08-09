@@ -23,6 +23,10 @@
 
 ### Work Experience
 
+* September 2021 -
+  * Backend Haskell Developer
+  * at [Feeld](https://feeld.co/)
+{% if include.extended %}  * Haskell, SQL, GCP, ...{% endif %}
 * March 2020 -
   * Backend PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
@@ -125,10 +129,13 @@
 
 ### Programming
 
+* Haskell
+  * 1+ years of experience
+  * Current main language
 * C#
   * 7+ years of experience{% if include.extended %}*{% endif %}
 * SQL
-  * 3+ years of experience{% if include.extended %}*{% endif %}
+  * 5+ years of experience{% if include.extended %}*{% endif %}
 * C++
   * 3 years of experience{% if include.extended %}*{% endif %}
   * Bachelor's main language
@@ -137,9 +144,8 @@
   * Master's main language
 * PHP
   * 1 year of experience
-  * Current main language
 * Other
-  * AWS, Android, Angular, Azure, C, CSS, Elm, Entity Framework, Git, Haskell, HTML, Javascript, LINQ, Lua, MySQL, Prolog, Python, React, Rust, SQL Server, Vue, XML, ...
+  * AWS, Android, Angular, Azure, C, COBOL, CSS, Elm, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, SQL Server, Vue, XML, ...
 {: .table_list}
 
 {% if include.extended %}
