@@ -10,9 +10,10 @@
   * July 18th, 1991
 * Web
   * [{{site.website_hr}}]({{site.website}})
-  * [{{site.itch_hr}}]({{site.itch}})
-  * [{{site.github_hr}}]({{site.github}})
-  * [{{site.gitlab_hr}}]({{site.gitlab}})
+  * [LinkedIn.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
+  * [GitHub.com/TheOddler](https://github.com/TheOddler/)
+  * [GitLab.com/TheOddler](https://gitlab.com/TheOddler/)
+  * [The-Oddler.itch.io](https://the-oddler.itch.io/)
 * Contact
   * [{{site.public_email}}](mailto:{{site.public_email}})
 {: .table_list}
@@ -24,16 +25,17 @@
 ### Work Experience
 
 * September 2021 -
-  * Backend Haskell Developer
+  * Senior Back-End Haskell Developer
   * at [Feeld](https://feeld.co/)
+{% if include.extended %}  * Was part of and helped build a new team of Haskell engineers to redefine the backend the Feeld app runs on so it can support the growth of the user-base 10-fold.{% endif %}
 {% if include.extended %}  * Haskell, SQL, GCP, ...{% endif %}
 * March 2020 -
-  * Backend PHP & C# Developer
+  * Senior Back-End PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
 {% if include.extended %}  * Working project-based in a multidisciplinary team using an agile approach, I taught myself the basics of php in a few days and continue to learn every day{% endif %}
 {% if include.extended %}  * PHP, C#, SQL, Azure, Backend, ...{% endif %}
 * Jan 2019 -
-  * Head of R&D
+  *  Head Of Research And Development
   * at [DCA](https://dca.lu/)
 {% if include.extended %}  * Leading a small team of one other programmer and an artist to test and develop a VR app in [Unity](https://unity.com/){% endif %}
 {% if include.extended %}  * C#, SQL, Unity, VR, Fullstack, Design{% endif %}
