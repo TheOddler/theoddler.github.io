@@ -10,7 +10,7 @@
   * July 18th, 1991
 * Web
   * [{{site.website_hr}}]({{site.website}})
-  * [LinkedIn.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
+  * [Linkedin.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
   * [GitHub.com/TheOddler](https://github.com/TheOddler/)
   * [GitLab.com/TheOddler](https://gitlab.com/TheOddler/)
   * [The-Oddler.itch.io](https://the-oddler.itch.io/)
