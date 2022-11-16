@@ -24,26 +24,27 @@
 
 ### Work Experience
 
-* September 2021 -
+* Sep '21 -
   * Senior Back-End Haskell Developer
   * at [Feeld](https://feeld.co/)
 {% if include.extended %}  * Was part of and helped build a new team of Haskell engineers to redefine the backend the Feeld app runs on so it can support the growth of the user-base 10-fold.{% endif %}
 {% if include.extended %}  * Haskell, SQL, GCP, ...{% endif %}
-* March 2020 -
+* Mar '20 - Sep '21
   * Senior Back-End PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
-{% if include.extended %}  * Working project-based in a multidisciplinary team using an agile approach, I taught myself the basics of php in a few days and continue to learn every day{% endif %}
+{% if include.extended %}  * Automating a process that could that up to months to something taking mere minutes, for a billion dollar client. The system would be used by the client's clients in 28 countries, which made it particularly challenging to adhere to all the different regulations in a single system. The process we automated used to take many manual steps and long waiting periods, but with the automated system results could be seen and iterated on within minutes. I build the algorithms and tools as one of the two main backend programmers.{% endif %}
 {% if include.extended %}  * PHP, C#, SQL, Azure, Backend, ...{% endif %}
-* Jan 2019 -
+* Mar '19 - Mar '20
   *  Head Of Research And Development
   * at [DCA](https://dca.lu/)
-{% if include.extended %}  * Leading a small team of one other programmer and an artist to test and develop a VR app in [Unity](https://unity.com/){% endif %}
+{% if include.extended %}  * Leading the research team for VR projects in [Unity](https://unity.com/) and [Unreal engine](https://www.unrealengine.com/).{% endif %}
 {% if include.extended %}  * C#, SQL, Unity, VR, Fullstack, Design{% endif %}
-* Oct 2017 -
+* Oct '17 - Mar '19
   * .NET consultant, developer
   * at [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/)
+{% if include.extended %}  * Backend Consultant for several different million dollar clients.{% endif %}
 {% if include.extended %}  * C#, SQL, Azure, Cobol, Backend, Fullstack, ...{% endif %}
-* Oct 2016 -
+* Oct '16 - Jul '17
   * Doctoral student
   * at [KU Leuven](https://www.kuleuven.be/), [Linnaeus Uni.](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
@@ -56,15 +57,15 @@
 
 ### Education
 
-* 2014-2016
+* 2014 - 2016
   * Master of Science
   * at [KU Leuven](https://www.kuleuven.be)
   * Applied Informatics (Major AI)
   * **Cum Laude**
-* 2013-2014
+* 2013 - 2014
   * Physics (first year only)
   * at [KU Leuven](https://www.kuleuven.be)
-* 2009-2012
+* 2009 - 2012
   * [Digital Arts and Entertainment](http://www.digitalartsandentertainment.be/)
   * at [Howest Kortrijk](https://www.howest.be)
   * Major Game Development
@@ -115,29 +116,18 @@
 
 <div class="nobreak" markdown="1">
 
-### Main skills
-
-* Programming
-  * Object Oriented
-  * Algorithms, OO design patterns, SOLID
-* Unity 3D
-  * C# game logic programming
-  * Design
-{: .table_list}
-
-</div>
-
-<div class="nobreak" markdown="1">
-
 ### Programming
 
-* Haskell
+* **Haskell**
   * 1+ years of experience
   * Current main language
-* C#
-  * 7+ years of experience{% if include.extended %}*{% endif %}
 * SQL
   * 5+ years of experience{% if include.extended %}*{% endif %}
+* **Elm**
+  * 2+ years of experience{% if include.extended %}*{% endif %}
+  * Preferred for web projects
+* C#
+  * 7+ years of experience{% if include.extended %}*{% endif %}
 * C++
   * 3 years of experience{% if include.extended %}*{% endif %}
   * Bachelor's main language
@@ -147,16 +137,17 @@
 * PHP
   * 1 year of experience
 * Other
-  * AWS, Android, Angular, Azure, C, COBOL, CSS, Elm, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, SQL Server, Vue, XML, ...
+  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, SQL Server, Test Driven Development, Vue, XML, ...
 {: .table_list}
 
 {% if include.extended %}
-\* Combined from work, university and most of my spare time
+\* Combined from work, university and personal projects
 {: .footnote}
 {% endif %}
 
 </div>
 
+{% if include.extended %}
 <div class="nobreak" markdown="1">
 
 ### Minor skills
@@ -174,7 +165,6 @@
 
 </div>
 
-{% if include.extended %}
 <div class="nobreak" markdown="1">
 
 ### Once upon a time
@@ -202,7 +192,7 @@
 ### Spoken languages
 
 * Dutch (Native)
-  * English
+  * English (Near-native)
 {: .table_list}
 
 </div>
