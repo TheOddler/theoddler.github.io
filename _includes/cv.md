@@ -26,6 +26,12 @@
   * Helped build a new team of Haskell engineers
   * Redefining the backend to support a 10-fold user-base growth
   * Haskell, SQL, Nix, Docker, GCP, ...
+* Oct '17 - present
+  * Founder and Fullstack Developer
+  * at [Pablo Productions]({{site.website}})
+  * 
+  * Backend consultancy
+  * Design and development of games and other creative projects
 * Mar '20 - Sep '21
   * Senior Back-End PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
