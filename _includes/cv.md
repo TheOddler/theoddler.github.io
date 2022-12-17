@@ -2,20 +2,16 @@
 
 ### Info
 
-* Name
-  * Pablo Bollansée
-* Location(s)
-  * Remote UTC / CET (Mostly Belgium, UK and Portugal)
-* Birthday
-  * July 18th, 1991
+* Contact
+  * [{{site.public_email}}](mailto:{{site.public_email}})
 * Web
   * [{{site.website_hr}}]({{site.website}})
   * [Linkedin.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
   * [GitHub.com/TheOddler](https://github.com/TheOddler/)
   * [GitLab.com/TheOddler](https://gitlab.com/TheOddler/)
   * [The-Oddler.itch.io](https://the-oddler.itch.io/)
-* Contact
-  * [{{site.public_email}}](mailto:{{site.public_email}})
+* Location(s)
+  * Remote UTC / CET (Mostly Belgium, UK and Portugal)
 {: .table_list}
 
 </div>
@@ -24,31 +20,34 @@
 
 ### Work Experience
 
-* Sep '21 -
+* Sep '21 - present
   * Senior Back-End Haskell Developer
   * at [Feeld](https://feeld.co/)
-{% if include.extended %}  * Was part of and helped build a new team of Haskell engineers to redefine the backend the Feeld app runs on so it can support the growth of the user-base 10-fold.{% endif %}
-{% if include.extended %}  * Haskell, SQL, GCP, ...{% endif %}
+  * Helped build a new team of Haskell engineers
+  * Redefining the backend to support a 10-fold user-base growth
+  * Haskell, SQL, Nix, Docker, GCP, ...
 * Mar '20 - Sep '21
   * Senior Back-End PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
-{% if include.extended %}  * Automating a process that could that up to months to something taking mere minutes, for a billion dollar client. The system would be used by the client's clients in 28 countries, which made it particularly challenging to adhere to all the different regulations in a single system. The process we automated used to take many manual steps and long waiting periods, but with the automated system results could be seen and iterated on within minutes. I build the algorithms and tools as one of the two main backend programmers.{% endif %}
-{% if include.extended %}  * PHP, C#, SQL, Azure, Backend, ...{% endif %}
+  * Automating a process that could that up to months to something taking mere minutes for a billion dollar client
+  * Supporting over 28 countries and their regulations
+  * PHP, Laravel, C#, SQL, Azure, ...
 * Mar '19 - Mar '20
   *  Head Of Research And Development
   * at [DCA](https://dca.lu/)
-{% if include.extended %}  * Leading the research team for VR projects in [Unity](https://unity.com/) and [Unreal engine](https://www.unrealengine.com/).{% endif %}
-{% if include.extended %}  * C#, SQL, Unity, VR, Fullstack, Design{% endif %}
+  * Lead the research team for VR projects in [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/)
+  * C#, SQL, Unity, VR, Backend & Fullstack, Design, ...
 * Oct '17 - Mar '19
   * .NET consultant, developer
   * at [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/)
-{% if include.extended %}  * Backend Consultant for several different million dollar clients.{% endif %}
-{% if include.extended %}  * C#, SQL, Azure, Cobol, Backend, Fullstack, ...{% endif %}
+  * Backend Consultant for several different million dollar clients
+  * C#, SQL, Azure, Cobol, Backend & Fullstack, ...
 * Oct '16 - Jul '17
   * Doctoral student
+  * 
   * at [KU Leuven](https://www.kuleuven.be/), [Linnaeus Uni.](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
-{% if include.extended %}  * I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code{% else %}{: .table_list}{% endif %}
+  * I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code
 {: .table_list}
 
 </div>
@@ -81,23 +80,23 @@
 * Oct 2017 (2 wks.)
   * Fullstack Azure developer
   * at [ABVV](http://www.abvv.be/)
-{% if include.extended %}  * A short project implementing their first microservice{% endif %}
-{% if include.extended %}  * C#, [Azure](https://azure.microsoft.com){% endif %}
+  * Proof of concept implementation of their first microservice
+  * C#, [Azure](https://azure.microsoft.com)
 * Feb 2012 (5 mo.)
   * C# development intern
   * at [Vanguard Games](http://www.vanguardgames.net/)
-{% if include.extended %}  * During the development of Halo: Spartan Assault{% endif %}
-{% if include.extended %}  * C++, C#, [Unity](https://unity.com/){% endif %}
+  * During the development of Halo: Spartan Assault
+  * C++, C#, [Unity](https://unity.com/)
 * Sep 2011 (5 mo.)
   * Unity programmer/designer
   * for [MyMachine](https://mymachine-global.org/)
-{% if include.extended %}  * A game bringing the imaginary machines of children to life{% endif %}
-{% if include.extended %}  * C#, [Unity](https://unity.com/){% endif %}
+  * A game bringing the imaginary machines of children to life
+  * C#, [Unity](https://unity.com/)
 * Feb 2011 (5 mo.)
   * C# programmer/designer
   * for [Imagine Cup](https://imaginecup.microsoft.com/) 2011
-{% if include.extended %}  * Semifinalist of *Game for Windows* and *Games for Windows Phone 7*{% else %}{: .table_list}{% endif %}
-{% if include.extended %}  * C#, XNA{% endif %}
+  * Semifinalist of *Game for Windows* and *Games for Windows Phone 7*
+  * C#, XNA
 {: .table_list}
 
 </div>
@@ -118,21 +117,21 @@
 
 ### Programming
 
-* **Haskell**
+* Haskell
   * 1+ years of experience
   * Current main language
 * SQL
-  * 5+ years of experience{% if include.extended %}*{% endif %}
-* **Elm**
-  * 2+ years of experience{% if include.extended %}*{% endif %}
-  * Preferred for web projects
+  * 5+ years of experience
 * C#
-  * 7+ years of experience{% if include.extended %}*{% endif %}
+  * 7+ years of experience
+* Elm
+  * 2+ years of experience
+  * Preferred for web projects
 * C++
-  * 3 years of experience{% if include.extended %}*{% endif %}
+  * 3 years of experience
   * Bachelor's main language
 * Java
-  * 2 years of experience{% if include.extended %}*{% endif %}
+  * 2 years of experience
   * Master's main language
 * PHP
   * 1 year of experience
@@ -140,52 +139,21 @@
   * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, SQL Server, Test Driven Development, Vue, XML, ...
 {: .table_list}
 
-{% if include.extended %}
-\* Combined from work, university and personal projects
-{: .footnote}
-{% endif %}
-
 </div>
 
-{% if include.extended %}
 <div class="nobreak" markdown="1">
 
 ### Minor skills
 
 * Design
-  * User Experience (UX)
-  * Gameplay
-* Photoshop
-  * General photo/image editing
-  * Texturing
-* Blender (3D)
-  * Optimized low-poly modelling
-  * Unwrapping
+  * User Experience (UX), Gameplay, Gamification
+* Photo editing
+  * Photoshop, Affinity Photo, Krita
+* 3D Modelling
+  * Blender, 3ds Max, Mudbox
 {: .table_list}
 
 </div>
-
-<div class="nobreak" markdown="1">
-
-### Once upon a time
-
-* 3ds Max
-  * Optimized low-poly meshes
-  * Unwrapping
-  * Sub-D modeling
-  * Normalmap baking
-  * Skinning
-* Mudbox
-  * Hight-poly sculpting
-  * Normalmap baking
-* Direct X
-  * Basic 3D pipeline coding
-* PhysX
-  * Implementing physics, including fluids and forcefields
-{: .table_list}
-
-</div>
-{% endif %}
 
 <div class="nobreak" markdown="1">
 

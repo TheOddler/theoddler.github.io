@@ -2,6 +2,6 @@
 layout: cv
 ---
 
-{% include cv.md extended=true %}
+<!-- Keeping this here as I send out the extended url to some recruiters, should be removed in the future -->
 
-Also check out a more concise cv: [{{site.website_hr}}/cv]({{site.website}}/cv).
+{% include cv.md %}

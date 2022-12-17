@@ -5,6 +5,6 @@ image: images/about.jpg
 
 ## Een eenvoudige boerenjongen
 
-{% include cv.md extended=true %}
+{% include cv.md %}
 
 Check out my [printable cv]({{site.baseurl}}/cv).
