@@ -4,8 +4,8 @@
 
 * Name
   * Pablo Bollansée
-* Location
-  * Antwerp, Belgium
+* Location(s)
+  * Remote UTC / CET (Mostly Belgium, UK and Portugal)
 * Birthday
   * July 18th, 1991
 * Web
