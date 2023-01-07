@@ -83,6 +83,12 @@
 
 ### Other Experiences
 
+* July 2022
+  * Haskell course
+  * at [Summer School Utrecht](https://utrechtsummerschool.nl/)
+  * Advanced Functional Programming in Haskell
+  * {:.no_print} [Click here to see certificate]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
+  * {:.only_print} [Certificate available online]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
 * Oct 2017 (2 wks.)
   * Fullstack Azure developer
   * at [ABVV](http://www.abvv.be/)
@@ -123,16 +129,14 @@
 
 ### Programming
 
-* Haskell
-  * 1+ years of experience
-  * Current main language
-* SQL
-  * 5+ years of experience
 * C#
   * 7+ years of experience
+* Haskell
+  * 2+ years of experience
+* SQL
+  * 5+ years of experience
 * Elm
   * 2+ years of experience
-  * Preferred for web projects
 * C++
   * 3 years of experience
   * Bachelor's main language
@@ -142,7 +146,7 @@
 * PHP
   * 1 year of experience
 * Other
-  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, SQL Server, Test Driven Development, Vue, XML, ...
+  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, Microsoft SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, Vue, XML, ...
 {: .table_list}
 
 </div>
