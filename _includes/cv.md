@@ -115,7 +115,7 @@
 
 <div class="nobreak" markdown="1">
 
-### Personal Projects
+### Projects
 
 {% assign orderedProjects = site.projects | sort: 'date' | reverse %}
 {% for project in orderedProjects %}
