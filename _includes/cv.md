@@ -37,7 +37,7 @@
   * at [Bagaar](https://www.bagaar.be/)
   * Automating a process that could that up to months to something taking mere minutes for a billion dollar client
   * Supporting over 28 countries and their regulations
-  * PHP, Laravel, C#, SQL, Azure, ...
+  * PHP, Laravel, C#, SQL, Azure, TypeScript, ...
 * Mar '19 - Mar '20
   *  Head Of Research And Development
   * at [DCA](https://dca.lu/)
@@ -47,7 +47,7 @@
   * .NET consultant, developer
   * at [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/)
   * Backend Consultant for several different million dollar clients
-  * C#, SQL, Azure, Cobol, Backend & Fullstack, ...
+  * C#, SQL, Azure, Cobol, TypeScript, Backend & Fullstack, ...
 * Oct '16 - Jul '17
   * Doctoral student
   * 
@@ -146,7 +146,7 @@
 * PHP
   * 1 year of experience
 * Other
-  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, Microsoft SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, Vue, XML, ...
+  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, Microsoft SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, TypeScript, Vue, XML, ...
 {: .table_list}
 
 </div>
