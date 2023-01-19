@@ -45,10 +45,11 @@
 ### Work Experience
 
 * Sep '21 - present
-  * Senior Back-End Haskell Developer
+  * Lead & Senior Back-End Developer
   * at [Feeld](https://feeld.co/)
   * Helped build a new team of Haskell engineers
   * Redefining the backend to support a 10-fold user-base growth
+  * Lead & manage projects
   * Haskell, SQL, Nix, Docker, GCP, ...
 * Oct '17 - present
   * Founder and Fullstack Developer
@@ -56,6 +57,7 @@
   * 
   * Backend consultancy
   * Design and development of games and other creative projects
+  * Business management
 * Mar '20 - Sep '21
   * Senior Back-End PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
@@ -63,9 +65,9 @@
   * Supporting over 28 countries and their regulations
   * PHP, Laravel, C#, SQL, Azure, TypeScript, ...
 * Mar '19 - Mar '20
-  *  Head Of Research And Development
+  * Head Of Research And Development
   * at [DCA](https://dca.lu/)
-  * Lead the research team for VR projects in [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/)
+  * Lead & manage the VR research team using [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/)
   * C#, SQL, Unity, VR, Backend & Fullstack, Design, ...
 * Oct '17 - Mar '19
   * .NET consultant, developer
