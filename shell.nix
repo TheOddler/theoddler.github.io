@@ -7,7 +7,7 @@ mkShell {
 
   shellHook = ''
     alias install='bundle install'
-    alias dev='bundle exec jekyll serve'
+    alias dev='bundle exec jekyll serve --watch --livereload'
     alias serve=dev
   '';
 }
