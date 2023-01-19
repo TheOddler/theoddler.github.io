@@ -1,7 +1,5 @@
 <div class="nobreak" markdown="1">
 
-### Info
-
 * Contact
   * [{{site.public_email}}](mailto:{{site.public_email}})
 * Web
