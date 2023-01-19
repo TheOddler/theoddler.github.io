@@ -18,30 +18,6 @@
 
 <div class="nobreak" markdown="1">
 
-### Programming Experience
-
-* C#
-  * 7+ years of experience
-* Haskell
-  * 2+ years of experience
-* SQL
-  * 5+ years of experience
-* Elm
-  * 2+ years of experience
-* C++
-  * 3 years of experience
-  * Bachelor's main language
-* Java
-  * 2 years of experience
-  * Master's main language
-* PHP
-  * 1 year of experience
-* Other
-  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MS SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, TypeScript, Vue, ...
-{: .table_list}
-
-</div>
-
 ### Work Experience
 
 * Sep '21 - present
@@ -81,6 +57,34 @@
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
   * I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code
 {: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
+
+### Programming Experience
+
+* C#
+  * 7+ years of experience
+* Haskell
+  * 2+ years of experience
+* SQL
+  * 5+ years of experience
+* Elm
+  * 2+ years of experience
+* C++
+  * 3 years of experience
+  * Bachelor's main language
+* Java
+  * 2 years of experience
+  * Master's main language
+* PHP
+  * 1 year of experience
+* Other
+  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MS SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, TypeScript, Vue, ...
+{: .table_list}
+
+</div>
 
 <div class="nobreak" markdown="1">
 
