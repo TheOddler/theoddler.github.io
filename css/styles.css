@@ -1,8 +1,0 @@
----
----
-
-html {overflow-y: scroll;}
-
-{% for file in site.css %}
-{{ file }}
-{% endfor %}

@@ -3,8 +3,7 @@
 
 {{ site.css | where:"title", "Base" | first }}
 
-{{ site.css | where:"title", "Tablelist" | first }}
-
+@import "tablelist";
 
 .wrapper {
     max-width: 18cm; /*21-1.5*2*/

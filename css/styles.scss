@@ -1,0 +1,14 @@
+---
+---
+
+
+html {overflow-y: scroll;}
+
+{% for file in site.css %}
+{{ file }}
+{% endfor %}
+
+{% for file in site.scss %}
+{% assign name = file.path | remove: ".scss" | remove: "_scss/" %}
+@import "{{ name }}"
+{% endfor %}
