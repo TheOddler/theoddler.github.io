@@ -62,10 +62,10 @@
 
 ### Programming Experience
 
-* C#
-  * 7+ years of experience
 * Haskell
   * 2+ years of experience
+* C#
+  * 7+ years of experience
 * SQL
   * 5+ years of experience
 * Elm
