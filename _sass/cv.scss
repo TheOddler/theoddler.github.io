@@ -1,0 +1,46 @@
+.wrapper {
+    max-width: 18cm;
+    /*21-1.5*2*/
+}
+
+.title {
+    font-size: 4.845em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.2em;
+}
+
+a {
+    color: inherit;
+}
+
+.nobreak {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    break-inside: avoid-page;
+}
+
+.only_print {
+    display: none;
+}
+
+@media print {
+    a {
+        text-decoration: inherit;
+    }
+
+    .no_print,
+    .no_print * {
+        display: none !important;
+    }
+
+    .only_print {
+        display: unset;
+    }
+}

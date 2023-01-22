@@ -7,9 +7,42 @@
   * [Linkedin.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
   * [GitHub.com/TheOddler](https://github.com/TheOddler/)
   * [GitLab.com/TheOddler](https://gitlab.com/TheOddler/)
-  * [The-Oddler.itch.io](https://the-oddler.itch.io/)
 * Location(s)
   * Remote UTC / CET (Mostly Belgium, UK and Portugal)
+{: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
+
+### About
+
+Hello! I'm Pablo, a manager and senior backend developer. I have extensive experience as a senior developer working with languages from C# and PHP all the way to SQL and Haskell. I've also led and managed both development and design teams. No matter my position on a team, I focus on bringing the best out of my team by sharing my expertise and providing support as well as listening to others' expertise so that we can all do our best work together.
+
+</div>
+
+<div class="nobreak" markdown="1">
+
+### Programming Experience
+
+* Haskell
+  * 2+ years of experience
+* C#
+  * 7+ years of experience
+* SQL
+  * 5+ years of experience
+* Elm
+  * 2+ years of experience
+* C++
+  * 3 years of experience
+  * Bachelor's main language
+* Java
+  * 2 years of experience
+  * Master's main language
+* PHP
+  * 1 year of experience
+* Other
+  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MS SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, TypeScript, Vue, ...
 {: .table_list}
 
 </div>
@@ -60,32 +93,6 @@
 
 <div class="nobreak" markdown="1">
 
-### Programming Experience
-
-* Haskell
-  * 2+ years of experience
-* C#
-  * 7+ years of experience
-* SQL
-  * 5+ years of experience
-* Elm
-  * 2+ years of experience
-* C++
-  * 3 years of experience
-  * Bachelor's main language
-* Java
-  * 2 years of experience
-  * Master's main language
-* PHP
-  * 1 year of experience
-* Other
-  * AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MS SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, TypeScript, Vue, ...
-{: .table_list}
-
-</div>
-
-<div class="nobreak" markdown="1">
-
 ### Education
 
 * 2014 - 2016
@@ -101,6 +108,18 @@
   * at [Howest Kortrijk](https://www.howest.be)
   * Major Game Development
   * **Cum Laude** 
+{: .table_list}
+
+</div>
+
+<div class="nobreak" markdown="1">
+
+### Projects
+
+{% assign orderedProjects = site.projects | sort: 'date' | reverse %}
+{% for project in orderedProjects %}
+* [{{ project.title }}]({{ project.custom_url }})
+  * {{ project.description }}{% endfor %}
 {: .table_list}
 
 </div>
@@ -139,17 +158,6 @@
 
 </div>
 
-<div class="nobreak" markdown="1">
-
-### Projects
-
-{% assign orderedProjects = site.projects | sort: 'date' | reverse %}
-{% for project in orderedProjects %}
-* [{{ project.title }}]({{ project.custom_url }})
-  * {{ project.description }}{% endfor %}
-{: .table_list}
-
-</div>
 
 <div class="nobreak" markdown="1">
 
