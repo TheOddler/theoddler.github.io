@@ -51,20 +51,23 @@ Hello! I'm Pablo, a manager and senior backend developer. I have extensive exper
 
 ### Work Experience
 
-* Sep '21 - present
+* Mar '23 - present
+  * Senior Backend Haskell & Fullstack Developer
+  * at [PRODA](https://proda.ai/)
+  * Building software used by billion-dollar companies
+  * Haskell, SQL, Typescript, Elm, Nix, ...
+* Oct '17 - present
+  * Founder & CEO
+  * at [Pablo Productions]({{site.website}})
+  * Backend & fullstack development consultancy
+  * Management, Haskell, Unity, SQL, Elm, Nix, ...
+* Sep '21 - Dec '22
   * Lead & Senior Back-End Developer
   * at [Feeld](https://feeld.co/)
   * Helped build a new team of Haskell engineers
   * Redefining the backend to support a 10-fold user-base growth
-  * Lead & manage projects
+  * Lead & managed projects
   * Haskell, SQL, Nix, Docker, GCP, ...
-* Oct '17 - present
-  * Founder and Fullstack Developer
-  * at [Pablo Productions]({{site.website}})
-  * 
-  * Backend consultancy
-  * Design and development of games and other creative projects
-  * Business management
 * Mar '20 - Sep '21
   * Senior Back-End PHP & C# Developer
   * at [Bagaar](https://www.bagaar.be/)
@@ -83,8 +86,7 @@ Hello! I'm Pablo, a manager and senior backend developer. I have extensive exper
   * C#, SQL, Azure, Cobol, TypeScript, Backend & Fullstack, ...
 * Oct '16 - Jul '17
   * Doctoral student
-  * 
-  * at [KU Leuven](https://www.kuleuven.be/), [Linnaeus Uni.](https://lnu.se/en/)
+  * at [KU Leuven](https://www.kuleuven.be/), [Linnaeus Univerity](https://lnu.se/en/)
   * Doctorate in AI: Self-Adapting Computer Systems (unfinished)
   * I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code
 {: .table_list}
