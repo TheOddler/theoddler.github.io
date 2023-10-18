@@ -5,7 +5,7 @@
   - [Linkedin.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
   - [GitHub.com/TheOddler](https://github.com/TheOddler/)
   - [GitLab.com/TheOddler](https://gitlab.com/TheOddler/)
-    {: .table_list}
+{: .table_list}
 
 </div>
 
@@ -39,7 +39,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
   - 1 year of experience
 - Other
   - AWS, Android, Angular, Azure, C, COBOL, CSS, Entity Framework, Google Cloud (GCP), Git, HTML, Javascript, LINQ, Lua, MS SQL Server, MySQL, Nix, PostgreSQL, Prolog, Python, React, Rust, Test Driven Development, TypeScript, Vue, ...
-    {: .table_list}
+{: .table_list}
 
 </div>
 
@@ -85,7 +85,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
   - at [KU Leuven](https://www.kuleuven.be/), [Linnaeus Univerity](https://lnu.se/en/)
   - Doctorate in AI: Self-Adapting Computer Systems (unfinished)
   - I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code
-    {: .table_list}
+{: .table_list}
 
 </div>
 
@@ -106,7 +106,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
   - at [Howest Kortrijk](https://www.howest.be)
   - Major Game Development
   - **Cum Laude**
-    {: .table_list}
+{: .table_list}
 
 </div>
 
@@ -119,7 +119,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
 
 - [{{ project.title }}]({{ project.custom_url }})
   - {{ project.description }}{% endfor %}
-    {: .table_list}
+{: .table_list}
 
 </div>
 
@@ -153,7 +153,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
   - for [Imagine Cup](https://imaginecup.microsoft.com/) 2011
   - Semifinalist of _Game for Windows_ and _Games for Windows Phone 7_
   - C#, XNA
-    {: .table_list}
+{: .table_list}
 
 </div>
 
@@ -167,7 +167,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
   - Photoshop, Affinity Photo, Krita
 - 3D Modelling
   - Blender, 3ds Max, Mudbox
-    {: .table_list}
+{: .table_list}
 
 </div>
 
@@ -177,6 +177,6 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
 
 - Dutch (Native)
   - English (Near-native)
-    {: .table_list}
+{: .table_list}
 
 </div>
