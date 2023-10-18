@@ -1,14 +1,10 @@
 <div class="nobreak" markdown="1">
 
-- Contact
+- Info
   - [{{site.public_email}}](mailto:{{site.public_email}})
-- Web
-  - [{{site.website_hr}}]({{site.website}})
   - [Linkedin.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
   - [GitHub.com/TheOddler](https://github.com/TheOddler/)
   - [GitLab.com/TheOddler](https://gitlab.com/TheOddler/)
-- Location(s)
-  - Remote UTC / CET (Mostly Belgium, UK and Portugal)
     {: .table_list}
 
 </div>
@@ -17,7 +13,7 @@
 
 ### About
 
-Hello! I'm Pablo, a manager and senior backend developer. I have extensive experience as a senior developer working with languages from C# and PHP all the way to SQL and Haskell. I've also led and managed both development and design teams. No matter my position on a team, I focus on bringing the best out of my team by sharing my expertise and providing support as well as listening to others' expertise so that we can all do our best work together.
+Hello! I'm Pablo, a senior backend developer and lead. I have extensive experience as a developer working with languages from C#, SQL and PHP all the way to Haskell. I've also led and managed both development and design teams. No matter my position on a team, I focus on bringing the best out of my colleagues by sharing knowledge and providing support, as well as listening to others' expertise so that we can all do our best work together.
 
 </div>
 
@@ -27,12 +23,12 @@ Hello! I'm Pablo, a manager and senior backend developer. I have extensive exper
 
 - Haskell
   - 2+ years of experience
-- C#
-  - 7+ years of experience
 - SQL
-  - 5+ years of experience
+  - 6+ years of experience
 - Elm
-  - 2+ years of experience
+  - 3+ years of experience
+- C#
+  - 7 years of experience
 - C++
   - 3 years of experience
   - Bachelor's main language
