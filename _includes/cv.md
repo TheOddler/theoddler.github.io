@@ -14,13 +14,13 @@
 
 ### About
 
-Hello! I'm Pablo, a senior backend developer and lead. I have extensive experience as a developer working with languages from C#, SQL and PHP all the way to Haskell. I've also led and managed both development and design teams. No matter my position on a team, I focus on bringing the best out of my colleagues by sharing knowledge and providing support, as well as listening to others' expertise so that we can all do our best work together.
+Senior Backend Developer and Manager with a demonstrated history across a variety of programming languages such as C#, PHP, SQL, and most recently Haskell. My focus has been backend development, but I also successfully led and managed both development and design teams. No matter my position on a team, I focus on bringing the best out of my colleagues by sharing knowledge and providing support, as well as listening to others' expertise so we can all do our best work together.
 
 </div>
 
 <div class="nobreak" markdown="1">
 
-### Programming Experience
+### Technical Skills
 
 - Haskell
   - 2+ years of experience
@@ -46,7 +46,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
 
 <div class="nobreak" markdown="1">
 
-### Work Experience
+### Career History
 
 - Mar '23 - present
   - Senior Backend Haskell & Fullstack Developer
@@ -126,7 +126,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
 
 <div class="nobreak" markdown="1">
 
-### Other Experiences
+### Certifications & Other Experience
 
 - July 2022
   - Haskell course
@@ -160,7 +160,7 @@ Hello! I'm Pablo, a senior backend developer and lead. I have extensive experien
 
 <div class="nobreak" markdown="1">
 
-### Minor skills
+### Other interests & skills
 
 - Design
   - User Experience (UX), Gameplay, Gamification
