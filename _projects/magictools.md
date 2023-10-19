@@ -2,7 +2,7 @@
 title: Magic Tools
 date: 2019/10/26
 custom_url: http://mtg.pabloproductions.be
-description: A web-app build in Vue to be used while playing MTG
+description: Web app build in Vue to be used while playing MTG
 long_description: |
     A web-app that provides coins, dice and counters to be used while playing the card-game MTG.
     I, in part, made it as a way to test and research [Angular](https://angular.io/), [React](https://reactjs.org/) and [Vue](https://vuejs.org/).

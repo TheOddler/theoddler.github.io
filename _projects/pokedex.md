@@ -2,7 +2,7 @@
 title: Pokédex
 date: 2022/08/04
 custom_url: http://pokedex.pabloproductions.be/
-description: A simple web Pokédex showing type-advantages made in Elm
+description: Web SPA Pokédex showing type-advantages made in Elm
 long_description: |
     A simple Pokédex made in [Elm](http://elm-lang.org/).
     It shows basic type information for use during a battle.
