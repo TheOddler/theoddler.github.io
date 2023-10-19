@@ -1,46 +1,229 @@
+$padding: 20pt;
+
+body {
+  margin: 0;
+  padding: $padding;
+  background: #eaeaea;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+
 .wrapper {
-    max-width: 18cm;
-    /*21-1.5*2*/
+  display: grid;
+  grid-template-rows: auto;
+  // grid-template-columns: 30% 70%;
+  // grid-template-areas:
+  //   "avatar about"
+  //   "contact skills"
+  //   "education work"
+  //   "other-skills other-work"
+  //   "spoken-languages projects";
+  grid-template-columns: 70% 30%;
+  grid-template-areas:
+    "about avatar"
+    "skills contact"
+    "work education"
+    "other-work other-skills"
+    "projects spoken-languages";
+
+  max-width: 65em;
+  margin: 0 auto;
+  box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.2);
 }
 
-.title {
-    font-size: 4.845em;
-}
+.section {
+  padding: $padding;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 1.2em;
-}
+  h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+  }
 
-a {
+  &.main {
+    color: #545E6C;
+
+    h1 {
+      font-size: 1.4em;
+      font-weight: normal;
+      color: #2d7788;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin-bottom: 0;
+      font-weight: normal;
+      color: #3F4650;
+    }
+
+    .employer {
+      color: #97AAC3;
+      margin: 0;
+    }
+
+    .date {
+      color: #97AAC3;
+      float: right;
+      margin: 0;
+    }
+  }
+
+  &.side {
+    background-color: #42a8c0;
+    color: #fff;
+
+    h1 {
+      font-size: 1.15em;
+    }
+
+    h2 {
+      font-size: 1em;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  &.avatar {
+    background-color: #35879a;
+
+    text-align: center;
+
+    img {
+      width: 100pt;
+      border-radius: 100%;
+    }
+
+    h1 {
+      font-size: 2em;
+      text-transform: unset;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1.15em;
+    }
+  }
+
+  a {
     color: inherit;
+  }
 }
 
-.nobreak {
-    page-break-inside: avoid;
-    break-inside: avoid;
-    break-inside: avoid-page;
+.avatar {
+  grid-area: avatar;
+}
+
+.contact {
+  grid-area: contact;
+
+  table {
+    svg {
+      height: 1.2em;
+      vertical-align: middle;
+    }
+
+    td:first-child {
+      width: 1.5em;
+      padding-right: 0;
+    }
+  }
+}
+
+.about {
+  grid-area: about;
+}
+
+.skills {
+  grid-area: skills;
+
+  table {
+    tr {
+      border-bottom: 1px solid #ccc;
+    }
+
+    td:first-child {
+      width: 7.7em;
+    }
+  }
+}
+
+.work {
+  grid-area: work;
+}
+
+.education {
+  grid-area: education;
+}
+
+.other-work {
+  grid-area: other-work;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.other-skills {
+  grid-area: other-skills;
+}
+
+.spoken-languages {
+  grid-area: spoken-languages;
+
+  td {
+    padding: 0.5em 0;
+
+    &:nth-child(2) {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+// General
+table {
+  width: 100%;
+  color: inherit;
+  border-collapse: collapse;
+
+  td {
+    padding: 0.5em;
+  }
+
+  td:first-child {
+    padding-left: 0;
+  }
+
+  td:last-child {
+    padding-right: 0;
+  }
+}
+
+// Print stuff
+div {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  break-inside: avoid-page;
 }
 
 .only_print {
-    display: none;
+  display: none;
 }
 
 @media print {
-    a {
-        text-decoration: inherit;
-    }
+  a {
+    text-decoration: inherit;
+  }
 
-    .no_print,
-    .no_print * {
-        display: none !important;
-    }
+  .no_print,
+  .no_print * {
+    display: none !important;
+  }
 
-    .only_print {
-        display: unset;
-    }
+  .only_print {
+    display: unset;
+  }
 }
