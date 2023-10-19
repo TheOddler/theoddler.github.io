@@ -1,8 +1,9 @@
 <div class="nobreak" markdown="1">
 
-- Info
+- Contact
   - [{{site.public_email}}](mailto:{{site.public_email}})
   - [Linkedin.com/in/Pablo-Bollansée](https://www.linkedin.com/in/pablo-bollans%C3%A9e/)
+- Git
   - [GitHub.com/TheOddler](https://github.com/TheOddler/)
   - [GitLab.com/TheOddler](https://gitlab.com/TheOddler/)
 {: .table_list}
