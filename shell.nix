@@ -1,13 +1,13 @@
-with (import <nixpkgs> {});
+with (import <nixpkgs> { });
 
 mkShell {
   buildInputs = [
+    jekyll
     bundler
   ];
 
   shellHook = ''
-    alias install='bundle install'
-    alias dev='bundle exec jekyll serve --watch --livereload'
+    alias dev='jekyll serve --watch --livereload'
     alias serve=dev
   '';
 }
