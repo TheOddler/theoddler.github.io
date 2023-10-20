@@ -2,7 +2,7 @@
 layout: cv
 ---
 
-<div class="avatar section side nobreak" markdown="1">
+<div class="avatar section side" markdown="1">
 
 <img src="/images/ik_en_totorro.webp">
 
@@ -12,7 +12,7 @@ Computer Scientist
 
 </div>
 
-<div class="contact section side nobreak" markdown="1">
+<div class="contact section side" markdown="1">
 
 | {% include mail.svg %}     | [Pablo.Bollansee&#8203;@gmail.com](mailto:pablo.bollansee@gmail.com)
 | {% include earth.svg %}    | UK & Portugal
@@ -29,15 +29,17 @@ Computer Scientist
 
 </div>
 
-<div class="about section main nobreak" markdown="1">
+<div class="about section main" markdown="1">
 
 # Career profile
 
-Senior Backend Developer and Manager with a demonstrated history across a variety of programming languages such as C#, PHP, SQL, and most recently Haskell. My focus has been backend development, but I also successfully led and managed both development and design teams. No matter my position on a team, I focus on bringing the best out of my colleagues by sharing knowledge and providing support, as well as listening to others' expertise so we can all do our best work together.
+**Senior** backend developer and **manager** with a demonstrated history across a **variety** of programming languages such as C#, PHP, SQL, and most recently Haskell.
+My focus has been **backend development**, but I also successfully **led** and managed both development and design teams.
+No matter my position on a team, I focus on bringing the best out of my colleagues by sharing knowledge and providing support, as well as listening to others' expertise so we can all do our best work together.
 
 </div>
 
-<div class="skills section main nobreak" markdown="1">
+<div class="skills section main" markdown="1">
 
 # Technical Experience
 
@@ -51,7 +53,7 @@ Senior Backend Developer and Manager with a demonstrated history across a variet
 
 </div>
 
-<div class="work section main nobreak" markdown="1">
+<div class="work section main" markdown="1">
 
 # Career History
 
@@ -61,16 +63,7 @@ Mar '23 - present
 [PRODA](https://proda.ai/), Remote, London
 {: .employer}
 
-Building software used by billion-dollar companies using Haskell, SQL, Typescript, Elm, Nix, and more.
-
-
-Oct '17 - present
-{: .date}
-## Founder & CEO
-[Pablo Productions]({{site.website}}), Remote, Belgium
-{: .employer}
-
-Backend & fullstack development and management consultancy.
+**Senior** developer in a team building software used by **billion-dollar** companies using Haskell, SQL, Typescript, Elm, Nix, and more.
 
 
 Sep '21 - Dec '22
@@ -79,10 +72,19 @@ Sep '21 - Dec '22
 [Feeld](https://feeld.co/), Remote, London
 {: .employer}
 
-- Helped build a new team of Haskell engineers
-- Redefining the backend to support a 10-fold user-base growth
-- Lead & managed projects
-- Haskell, SQL, Nix, Docker, GCP, ...
+I contributed to the **hiring** of a new Haskell engineering team and performed a significant role in restructuring the backend to accommodate a **ten-time increase** in user base.
+On top of being a **senior backend dev**, my responsibilities also included **leading** and managing projects.
+We mainly used Haskell, SQL, Nix and of course Docker to run it on GCP.
+
+
+Oct '17 - present
+{: .date}
+## Founder & CEO
+[Pablo Productions]({{site.website}}), Remote, Belgium
+{: .employer}
+
+The company I set up to do my **backend & fullstack** development and management consultancy.
+This allows me to work with companies anywhere in the world, and not be constrained to local opportunities.
 
 
 Mar '20 - Sep '21
@@ -91,9 +93,9 @@ Mar '20 - Sep '21
 [Bagaar](https://www.bagaar.be/), Remote, Antwerp
 {: .employer}
 
-- Automating a process that could that up to months to something taking mere minutes for a billion dollar client
-- Supporting over 28 countries and their regulations
-- PHP, Laravel, C#, SQL, Azure, TypeScript, ...
+Was one of the senior devs in a project to **automate** a process that previously took **months**, reducing it to **minutes**, for a **billion-dollar** client.
+The platform we build supported over **28 countries** and their regulations.
+We mainly used PHP, Laravel, and SQL, as well as some C#, and TypeScript for the frontend.
 
 
 Mar '19 - Mar '20
@@ -102,8 +104,9 @@ Mar '19 - Mar '20
 [DCA](https://dca.lu/), Belgium
 {: .employer}
 
-- Lead & manage the VR research team using [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/)
-- C#, SQL, Unity, VR, Backend & Fullstack, Design, ...
+In this role I **led** and **managed** a VR research team, consisting of **programmers**, **designers** and **artists**, utilizing [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/).
+My responsibilities spanned across **backend** and **fullstack** work, research, and more.
+Key technologies used include C#, SQL, and VR.
 
 
 Oct '17 - Mar '19
@@ -112,23 +115,22 @@ Oct '17 - Mar '19
 [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/), Belgium
 {: .employer}
 
-- Backend Consultant for several different million dollar clients
-- C#, SQL, Azure, Cobol, TypeScript, Backend & Fullstack, ...
+As a **.NET** consultant, I provided services to **numerous** high-value clients.
+Key tasks involved extensive usage of technologies such as C#, SQL, Azure, Cobol, and TypeScript in both **backend** and **fullstack** development.
 
 
 Oct '16 - Jul '17
 {: .date}
-## Doctoral student
+## Doctorate
 
 [KU Leuven](https://www.kuleuven.be/), Belgium & [Linnaeus Univerity](https://lnu.se/en/), Sweden
 {: .employer}
 
-- Doctorate in AI: Self-Adapting Computer Systems (unfinished)
-- I&nbsp;quite quickly felt it wasn't for me, as I&nbsp;didn't enjoy the very theoretical work with a focus on papers rather&nbsp;than&nbsp;code
+I was accepted as a **doctoral** student, with a specialization in **AI**: Self-Adapting Computer Systems. However, I decided to discontinue this due to a preference for **practical code work** rather than writing papers.
 
 </div>
 
-<div class="education section side nobreak" markdown="1">
+<div class="education section side" markdown="1">
 
 # Education
 
@@ -158,7 +160,7 @@ Graduated **Cum Laude**
 
 </div>
 
-<div class="other-work section main nobreak" markdown="1">
+<div class="other-work section main" markdown="1">
 
 # Certifications & Other Experience
 
@@ -168,9 +170,13 @@ July 2022
 [Summer School Utrecht](https://utrechtsummerschool.nl/), Netherlands
 {: .employer}
 
-  - Advanced Functional Programming in Haskell
-  - {:.no_print} [Click here to see certificate]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
-  - {:.only_print} [Certificate available online]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
+Course _**Advanced** Functional Programming in Haskell_.
+
+[Click here to see certificate]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
+{:.no_print}
+
+[Certificate available online]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
+{:.only_print}
 
 
 Oct 2017
@@ -179,8 +185,7 @@ Oct 2017
 [ABVV](http://www.abvv.be/), Belgium
 {: .employer}
 
-  - Proof of concept implementation of their first microservice
-  - C#, [Azure](https://azure.microsoft.com)
+I build a proof of concept implementation of their first **microservice**, as a way to convince their management microservices were worth further **investment**, using C# and [Azure](https://azure.microsoft.com),
 
 
 Feb - Jun 2012
@@ -189,8 +194,8 @@ Feb - Jun 2012
 [Vanguard Games](http://www.vanguardgames.net/), Amsterdam
 {: .employer}
 
-  - During the development of Halo: Spartan Assault
-  - C++, C#, [Unity](https://unity.com/)
+I was part of the team during the development of **Halo**: Spartan Assault.
+We used C++, C# and [Unity](https://unity.com/).
 
 
 Sep 2011 - Feb 2012
@@ -199,8 +204,7 @@ Sep 2011 - Feb 2012
 [MyMachine](https://mymachine-global.org/), Belgium
 {: .employer}
 
-  - A game bringing the imaginary machines of children to life
-  - C#, [Unity](https://unity.com/)
+We build a game bringing the **imagination of children** to life, using C# in [Unity](https://unity.com/).
 
 
 Feb - Jun 2011
@@ -209,12 +213,11 @@ Feb - Jun 2011
 [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Belgium
 {: .employer}
 
-  - Semifinalist of _Game for Windows_ and _Games for Windows Phone 7_
-  - C#, XNA
+**Semifinalist** of _Game for Windows_ and _Games for Windows Phone 7_, with a game build in XNA, C#.
 
 </div>
 
-<div class="projects section main nobreak" markdown="1">
+<div class="projects section main" markdown="1">
 
 # Projects
 
@@ -225,7 +228,7 @@ Feb - Jun 2011
 
 </div>
 
-<div class="other-skills section side nobreak" markdown="1">
+<div class="other-skills section side" markdown="1">
 
 # Additional skills
 
@@ -247,7 +250,7 @@ Blender, 3ds Max, Mudbox
 
 </div>
 
-<div class="spoken-languages section side nobreak" markdown="1">
+<div class="spoken-languages section side" markdown="1">
 
 # Spoken languages
 
