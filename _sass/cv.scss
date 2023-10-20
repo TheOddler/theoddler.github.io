@@ -16,15 +16,8 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-rows: auto;
-  // grid-template-columns: 30% 70%;
-  // grid-template-areas:
-  //   "avatar about"
-  //   "contact skills"
-  //   "education work"
-  //   "other-skills other-work"
-  //   "spoken-languages projects";
   grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
   grid-template-areas:
     "about avatar"
     "skills contact"
@@ -47,7 +40,6 @@ body {
       "other-skills"
       "spoken-languages";
   }
-
 
   margin: 0 auto;
   box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.2);
