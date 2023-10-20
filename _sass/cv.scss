@@ -47,91 +47,80 @@ body {
 
 .section {
   padding: $padding;
+}
+
+.main {
+  color: #545E6C;
 
   h1 {
-    margin-top: 0;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #2d7788;
     text-transform: uppercase;
   }
 
-  &.main {
-    color: #545E6C;
-
-    h1 {
-      font-size: 1.4em;
-      font-weight: normal;
-      color: #2d7788;
-    }
-
-    h2 {
-      font-size: 1.2em;
-      margin-bottom: 0;
-      font-weight: normal;
-      color: #3F4650;
-    }
-
-    p {
-      margin: 0.25em 0;
-    }
-
-    .employer {
-      color: #97AAC3;
-      margin: 0;
-    }
-
-    .date {
-      color: #97AAC3;
-      float: right;
-      margin: 0;
-    }
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #3F4650;
   }
 
-  &.side {
-    background-color: #42a8c0;
-    color: #fff;
-
-    h1 {
-      font-size: 1.15em;
-    }
-
-    h2 {
-      font-size: 1em;
-      margin-bottom: 0;
-    }
-
-    p {
-      margin: 0;
-      color: rgba(255, 255, 255, 0.7);
-    }
+  p {
+    margin: 0.25em 0;
   }
 
-  &.avatar {
-    background-color: #35879a;
-
-    text-align: center;
-
-    img {
-      width: 100pt;
-      border-radius: 100%;
-    }
-
-    h1 {
-      font-size: 2em;
-      text-transform: unset;
-      margin-bottom: 0;
-    }
-
-    p {
-      font-size: 1.15em;
-    }
+  .employer {
+    color: #97AAC3;
+    margin: 0;
   }
 
-  a {
-    color: inherit;
+  .date {
+    color: #97AAC3;
+    float: right;
+    margin: 0;
+  }
+}
+
+.side {
+  background-color: #42a8c0;
+  color: #fff;
+
+  h1 {
+    font-size: 1.15em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
   }
 }
 
 .avatar {
   grid-area: avatar;
+  background-color: #35879a;
+  text-align: center;
+
+  img {
+    width: 100pt;
+    border-radius: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-transform: unset;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.15em;
+  }
 }
 
 .contact {
@@ -201,6 +190,14 @@ body {
 }
 
 // General
+h1 {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
+}
+
 table {
   width: 100%;
   color: inherit;
@@ -225,6 +222,10 @@ table {
 }
 
 @media print {
+  body {
+    padding: 0;
+  }
+
   a {
     text-decoration: inherit;
   }
