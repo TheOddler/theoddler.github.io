@@ -1,5 +1,5 @@
 $padding: 20pt;
-$phone-width: 900px;
+$phone-width: 700px;
 
 body {
   margin: 0;
@@ -67,6 +67,10 @@ body {
       margin-bottom: 0;
       font-weight: normal;
       color: #3F4650;
+    }
+
+    p {
+      margin: 0.25em 0;
     }
 
     .employer {
@@ -216,12 +220,6 @@ table {
 }
 
 // Print stuff
-div {
-  page-break-inside: avoid;
-  break-inside: avoid;
-  break-inside: avoid-page;
-}
-
 .only_print {
   display: none;
 }
