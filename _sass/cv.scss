@@ -1,4 +1,5 @@
 $padding: 20pt;
+$phone-width: 900px;
 
 body {
   margin: 0;
@@ -7,6 +8,10 @@ body {
   font-family: Verdana, Geneva, sans-serif;
   text-align: justify;
   line-height: 1.5;
+
+  @media (max-width: $phone-width) {
+    padding: 0;
+  }
 }
 
 .wrapper {
@@ -26,8 +31,24 @@ body {
     "work education"
     "other-work other-skills"
     "projects spoken-languages";
+  max-width: 80em;
 
-  max-width: 65em;
+  @media (max-width: $phone-width) {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "avatar"
+      "contact"
+      "about"
+      "skills"
+      "work"
+      "education"
+      "other-work"
+      "projects"
+      "other-skills"
+      "spoken-languages";
+  }
+
+
   margin: 0 auto;
   box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.2);
 }
