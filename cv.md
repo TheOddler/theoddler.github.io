@@ -43,9 +43,9 @@ No matter my position on a team, I focus on bringing the best out of my colleagu
 
 # Technical Experience
 
-| Haskell | 2+ years of experience
-| SQL     | 6+ years of experience
-| Elm     | 3+ years of experience
+| Haskell | 3+ years of experience
+| SQL     | 7+ years of experience
+| Elm     | 4+ years of experience
 | C#      | 7 years of experience
 | C++     | 3 years of experience  | Bachelor's main language
 | Java    | 2 years of experience  | Master's main language
@@ -150,7 +150,7 @@ Graduated **Cum Laude**
 
 2013 - 2014
 
-## BSc in Game Development
+## BSc in Game Dev
 
 [Howest University](https://www.howest.be), [DAE](http://www.digitalartsandentertainment.be/)
 
@@ -166,7 +166,7 @@ Graduated **Cum Laude**
 
 July 2022
 {: .date}
-## Haskell course
+## Advanced Functional Programming Course
 [Summer School Utrecht](https://utrechtsummerschool.nl/), Netherlands
 {: .employer}
 
