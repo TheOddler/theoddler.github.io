@@ -57,18 +57,18 @@ No matter my position on a team, I focus on bringing the best out of my colleagu
 
 # Career History
 
+## Senior Backend Haskell / Fullstack Dev
 Mar '23 - present
 {: .date}
-## Senior Backend Haskell / Fullstack Dev
 [PRODA](https://proda.ai/), Remote, London
 {: .employer}
 
 **Senior** developer in a team building software used by **billion-dollar** companies using Haskell, SQL, Typescript, Elm, Nix, and more.
 
 
+## Lead & Senior Back-End Developer
 Sep '21 - Dec '22
 {: .date}
-## Lead & Senior Back-End Developer
 [Feeld](https://feeld.co/), Remote, London
 {: .employer}
 
@@ -77,9 +77,9 @@ On top of being a **senior backend dev**, my responsibilities also included **le
 We mainly used Haskell, SQL, Nix and of course Docker to run it on GCP.
 
 
+## Founder & CEO
 Oct '17 - present
 {: .date}
-## Founder & CEO
 [Pablo Productions]({{site.website}}), Remote, Belgium
 {: .employer}
 
@@ -87,9 +87,9 @@ The company I set up to do my **backend & fullstack** development and management
 This allows me to work with companies anywhere in the world, and not be constrained to local opportunities.
 
 
+## Senior Back-End PHP & C# Developer
 Mar '20 - Sep '21
 {: .date}
-## Senior Back-End PHP & C# Developer
 [Bagaar](https://www.bagaar.be/), Remote, Antwerp
 {: .employer}
 
@@ -98,9 +98,9 @@ The platform we build supported over **28 countries** and their regulations.
 We mainly used PHP, Laravel, and SQL, as well as some C#, and TypeScript for the frontend.
 
 
+## Head Of Research And Development
 Mar '19 - Mar '20
 {: .date}
-## Head Of Research And Development
 [DCA](https://dca.lu/), Belgium
 {: .employer}
 
@@ -109,9 +109,9 @@ My responsibilities spanned across **backend** and **fullstack** work, research,
 Key technologies used include C#, SQL, and VR.
 
 
+## .NET consultant, developer
 Oct '17 - Mar '19
 {: .date}
-## .NET consultant, developer
 [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/), Belgium
 {: .employer}
 
@@ -119,10 +119,9 @@ As a **.NET** consultant, I provided services to **numerous** high-value clients
 Key tasks involved extensive usage of technologies such as C#, SQL, Azure, Cobol, and TypeScript in both **backend** and **fullstack** development.
 
 
+## Doctorate
 Oct '16 - Jul '17
 {: .date}
-## Doctorate
-
 [KU Leuven](https://www.kuleuven.be/), Belgium & [Linnaeus Univerity](https://lnu.se/en/), Sweden
 {: .employer}
 
@@ -164,9 +163,9 @@ Graduated **Cum Laude**
 
 # Certifications & Other Experience
 
+## Advanced Functional Programming Course
 July 2022
 {: .date}
-## Advanced Functional Programming Course
 [Summer School Utrecht](https://utrechtsummerschool.nl/), Netherlands
 {: .employer}
 
@@ -179,18 +178,18 @@ Course _**Advanced** Functional Programming in Haskell_.
 {:.only_print}
 
 
+## Fullstack Azure developer
 Oct 2017
 {: .date}
-## Fullstack Azure developer
 [ABVV](http://www.abvv.be/), Belgium
 {: .employer}
 
 I build a proof of concept implementation of their first **microservice**, as a way to convince their management microservices were worth further **investment**, using C# and [Azure](https://azure.microsoft.com),
 
 
+## C# Development Intern
 Feb - Jun 2012
 {: .date}
-## C# Development Intern
 [Vanguard Games](http://www.vanguardgames.net/), Amsterdam
 {: .employer}
 
@@ -198,18 +197,18 @@ I was part of the team during the development of **Halo**: Spartan Assault.
 We used C++, C# and [Unity](https://unity.com/).
 
 
+## Unity Programmer & Designer
 Sep 2011 - Feb 2012
 {: .date}
-## Unity Programmer & Designer
 [MyMachine](https://mymachine-global.org/), Belgium
 {: .employer}
 
 We build a game bringing the **imagination of children** to life, using C# in [Unity](https://unity.com/).
 
 
+## C# Programmer & Designer
 Feb - Jun 2011
 {: .date}
-## C# Programmer & Designer
 [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Belgium
 {: .employer}
 
