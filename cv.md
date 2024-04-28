@@ -43,13 +43,40 @@ No matter my position on a team, I focus on bringing the best out of my colleagu
 
 # Technical Experience
 
-| Haskell | 3+ years of experience
-| SQL     | 7+ years of experience
-| Elm     | 4+ years of experience
-| C#      | 7 years of experience
-| C++     | 3 years of experience  | Bachelor's main language
-| Java    | 2 years of experience  | Master's main language
-| PHP     | 1 year of experience
+<table>
+<tbody>
+  <tr>
+    <td>Haskell</td>
+    <td colspan="2">3+ years of experience</td>
+  </tr>
+  <tr>
+    <td>SQL</td>
+    <td colspan="2">7+ years of experience</td>
+  </tr>
+  <tr>
+    <td>Elm</td>
+    <td colspan="2">4+ years of experience</td>
+  </tr>
+  <tr>
+    <td>C#</td>
+    <td  colspan="2">7 years of experience</td>
+  </tr>
+  <tr>
+    <td>C++</td>
+    <td>3 years of experience</td>
+    <td>Bachelor's main language</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>2 years of experience</td>
+    <td>Master's main language</td>
+  </tr>
+  <tr>
+    <td>PHP</td>
+    <td colspan="2">1 year of experience</td>
+  </tr>
+</tbody>
+</table>
 
 </div>
 
