@@ -15,7 +15,7 @@ Computer Scientist
 <div class="contact section side" markdown="1">
 
 | {% include mail.svg %}     | [Pablo.Bollansee&#8203;@gmail.com](mailto:pablo.bollansee@gmail.com)
-| {% include earth.svg %}    | UK & Portugal
+| {% include earth.svg %}    | UK, London, Remote
 
 | {% include linkedin.svg %} | [/Pablo-Bollansee](https://www.linkedin.com/in/pablo-bollansee/)
 | {% include github.svg %}   | [/TheOddler](https://github.com/TheOddler/)
@@ -33,9 +33,14 @@ Computer Scientist
 
 # Career profile
 
-**Senior** backend developer and **manager** with a demonstrated history across a **variety** of programming languages such as C#, PHP, SQL, and most recently Haskell.
-My focus has been **backend development**, but I also successfully **led** and managed both development and design teams.
-No matter my position on a team, I focus on bringing the best out of my colleagues by sharing knowledge and providing support, as well as listening to others' expertise so we can all do our best work together.
+**Senior** backend and fullstack developer with a demonstrated history across a **variety** of programming languages
+such as C#, PHP, SQL, and most recently Haskell.
+My focus has been **backend development**,
+but I also have a track record of working with **non-technical stakeholders**,
+such as designers and product owners.
+No matter whom I'm working with, I'm open, **flexible** and easy to work with.
+I try to bring the best out of everybody by sharing knowledge and providing support,
+as well as listening to their expertise to make working together as smooth as possible.
 
 </div>
 
@@ -90,28 +95,22 @@ Mar '23 - present
 [PRODA](https://proda.ai/), Remote, London
 {: .employer}
 
-**Senior** developer in a team building software used by **billion-dollar** companies using Haskell, SQL, Typescript, Elm, Nix, and more.
+**Senior** developer in a team building software used by **billion-dollar** companies using **Haskell**, **SQL**, Typescript, Elm, Nix, and more.
+Working together with the senior backend team, as well as frontend, design and product.
+I also lead the technical parts of the **hiring** process for both senior and junior roles.
 
 
-## Lead & Senior Back-End Developer
+## Senior Back-End Haskell Developer & Lead
 Sep '21 - Dec '22
 {: .date}
 [Feeld](https://feeld.co/), Remote, London
 {: .employer}
 
-I contributed to the **hiring** of a new Haskell engineering team and performed a significant role in restructuring the backend to accommodate a **ten-time increase** in user base.
-On top of being a **senior backend dev**, my responsibilities also included **leading** and managing projects.
+I was one of the **senior backend** developers,
+and contributed to the **hiring** of a Haskell engineering team.
+I had a significant role in restructuring the backend to accommodate a **ten-time increase** in user base.
+On top of being a senior backend dev, my responsibilities also included **leading** and managing projects.
 We mainly used Haskell, SQL, Nix and of course Docker to run it on GCP.
-
-
-## Founder & CEO
-Oct '17 - present
-{: .date}
-[Pablo Productions]({{site.website}}), Remote, Belgium
-{: .employer}
-
-The company I set up to do my **backend & fullstack** development and management consultancy.
-This allows me to work with companies anywhere in the world, and not be constrained to local opportunities.
 
 
 ## Senior Back-End PHP & C# Developer
@@ -120,7 +119,7 @@ Mar '20 - Sep '21
 [Bagaar](https://www.bagaar.be/), Remote, Antwerp
 {: .employer}
 
-Was one of the senior devs in a project to **automate** a process that previously took **months**, reducing it to **minutes**, for a **billion-dollar** client.
+I was one of the **senior** devs in a project to **automate** a process that previously took **months**, reducing it to **minutes**, for a **billion-dollar** client.
 The platform we build supported over **28 countries** and their regulations.
 We mainly used PHP, Laravel, and SQL, as well as some C#, and TypeScript for the frontend.
 
@@ -131,9 +130,9 @@ Mar '19 - Mar '20
 [DCA](https://dca.lu/), Belgium
 {: .employer}
 
-In this role I **led** and **managed** a VR research team, consisting of **programmers**, **designers** and **artists**, utilizing [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/).
+In this role I was the **lead** and **manager** for the VR research team, consisting of **programmers**, **designers** and **artists**, utilizing [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/).
 My responsibilities spanned across **backend** and **fullstack** work, research, and more.
-Key technologies used include C#, SQL, and VR.
+Key technologies used included Unity, Unreal, C#, SQL, and VR hardware.
 
 
 ## .NET consultant, developer
@@ -164,9 +163,9 @@ I was accepted as a **doctoral** student, with a specialization in **AI**: Self-
 
 [KU Leuven](https://www.kuleuven.be)
 
-Majored in AI
+Majored in **AI**
 
-Graduated **Cum Laude**
+Graduated **Cum&nbsp;Laude**
 
 2014 - 2016
 
@@ -180,7 +179,7 @@ Graduated **Cum Laude**
 
 [Howest University](https://www.howest.be), [DAE](http://www.digitalartsandentertainment.be/)
 
-Graduated **Cum Laude**
+Graduated **Cum&nbsp;Laude**
 
 2009 - 2012
 
