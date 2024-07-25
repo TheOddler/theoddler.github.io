@@ -4,7 +4,6 @@ $phone-width: 700px;
 body {
   margin: 0;
   padding: $padding;
-  background: #eaeaea;
   font-family: Verdana, Geneva, sans-serif;
   line-height: 1.5;
 
@@ -41,7 +40,7 @@ body {
   }
 
   margin: 0 auto;
-  box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.2);
+  box-shadow: 0pt 3pt 8pt rgba(0, 0, 0, 0.4);
 }
 
 .section {
@@ -218,6 +217,12 @@ table {
   td:last-child {
     padding-right: 0;
   }
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 1em;
 }
 
 // Print stuff
