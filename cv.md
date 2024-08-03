@@ -33,14 +33,7 @@ Computer Scientist
 
 # Career profile
 
-**Senior** backend and fullstack developer with a demonstrated history across a **variety** of programming languages
-such as C#, PHP, SQL, and most recently Haskell.
-My focus has been **backend development**,
-but I also have a track record of working with **non-technical stakeholders**,
-such as designers and product owners.
-No matter whom I'm working with, I'm open, **flexible** and easy to work with.
-I try to bring the best out of everybody by sharing knowledge and providing support,
-as well as listening to their expertise to make working together as smooth as possible.
+Experienced backend and fullstack developer with a strong focus on Haskell and functional programming. Proven track record of building scalable systems for high-profile clients and leading technical teams. Adept at collaborating with cross-functional teams and stakeholders to deliver robust, efficient solutions.
 
 </div>
 
@@ -52,7 +45,7 @@ as well as listening to their expertise to make working together as smooth as po
 <tbody>
   <tr>
     <td>Haskell</td>
-    <td colspan="2">3+ years of experience</td>
+    <td colspan="2">4+ years of experience</td>
   </tr>
   <tr>
     <td>SQL</td>
@@ -95,9 +88,10 @@ Mar '23 - present
 [PRODA](https://proda.ai/), Remote, London
 {: .employer}
 
-**Senior** developer in a team building software used by **billion-dollar** companies using **Haskell**, **SQL**, Typescript, Elm, Nix, and more.
-Working together with the senior backend team, as well as frontend, design and product.
-I also lead the technical parts of the **hiring** process for both senior and junior roles.
+* **Senior** developer on a team building enterprise software using **Haskell**, SQL, TypeScript, and Elm
+* Architect scalable backend solutions for **billion-dollar** clients
+* Spearheaded **technical hiring** process for senior and junior roles
+* Collaborate closely with frontend, design, and product teams to ensure cohesive development
 
 
 ## Senior Back-End Haskell Developer & Lead
@@ -106,11 +100,10 @@ Sep '21 - Dec '22
 [Feeld](https://feeld.co/), Remote, London
 {: .employer}
 
-I was one of the **senior backend** developers,
-and contributed to the **hiring** of a Haskell engineering team.
-I had a significant role in restructuring the backend to accommodate a **ten-time increase** in user base.
-On top of being a senior backend dev, my responsibilities also included **leading** and managing projects.
-We mainly used Haskell, SQL, Nix and of course Docker to run it on GCP.
+* Restructured backend architecture to accommodate **10x user base growth** using **Haskell** and SQL
+* **Led and managed** critical projects, ensuring on-time delivery and high code quality
+* Implemented robust CI/CD pipelines using Nix and Docker on GCP
+* Contributed to hiring and onboarding of new Haskell engineering team members
 
 
 ## Senior Back-End PHP & C# Developer
@@ -119,9 +112,10 @@ Mar '20 - Sep '21
 [Bagaar](https://www.bagaar.be/), Remote, Antwerp
 {: .employer}
 
-I was one of the **senior** devs in a project to **automate** a process that previously took **months**, reducing it to **minutes**, for a **billion-dollar** client.
-The platform we build supported over **28 countries** and their regulations.
-We mainly used PHP, Laravel, and SQL, as well as some C#, and TypeScript for the frontend.
+* Developed high-performance backend systems using PHP, Laravel, and SQL
+* Automated critical business processes, reducing execution time from **months to minutes**
+* Built and maintained a platform supporting **28+ countries** and their regulations
+* Utilized C# and TypeScript for fullstack development when required
 
 
 ## Head Of Research And Development
@@ -130,9 +124,9 @@ Mar '19 - Mar '20
 [DCA](https://dca.lu/), Belgium
 {: .employer}
 
-In this role I was the **lead** and **manager** for the VR research team, consisting of **programmers**, **designers** and **artists**, utilizing [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/).
-My responsibilities spanned across **backend** and **fullstack** work, research, and more.
-Key technologies used included Unity, Unreal, C#, SQL, and VR hardware.
+* Led VR research team, managing programmers, designers, and artists
+* Oversaw backend and fullstack development using C#, SQL, [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/)
+* Conducted cutting-edge research in VR technologies and applications
 
 
 ## .NET consultant, developer
@@ -141,8 +135,8 @@ Oct '17 - Mar '19
 [Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/), Belgium
 {: .employer}
 
-As a **.NET** consultant, I provided services to **numerous** high-value clients.
-Key tasks involved extensive usage of technologies such as C#, SQL, Azure, Cobol, and TypeScript in both **backend** and **fullstack** development.
+* Worked for various clients providing C# and .NET consultancy
+* Fullstack development using C#, SQL, Azure, Cobol, and TypeScript
 
 
 ## Doctorate
@@ -151,7 +145,8 @@ Oct '16 - Jul '17
 [KU Leuven](https://www.kuleuven.be/), Belgium & [Linnaeus Univerity](https://lnu.se/en/), Sweden
 {: .employer}
 
-I was accepted as a **doctoral** student, with a specialization in **AI**: Self-Adapting Computer Systems. However, I decided to discontinue this due to a preference for **practical code work** rather than writing papers.
+* Accepted as a doctoral researcher for AI: Self-Adapting Computer Systems
+* Decided to discontinue due to a preference for practical code work rather than writing papers
 
 </div>
 
@@ -161,27 +156,16 @@ I was accepted as a **doctoral** student, with a specialization in **AI**: Self-
 
 ## MSc in Computer Science
 
-[KU Leuven](https://www.kuleuven.be)
-
-Majored in **AI**
+AI Major, [KU Leuven](https://www.kuleuven.be)
 
 Graduated **Cum&nbsp;Laude**
 
-2014 - 2016
-
-## Physics
-
-[KU Leuven](https://www.kuleuven.be)
-
-2013 - 2014
 
 ## BSc in Game Dev
 
-[Howest University](https://www.howest.be), [DAE](http://www.digitalartsandentertainment.be/)
+[DAE](http://www.digitalartsandentertainment.be/), [Howest University](https://www.howest.be)
 
 Graduated **Cum&nbsp;Laude**
-
-2009 - 2012
 
 </div>
 
@@ -195,12 +179,10 @@ July 2022
 [Summer School Utrecht](https://utrechtsummerschool.nl/), Netherlands
 {: .employer}
 
-Course _**Advanced** Functional Programming in Haskell_.
-
-[Click here to see certificate]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
+* Course _Advanced Functional Programming in Haskell_.
+* [Click here to see certificate]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
 {:.no_print}
-
-[Certificate available online]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
+* [Certificate available online]({{site.baseurl}}/files/Certificate Haskell_Pablo Bollansée.pdf)
 {:.only_print}
 
 
@@ -210,7 +192,8 @@ Oct 2017
 [ABVV](http://www.abvv.be/), Belgium
 {: .employer}
 
-I build a proof of concept implementation of their first **microservice**, as a way to convince their management microservices were worth further **investment**, using C# and [Azure](https://azure.microsoft.com),
+* Build a proof of concept implementation of their first microservice
+* Using C# and [Azure](https://azure.microsoft.com),
 
 
 ## C# Development Intern
@@ -219,8 +202,8 @@ Feb - Jun 2012
 [Vanguard Games](http://www.vanguardgames.net/), Amsterdam
 {: .employer}
 
-I was part of the team during the development of **Halo**: Spartan Assault.
-We used C++, C# and [Unity](https://unity.com/).
+* Part of the team during the development of **Halo**: Spartan Assault
+* Using C++, C# and [Unity](https://unity.com/)
 
 
 ## Unity Programmer & Designer
@@ -229,7 +212,8 @@ Sep 2011 - Feb 2012
 [MyMachine](https://mymachine-global.org/), Belgium
 {: .employer}
 
-We build a game bringing the **imagination of children** to life, using C# in [Unity](https://unity.com/).
+* Build a game bringing the imagination of children to life
+* Using C# in [Unity](https://unity.com/).
 
 
 ## C# Programmer & Designer
@@ -238,7 +222,8 @@ Feb - Jun 2011
 [Imagine Cup](https://imaginecup.microsoft.com/) 2011, Belgium
 {: .employer}
 
-**Semifinalist** of _Game for Windows_ and _Games for Windows Phone 7_, with a game build in XNA, C#.
+* Semifinalist of _Game for Windows_ and _Games for Windows Phone 7_
+* Using XNA and C#
 
 </div>
 
