@@ -1,7 +1,7 @@
 ---
 title: Magic Tools
 date: 2019/10/26
-custom_url: http://www.pabloproductions.be/magic-tools/
+custom_url: https://www.pabloproductions.be/magic-tools/
 description: Web app build in Vue to be used while playing MTG
 long_description: |
     A web-app that provides coins, dice and counters to be used while playing the card-game MTG.

@@ -132,7 +132,7 @@ Mar '19 - Mar '20
 ## .NET consultant, developer
 Oct '17 - Mar '19
 {: .date}
-[Delen Private Bank](https://www.delen.be/), [Amonis](http://www.amonis.be/), [Kapture NV](https://www.kapture.be/), Belgium
+[Delen Private Bank](https://www.delen.be/), [Amonis](https://www.amonis.be/), [Kapture NV](https://www.kapture.be/), Belgium
 {: .employer}
 
 * Worked for various clients providing C# and .NET consultancy
@@ -163,7 +163,7 @@ Graduated **Cum&nbsp;Laude**
 
 ## BSc in Game Dev
 
-[DAE](http://www.digitalartsandentertainment.be/), [Howest University](https://www.howest.be)
+[DAE](https://www.digitalartsandentertainment.be/), [Howest University](https://www.howest.be)
 
 Graduated **Cum&nbsp;Laude**
 
@@ -189,7 +189,7 @@ July 2022
 ## Fullstack Azure developer
 Oct 2017
 {: .date}
-[ABVV](http://www.abvv.be/), Belgium
+[ABVV](https://www.abvv.be/), Belgium
 {: .employer}
 
 * Build a proof of concept implementation of their first microservice
@@ -199,7 +199,7 @@ Oct 2017
 ## C# Development Intern
 Feb - Jun 2012
 {: .date}
-[Vanguard Games](http://www.vanguardgames.net/), Amsterdam
+[Vanguard Games](https://www.vanguardgames.net/), Amsterdam
 {: .employer}
 
 * Part of the team during the development of **Halo**: Spartan Assault

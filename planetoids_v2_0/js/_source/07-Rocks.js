@@ -263,7 +263,7 @@ Rock.prototype = {
 		var slicePoints = [];
 		for (var i = 0; i < vertices.length; ++i) {
 			//Calculate intersectionPoint
-			//For formula see http://en.wikipedia.org/wiki/Line-line_intersection
+			//For formula see https://en.wikipedia.org/wiki/Line-line_intersection
 			//I'm using x1, x2, ... since that's easier to write.
 			var intersectionPoint = new b2Vec2;
 			var x1 = start.x, x2 = end.x, x3 = vertices[i].x, x4 = vertices[(i+1)%vertices.length].x,

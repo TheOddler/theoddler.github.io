@@ -119,7 +119,7 @@ Study Interactive / Course Matchmaker, London
 
 ## Ruby on Rails Bootcamp
 
-[We Got Coders](http://wegotcoders.com/)
+[We Got Coders](https://wegotcoders.com/)
 
 2018
 
@@ -150,7 +150,7 @@ Five AS Levels.
 ## Time to Change Champion
 2011 - 2020
 {: .date}
-[MIND](http://www.mind.org.uk/), UK
+[MIND](https://www.mind.org.uk/), UK
 {: .employer}
 
 * Volunteered to break down the stigma of mental health issues.

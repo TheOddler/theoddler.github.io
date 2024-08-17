@@ -3,11 +3,11 @@ layout: more_page
 title: ReConnect
 ---
 
-<iframe src="http://player.vimeo.com/video/27367675?title=0&amp;byline=0&amp;portrait=0" width="800" height="480" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/27367675?title=0&amp;byline=0&amp;portrait=0" width="800" height="480" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
 ## ReConnect
 
-ReConnect is our entry for the Microsoft Imagine Cup 2011. It was made by [Steven De Meyer](http://www.3dstevendemeyer.com/) and [Elie Verbrugge](http://elieverbrugge.com/) as 3D artists, [Thijs Morlion](http://www.thijsmorlion.com/) and myself as programmers.
+ReConnect is our entry for the Microsoft Imagine Cup 2011. It was made by [Steven De Meyer](https://www.3dstevendemeyer.com/) and [Elie Verbrugge](https://elieverbrugge.com/) as 3D artists, [Thijs Morlion](https://www.thijsmorlion.com/) and myself as programmers.
 
 ReConnect was developed in about four months, from nothing to concept to fully playable game and this while still having a lot of other school-work to do. Since ReConnect was our entry for the Imagine Cup 2011 it was made with XNA for Microsof Windows.
 
