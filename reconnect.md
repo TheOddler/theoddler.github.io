@@ -19,4 +19,4 @@ The game is about rebuilding the world. For the Imagine Cup we had to make a gam
 
 We managed to get in the semi-finals for both the *Games for Windows* and *Games for Windows Phone 7* categories.
 
-You can [download the installer here]({{site.reconnect_dl_latest}}) and play the game yourself.
+You can [download the installer here](https://archive.org/details/re-connect-installer) ([alt](https://www.dropbox.com/s/4s96v6oxjf6glhx/ReConnect-Installer.rar?dl=0)) and play the game yourself.
